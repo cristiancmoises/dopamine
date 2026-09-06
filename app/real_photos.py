@@ -11,7 +11,9 @@ from io import BytesIO
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode, urlsplit, unquote, quote
-from urllib.request import Request, HTTPRedirectHandler, build_opener
+from urllib.request import Request, HTTPRedirectHandler, HTTPSHandler, build_opener
+from http.client import HTTPSConnection
+import socket
 import hashlib
 import os
 import shutil
@@ -62,12 +64,45 @@ class RestrictedRedirect(HTTPRedirectHandler):
         if not allowed_url(newurl,api):raise CatalogError('Redirect outside approved Wikimedia hosts')
         return super().redirect_request(req,fp,code,msg,headers,newurl)
 
+def ipv4_connection(address, timeout=25, source_address=None):
+    """Optional build-only workaround for a verified blackholed IPv6 route.
+
+    Restrict address resolution, not TLS: HTTPSConnection still verifies the
+    original hostname and certificate. Never modify global socket behavior.
+    """
+    host,port=address;last_error=None
+    for family,kind,protocol,_,endpoint in socket.getaddrinfo(host,port,socket.AF_INET,socket.SOCK_STREAM):
+        connection=socket.socket(family,kind,protocol)
+        try:
+            connection.settimeout(timeout)
+            if source_address:connection.bind(source_address)
+            connection.connect(endpoint)
+            return connection
+        except OSError as exc:
+            last_error=exc;connection.close()
+    if last_error:raise last_error
+    raise OSError('No IPv4 address for approved catalog source')
+
+class CatalogIPv4Connection(HTTPSConnection):
+    def __init__(self,*args,**kwargs):
+        super().__init__(*args,**kwargs)
+        self._create_connection=ipv4_connection
+
+class CatalogIPv4Handler(HTTPSHandler):
+    def https_open(self,request):
+        return self.do_open(CatalogIPv4Connection,request,context=self._context)
+
+def catalog_opener():
+    handlers=[RestrictedRedirect()]
+    if os.environ.get('DOPAMINE_CATALOG_IPV4','0')=='1':handlers.append(CatalogIPv4Handler())
+    return build_opener(*handlers)
+
 def fetch(url,api=False):
     if not allowed_url(url,api):raise CatalogError('Non-allowlisted source URL')
     for attempt in range(3):
         try:
             req=Request(url,headers={'User-Agent':USER_AGENT,'Accept-Encoding':'identity'})
-            with build_opener(RestrictedRedirect()).open(req,timeout=25) as r:
+            with catalog_opener().open(req,timeout=25) as r:
                 if r.status!=200 or not allowed_url(r.geturl(),api):raise CatalogError('Unexpected source response')
                 length=r.headers.get('Content-Length')
                 if length and int(length)>MAX_BYTES:raise CatalogError('Source exceeds byte limit')
@@ -204,6 +239,8 @@ def import_catalog(root=ROOT):
     candidates=round_robin_candidates(definitions)
     if any(not re.fullmatch(r'real-[a-z0-9-]+',p['id']) or p['photo']!=p['id'] for p in candidates):raise CatalogError('Invalid candidate identifier')
     for offset in range(0,len(candidates),20):
+        started=time.monotonic()
+        print(f'CATALOG BLOCK {offset//20+1}/{(len(candidates)+19)//20}: {len(accepted)} accepted; {len(rejects)} rejected; validating metadata and up to two downloads.',flush=True)
         group=candidates[offset:offset+20]
         try:
             result=api('en.wikipedia.org',titles='|'.join(x['article'] for x in group),prop='pageimages|pageprops|info',piprop='name',pilicense='free')
@@ -260,6 +297,7 @@ def import_catalog(root=ROOT):
                     print(f'PHOTO {len(accepted):03d}: {product["name"]} [{entry["license_id"]}]',flush=True)
                 except (CatalogError,OSError,ValueError) as exc:rejects.append({'id':product['id'],'reason':str(exc)})
         write_json(cache_file,cache)
+        print(f'CATALOG PROGRESS: {len(accepted)}/{minimum} required, {len(rejects)} rejected; cache checkpoint saved; block took {time.monotonic()-started:.1f}s.',flush=True)
         if len(accepted)>=maximum:break
         time.sleep(1)
     report={'candidate_count':len(candidates),'accepted_count':len(accepted),'required_minimum':minimum,

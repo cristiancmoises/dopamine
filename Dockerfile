@@ -18,8 +18,9 @@ RUN python manage.py test \
     && python -m gunicorn --check-config --config gunicorn.conf.py app.web:application
 # Downloads occur during build, not when a visitor opens the site.
 # No deploy secrets are needed or copied during image construction.
+ARG DOPAMINE_CATALOG_IPV4=0
 RUN --mount=type=cache,id=dopamine-real-catalog-v120,target=/catalog-cache,sharing=locked \
-    DOPAMINE_CATALOG_CACHE=/catalog-cache python manage.py photos && python manage.py verify-photos
+    DOPAMINE_CATALOG_IPV4=${DOPAMINE_CATALOG_IPV4} DOPAMINE_CATALOG_CACHE=/catalog-cache python manage.py photos && python manage.py verify-photos
 RUN python -m pip freeze > /app/data/installed-packages.txt
 
 FROM python:3.13-slim AS runtime

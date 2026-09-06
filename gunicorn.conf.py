@@ -28,6 +28,8 @@ secure_scheme_headers={}
 forwarded_allow_ips=''
 forwarder_headers=""
 proxy_protocol=False
+# Container lifecycle is managed by Docker; no writable home/control socket.
+control_socket_disable=True
 permit_obsolete_folding=False
 strip_header_spaces=False
 permit_unconventional_http_method=False

@@ -22,6 +22,9 @@ Open `http://127.0.0.1:3236/`. This loopback-only development command permits cl
 A fictional shopping collection and free casino simulator. Black/cyan theme, Portuguese (Brazil) by default, English, simplified Chinese and Japanese. Unlimited simulated balance, no real money, sales, payments, delivery or withdrawals.
 
 ## This release
+
+The catalog network and startup-grace corrections are documented in
+[Operational fixes / Correções operacionais](docs/NETWORK-STARTUP-FIX.md).
 The early11 bridge targets the first 1.1.0 implementation with the known schema 2 and 512 original catalog identities. It preserves core `user_version=2` and uses additive bridge tables. Unknown functional changes and other 1.1.0 variants are rejected. Read [the bridge guide](docs/BRIDGE-1.2.1.md) before any production update; do not use the incompatible original 1.2.0 updater.
 
 Model-specific, non-reused photo import instead of generic category illustrations; 1,056 real-model/work candidates across 18 categories. The Docker build publishes 513–640 only after identity, license and uniqueness checks succeed. Candidates are NOT already verified products. No production photos are bundled. See docs/PHOTOS.md for the exact checks and limitations.

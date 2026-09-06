@@ -220,7 +220,13 @@ def apply(bundle,target,npm,check_only=False):
             stage=Path(tmp)/'release'
             shutil.copytree(bundle/'release',stage,ignore=shutil.ignore_patterns('__pycache__','*.pyc','.env','.env.*','.git'))
             print('Building '+IMAGE+'; the current app stays available during build and photo import.',flush=True)
-            u.run(['docker','build','--progress=plain','--tag',IMAGE,str(stage)])
+            build=['docker','build','--progress=plain','--tag',IMAGE]
+            catalog_ipv4=os.environ.get('DOPAMINE_CATALOG_IPV4','0')
+            if catalog_ipv4 not in ('0','1'):raise u.UpgradeError('DOPAMINE_CATALOG_IPV4 must be 0 or 1')
+            if catalog_ipv4=='1':
+                print('Catalog download transport: IPv4 only; TLS and all catalog checks remain enabled.',flush=True)
+                build+=['--build-arg','DOPAMINE_CATALOG_IPV4=1']
+            u.run(build+[str(stage)])
             built=u.inspect('image',IMAGE)['Id']
             rehearse(built,backup/'database-before-build.sqlite3',backup/'rehearsal-before-stop')
             immutable_target(bundle,target,env_hash,records)
@@ -245,7 +251,7 @@ def apply(bundle,target,npm,check_only=False):
                     raise u.UpgradeError('Old owned file changed during switch: '+name)
                 current.unlink()
             u.run(u.compose(target)+['config','--quiet'],timeout=30)
-            u.run(u.compose(target)+['up','-d','--no-build','--no-deps','--force-recreate','--wait','--wait-timeout','180','web'],timeout=240)
+            u.run(u.compose(target)+['up','-d','--no-build','--no-deps','--force-recreate','--wait','--wait-timeout','360','web'],timeout=420)
             new_id=u.run(u.compose(target)+['ps','-q','web'],capture=True,timeout=30).strip()
             active=u.inspect('container',new_id)
             mounts=[x['Name'] for x in active['Mounts'] if x['Destination']=='/data' and x['Type']=='volume']

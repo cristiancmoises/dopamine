@@ -1,5 +1,7 @@
 # Dopamine 1.2.1 — ponte de compatibilidade early11
 
+[Correções de rede do catálogo e inicialização](docs/NETWORK-STARTUP-FIX.md).
+
 [English](README.md) · [Português (Brasil)](README.pt-BR.md) · [Documentação](docs/README.md)
 
 Projeto oficial em execução: [dopamine.securityops.co](https://dopamine.securityops.co/). A instalação hospedada pode estar em outra versão; esta atualização do repositório não atualiza a VPS.
