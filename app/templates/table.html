@@ -1,0 +1,6 @@
+{% extends 'base.html' %}{% block content %}
+<section class="page-heading"><div class="eyebrow">{{ t('live_tables') }} / {{ t('simulated') }}</div><h1 class="animated-title">{{ t('live_'+game) }}</h1><p class="lead">{{ t('live_intro') }}</p></section>
+{% include '_casino_warning.html' %}
+<div class="practice-layout"><div>{% include '_table.html' %}<p class="live-message" id="table-message" role="status" aria-live="polite" data-pending="{{ t('live_pending') }}" data-failed="{{ t('live_failed') }}"></p><a href="/collection" class="subtle-link">{{ t('rounds') }} ↗</a></div>
+<aside class="panel table-rules"><h2>{{ t('rules') }}</h2><p>{{ t('rules_'+game) }}</p><hr><p>{{ t('reward_separate') }}</p><p>{{ t('no_autoplay') }}</p><div class="wallet"><span>{{ t('balance') }}</span><strong>∞</strong><span>{{ currency.symbol }}</span></div><form action="/casino/pause" method="post"><input type="hidden" name="csrf" value="{{ csrf }}"><button class="button secondary" name="days" value="1">{{ t('pause_day') }}</button></form></aside></div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="breadcrumb"><a href="/casino">{{ t('casino') }}</a><span>/</span><span>{{ t(game) }}</span></div>
+{% include '_casino_warning.html' %}
+<section class="play-layout">
+  <div class="play-stage">
+    <div class="eyebrow">{{ t('simulated') }} / {{ t(game) }}</div>
+    <div class="stage-art">{% include '_game_art.html' %}</div>
+    <p>{{ t(game+'_desc') }}</p>
+    <div class="stage-payout"><span>{{ t('fixed_bonus') }}</span><strong>+{{ money(100) }}</strong></div>
+  </div>
+  <div class="play-settings panel">
+    <h1 class="animated-title">{{ t(game) }}</h1><p>{{ t('casino_text') }}</p>
+    <form action="/casino/{{ game }}" method="post" class="stack-form">
+      <input type="hidden" name="csrf" value="{{ csrf }}">
+      <input type="hidden" name="action_key" value="{{ action_key('game:'+game) }}">
+      <fieldset><legend>{{ t('stake') }}</legend><div class="radio-options">
+        {% for value in [100,500,1000] %}<label><input type="radio" name="stake" value="{{ value }}"{% if loop.first %} checked{% endif %}><span>{{ money(value) }}</span></label>{% endfor %}
+      </div></fieldset>
+      {% if game=='keno' %}
+      <fieldset><legend>{{ t('keno_choice') }}</legend><div class="keno-picks">
+        {% for pick in [1,2,3] %}<label>{{ t('number') }} {{ pick }}<select name="n{{ pick }}">{% for n in range(1,13) %}<option value="{{ n }}"{% if n==pick %} selected{% endif %}>{{ n }}</option>{% endfor %}</select></label>{% endfor %}
+      </div></fieldset>
+      {% else %}
+      <fieldset><legend>{{ t('game_selection') }}</legend><div class="radio-options game-options">
+        {% for option in game_options[game] %}<label><input type="radio" name="{{ 'card' if game=='cards' else 'choice' }}" value="{{ option.value }}"{% if loop.first %} checked{% endif %}><span>{{ option.label if option.label.isdigit() else t(option.label) }}</span></label>{% endfor %}
+      </div></fieldset>
+      {% endif %}
+      <button class="button full">{{ t('play') }} ↗</button>
+    </form>
+    <p class="small-copy">{{ t('outcome_note') }}</p><p class="small-copy">{{ t('play_note') }}</p>
+    <a href="/casino" class="subtle-link">{{ t('pause') }} →</a>
+  </div>
+</section><p class="photo-footnote">{{ t('no_skill') }}</p>
+{% endblock %}

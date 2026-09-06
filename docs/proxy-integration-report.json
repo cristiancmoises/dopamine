@@ -1,0 +1,5 @@
+{
+  "release": "1.2.0",
+  "status": "not executed here",
+  "reason": "Docker, Gunicorn and production NPM unavailable; browser-native HTTP blocked. Updater runs real NPM-to-app checks on VPS; external TLS must be checked separately."
+}

@@ -1,0 +1,16 @@
+<section class="panel game-result" aria-label="{{ t('game_outcome') }}">
+  <div class="eyebrow">{{ t('game_outcome') }}</div>
+  {% if not result %}<p>{{ t('legacy_round') }}</p>
+  {% elif result.kind=='baccarat' %}
+    <div class="result-duel"><div><span>{{ t('choice_player') }}</span><strong>{{ result.player }}</strong></div><div><span>{{ t('choice_banker') }}</span><strong>{{ result.banker }}</strong></div></div>
+    <p>{{ t(result.choice_label) }}</p>
+  {% elif result.kind=='bingo' %}
+    <div class="bingo-art result-board">{% for n in result['values'] %}<span{% if n in result.hits %} class="hit"{% endif %}>{{ n }}</span>{% endfor %}</div>
+  {% elif result.kind=='plinko' %}
+    <div class="plinko-result">{% for position in result['values'] %}<div>{% for lane in range(1,6) %}<span{% if lane==position %} class="route-dot"{% endif %}>{{ '●' if lane==position else '·' }}</span>{% endfor %}</div>{% endfor %}</div>
+  {% else %}
+    <div class="result-values{% if result.kind=='dice' %} dice-values{% endif %}">{% for value in result['values'] %}<span>{{ value }}</span>{% endfor %}</div>
+    {% if result.total is defined %}<p>{{ t('game_total') }}: <strong>{{ result.total }}</strong></p>{% endif %}
+  {% endif %}
+  <p class="small-copy">{{ t('outcome_note') }}</p>
+</section>

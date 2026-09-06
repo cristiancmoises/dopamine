@@ -1,0 +1,691 @@
+{
+  "transport": "offline Chromium with injected WSGI bridge; production HTML/CSS/JS; not browser-native HTTP",
+  "browser_version": "144.0.7559.96",
+  "flow_count": 56,
+  "wsgi_posts": 72,
+  "javascript_errors": [],
+  "checks": [
+    {
+      "game": "roulette",
+      "language": "pt-br",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Derrota na mesa"
+    },
+    {
+      "game": "blackjack",
+      "language": "pt-br",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Derrota na mesa"
+    },
+    {
+      "game": "baccarat",
+      "language": "pt-br",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Vitória na mesa"
+    },
+    {
+      "game": "slots",
+      "language": "pt-br",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Derrota na mesa"
+    },
+    {
+      "game": "dice",
+      "language": "pt-br",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Vitória na mesa"
+    },
+    {
+      "game": "keno",
+      "language": "pt-br",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Empate / aposta devolvida"
+    },
+    {
+      "game": "plinko",
+      "language": "pt-br",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Derrota na mesa"
+    },
+    {
+      "game": "roulette",
+      "language": "en",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Table loss"
+    },
+    {
+      "game": "blackjack",
+      "language": "en",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Table loss"
+    },
+    {
+      "game": "baccarat",
+      "language": "en",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Table win"
+    },
+    {
+      "game": "slots",
+      "language": "en",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Push / stake returned"
+    },
+    {
+      "game": "dice",
+      "language": "en",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Table loss"
+    },
+    {
+      "game": "keno",
+      "language": "en",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Table loss"
+    },
+    {
+      "game": "plinko",
+      "language": "en",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "Table loss"
+    },
+    {
+      "game": "roulette",
+      "language": "zh",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "blackjack",
+      "language": "zh",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "baccarat",
+      "language": "zh",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "slots",
+      "language": "zh",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "dice",
+      "language": "zh",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "keno",
+      "language": "zh",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "plinko",
+      "language": "zh",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "平局／退注"
+    },
+    {
+      "game": "roulette",
+      "language": "ja",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "テーブルで負け"
+    },
+    {
+      "game": "blackjack",
+      "language": "ja",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "テーブルで負け"
+    },
+    {
+      "game": "baccarat",
+      "language": "ja",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "テーブルで負け"
+    },
+    {
+      "game": "slots",
+      "language": "ja",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "テーブルで負け"
+    },
+    {
+      "game": "dice",
+      "language": "ja",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "テーブルで負け"
+    },
+    {
+      "game": "keno",
+      "language": "ja",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "引き分け／返却"
+    },
+    {
+      "game": "plinko",
+      "language": "ja",
+      "width": 1440,
+      "content_width": 1440,
+      "result": "テーブルで負け"
+    },
+    {
+      "game": "roulette",
+      "language": "pt-br",
+      "width": 390,
+      "content_width": 390,
+      "result": "Derrota na mesa"
+    },
+    {
+      "game": "blackjack",
+      "language": "pt-br",
+      "width": 390,
+      "content_width": 390,
+      "result": "Derrota na mesa"
+    },
+    {
+      "game": "baccarat",
+      "language": "pt-br",
+      "width": 390,
+      "content_width": 390,
+      "result": "Vitória na mesa"
+    },
+    {
+      "game": "slots",
+      "language": "pt-br",
+      "width": 390,
+      "content_width": 390,
+      "result": "Derrota na mesa"
+    },
+    {
+      "game": "dice",
+      "language": "pt-br",
+      "width": 390,
+      "content_width": 390,
+      "result": "Vitória na mesa"
+    },
+    {
+      "game": "keno",
+      "language": "pt-br",
+      "width": 390,
+      "content_width": 390,
+      "result": "Derrota na mesa"
+    },
+    {
+      "game": "plinko",
+      "language": "pt-br",
+      "width": 390,
+      "content_width": 390,
+      "result": "Derrota na mesa"
+    },
+    {
+      "game": "roulette",
+      "language": "en",
+      "width": 390,
+      "content_width": 390,
+      "result": "Table loss"
+    },
+    {
+      "game": "blackjack",
+      "language": "en",
+      "width": 390,
+      "content_width": 390,
+      "result": "Table loss"
+    },
+    {
+      "game": "baccarat",
+      "language": "en",
+      "width": 390,
+      "content_width": 390,
+      "result": "Table loss"
+    },
+    {
+      "game": "slots",
+      "language": "en",
+      "width": 390,
+      "content_width": 390,
+      "result": "Push / stake returned"
+    },
+    {
+      "game": "dice",
+      "language": "en",
+      "width": 390,
+      "content_width": 390,
+      "result": "Table loss"
+    },
+    {
+      "game": "keno",
+      "language": "en",
+      "width": 390,
+      "content_width": 390,
+      "result": "Table loss"
+    },
+    {
+      "game": "plinko",
+      "language": "en",
+      "width": 390,
+      "content_width": 390,
+      "result": "Table loss"
+    },
+    {
+      "game": "roulette",
+      "language": "zh",
+      "width": 390,
+      "content_width": 390,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "blackjack",
+      "language": "zh",
+      "width": 390,
+      "content_width": 390,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "baccarat",
+      "language": "zh",
+      "width": 390,
+      "content_width": 390,
+      "result": "牌桌获胜"
+    },
+    {
+      "game": "slots",
+      "language": "zh",
+      "width": 390,
+      "content_width": 390,
+      "result": "平局／退注"
+    },
+    {
+      "game": "dice",
+      "language": "zh",
+      "width": 390,
+      "content_width": 390,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "keno",
+      "language": "zh",
+      "width": 390,
+      "content_width": 390,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "plinko",
+      "language": "zh",
+      "width": 390,
+      "content_width": 390,
+      "result": "牌桌失败"
+    },
+    {
+      "game": "roulette",
+      "language": "ja",
+      "width": 390,
+      "content_width": 390,
+      "result": "テーブルで勝ち"
+    },
+    {
+      "game": "blackjack",
+      "language": "ja",
+      "width": 390,
+      "content_width": 390,
+      "result": "テーブルで負け"
+    },
+    {
+      "game": "baccarat",
+      "language": "ja",
+      "width": 390,
+      "content_width": 390,
+      "result": "テーブルで勝ち"
+    },
+    {
+      "game": "slots",
+      "language": "ja",
+      "width": 390,
+      "content_width": 390,
+      "result": "テーブルで負け"
+    },
+    {
+      "game": "dice",
+      "language": "ja",
+      "width": 390,
+      "content_width": 390,
+      "result": "テーブルで勝ち"
+    },
+    {
+      "game": "keno",
+      "language": "ja",
+      "width": 390,
+      "content_width": 390,
+      "result": "テーブルで勝ち"
+    },
+    {
+      "game": "plinko",
+      "language": "ja",
+      "width": 390,
+      "content_width": 390,
+      "result": "テーブルで負け"
+    }
+  ],
+  "requests": [
+    {
+      "path": "/play/roulette",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/c86a3061ec2940c4bc2de08ea1406a5b",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/c86a3061ec2940c4bc2de08ea1406a5b",
+      "status": 200
+    },
+    {
+      "path": "/play/baccarat",
+      "status": 200
+    },
+    {
+      "path": "/play/slots",
+      "status": 200
+    },
+    {
+      "path": "/play/dice",
+      "status": 200
+    },
+    {
+      "path": "/play/keno",
+      "status": 200
+    },
+    {
+      "path": "/play/plinko",
+      "status": 200
+    },
+    {
+      "path": "/play/roulette",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/52c9f4623c834eefab0d20c451ae6cbf",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/52c9f4623c834eefab0d20c451ae6cbf",
+      "status": 200
+    },
+    {
+      "path": "/play/baccarat",
+      "status": 200
+    },
+    {
+      "path": "/play/slots",
+      "status": 200
+    },
+    {
+      "path": "/play/dice",
+      "status": 200
+    },
+    {
+      "path": "/play/keno",
+      "status": 200
+    },
+    {
+      "path": "/play/plinko",
+      "status": 200
+    },
+    {
+      "path": "/play/roulette",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/d542edb6e6c14813ab9e6b2d0f6b6069",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/d542edb6e6c14813ab9e6b2d0f6b6069",
+      "status": 200
+    },
+    {
+      "path": "/play/baccarat",
+      "status": 200
+    },
+    {
+      "path": "/play/slots",
+      "status": 200
+    },
+    {
+      "path": "/play/dice",
+      "status": 200
+    },
+    {
+      "path": "/play/keno",
+      "status": 200
+    },
+    {
+      "path": "/play/plinko",
+      "status": 200
+    },
+    {
+      "path": "/play/roulette",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/349d92c8ffb54961989610750a2cc18f",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/349d92c8ffb54961989610750a2cc18f",
+      "status": 200
+    },
+    {
+      "path": "/play/baccarat",
+      "status": 200
+    },
+    {
+      "path": "/play/slots",
+      "status": 200
+    },
+    {
+      "path": "/play/dice",
+      "status": 200
+    },
+    {
+      "path": "/play/keno",
+      "status": 200
+    },
+    {
+      "path": "/play/plinko",
+      "status": 200
+    },
+    {
+      "path": "/play/roulette",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/35060e37ff9a44d0a8d6bb3c07ddd835",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/35060e37ff9a44d0a8d6bb3c07ddd835",
+      "status": 200
+    },
+    {
+      "path": "/play/baccarat",
+      "status": 200
+    },
+    {
+      "path": "/play/slots",
+      "status": 200
+    },
+    {
+      "path": "/play/dice",
+      "status": 200
+    },
+    {
+      "path": "/play/keno",
+      "status": 200
+    },
+    {
+      "path": "/play/plinko",
+      "status": 200
+    },
+    {
+      "path": "/play/roulette",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/26aee06252534d2592a4a160ea652c36",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/26aee06252534d2592a4a160ea652c36",
+      "status": 200
+    },
+    {
+      "path": "/play/baccarat",
+      "status": 200
+    },
+    {
+      "path": "/play/slots",
+      "status": 200
+    },
+    {
+      "path": "/play/dice",
+      "status": 200
+    },
+    {
+      "path": "/play/keno",
+      "status": 200
+    },
+    {
+      "path": "/play/plinko",
+      "status": 200
+    },
+    {
+      "path": "/play/roulette",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/2f8e14d508f747deab97aa7e1db826fa",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/2f8e14d508f747deab97aa7e1db826fa",
+      "status": 200
+    },
+    {
+      "path": "/play/baccarat",
+      "status": 200
+    },
+    {
+      "path": "/play/slots",
+      "status": 200
+    },
+    {
+      "path": "/play/dice",
+      "status": 200
+    },
+    {
+      "path": "/play/keno",
+      "status": 200
+    },
+    {
+      "path": "/play/plinko",
+      "status": 200
+    },
+    {
+      "path": "/play/roulette",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/5c53078f5add4ffa8d2c190a6f9d7d6c",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/5c53078f5add4ffa8d2c190a6f9d7d6c",
+      "status": 200
+    },
+    {
+      "path": "/play/baccarat",
+      "status": 200
+    },
+    {
+      "path": "/play/slots",
+      "status": 200
+    },
+    {
+      "path": "/play/dice",
+      "status": 200
+    },
+    {
+      "path": "/play/keno",
+      "status": 200
+    },
+    {
+      "path": "/play/plinko",
+      "status": 200
+    }
+  ]
+}

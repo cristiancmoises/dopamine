@@ -1,0 +1,418 @@
+{
+  "cars-1": {
+    "url": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "cars",
+    "description": {
+      "pt-br": "Coupé esportivo",
+      "en": "Sports coupé",
+      "zh": "运动轿跑",
+      "ja": "スポーツクーペ"
+    }
+  },
+  "cars-2": {
+    "url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "cars",
+    "description": {
+      "pt-br": "Grand tourer",
+      "en": "Grand tourer",
+      "zh": "豪华旅行跑车",
+      "ja": "グランドツアラー"
+    }
+  },
+  "homes-1": {
+    "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "homes",
+    "description": {
+      "pt-br": "Casa contemporânea",
+      "en": "Contemporary villa",
+      "zh": "现代别墅",
+      "ja": "モダンヴィラ"
+    }
+  },
+  "homes-2": {
+    "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "homes",
+    "description": {
+      "pt-br": "Residência de design",
+      "en": "Designer residence",
+      "zh": "设计师住宅",
+      "ja": "デザイナーズ住宅"
+    }
+  },
+  "watches-1": {
+    "url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1524805444758-089113d48a6d",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "watches",
+    "description": {
+      "pt-br": "Relógio de coleção",
+      "en": "Collector watch",
+      "zh": "典藏腕表",
+      "ja": "コレクションウォッチ"
+    }
+  },
+  "watches-2": {
+    "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "watches",
+    "description": {
+      "pt-br": "Relógio minimalista",
+      "en": "Minimalist watch",
+      "zh": "极简腕表",
+      "ja": "ミニマルウォッチ"
+    }
+  },
+  "jewelry-1": {
+    "url": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "jewelry",
+    "description": {
+      "pt-br": "Coleção de joias",
+      "en": "Jewelry collection",
+      "zh": "珠宝系列",
+      "ja": "ジュエリーコレクション"
+    }
+  },
+  "jewelry-2": {
+    "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1605100804763-247f67b3557e",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "jewelry",
+    "description": {
+      "pt-br": "Anel de coleção",
+      "en": "Collector ring",
+      "zh": "典藏戒指",
+      "ja": "コレクションリング"
+    }
+  },
+  "fashion-1": {
+    "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "fashion",
+    "description": {
+      "pt-br": "Jaqueta de design",
+      "en": "Designer jacket",
+      "zh": "设计款夹克",
+      "ja": "デザイナージャケット"
+    }
+  },
+  "fashion-2": {
+    "url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "fashion",
+    "description": {
+      "pt-br": "Jaqueta de coleção",
+      "en": "Collection jacket",
+      "zh": "典藏夹克",
+      "ja": "コレクションジャケット"
+    }
+  },
+  "shoes-1": {
+    "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "shoes",
+    "description": {
+      "pt-br": "Tênis de coleção",
+      "en": "Collector sneakers",
+      "zh": "典藏运动鞋",
+      "ja": "コレクションスニーカー"
+    }
+  },
+  "shoes-2": {
+    "url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "shoes",
+    "description": {
+      "pt-br": "Sapato de design",
+      "en": "Designer shoes",
+      "zh": "设计款鞋履",
+      "ja": "デザイナーズシューズ"
+    }
+  },
+  "bags-1": {
+    "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "bags",
+    "description": {
+      "pt-br": "Bolsa de design",
+      "en": "Designer handbag",
+      "zh": "设计款手袋",
+      "ja": "デザイナーハンドバッグ"
+    }
+  },
+  "bags-2": {
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "bags",
+    "description": {
+      "pt-br": "Mochila de viagem",
+      "en": "Travel backpack",
+      "zh": "旅行背包",
+      "ja": "トラベルバックパック"
+    }
+  },
+  "technology-1": {
+    "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "technology",
+    "description": {
+      "pt-br": "Notebook de criação",
+      "en": "Creative notebook",
+      "zh": "创作笔记本电脑",
+      "ja": "クリエイティブノートPC"
+    }
+  },
+  "technology-2": {
+    "url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "technology",
+    "description": {
+      "pt-br": "Smartphone de coleção",
+      "en": "Collector smartphone",
+      "zh": "典藏智能手机",
+      "ja": "コレクションスマートフォン"
+    }
+  },
+  "audio-1": {
+    "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "audio",
+    "description": {
+      "pt-br": "Fone de ouvido",
+      "en": "Headphones",
+      "zh": "耳机",
+      "ja": "ヘッドホン"
+    }
+  },
+  "audio-2": {
+    "url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "audio",
+    "description": {
+      "pt-br": "Caixa de som",
+      "en": "Loudspeaker",
+      "zh": "扬声器",
+      "ja": "スピーカー"
+    }
+  },
+  "cameras-1": {
+    "url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "cameras",
+    "description": {
+      "pt-br": "Câmera de coleção",
+      "en": "Collector camera",
+      "zh": "典藏相机",
+      "ja": "コレクションカメラ"
+    }
+  },
+  "cameras-2": {
+    "url": "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "cameras",
+    "description": {
+      "pt-br": "Sistema fotográfico",
+      "en": "Camera system",
+      "zh": "摄影系统",
+      "ja": "カメラシステム"
+    }
+  },
+  "appliances-1": {
+    "url": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "appliances",
+    "description": {
+      "pt-br": "Refrigerador",
+      "en": "Refrigerator",
+      "zh": "冰箱",
+      "ja": "冷蔵庫"
+    }
+  },
+  "appliances-2": {
+    "url": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "appliances",
+    "description": {
+      "pt-br": "Micro-ondas de design",
+      "en": "Designer microwave",
+      "zh": "设计款微波炉",
+      "ja": "デザイン電子レンジ"
+    }
+  },
+  "furniture-1": {
+    "url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "furniture",
+    "description": {
+      "pt-br": "Sofá de design",
+      "en": "Designer sofa",
+      "zh": "设计款沙发",
+      "ja": "デザイナーズソファ"
+    }
+  },
+  "furniture-2": {
+    "url": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "furniture",
+    "description": {
+      "pt-br": "Poltrona de coleção",
+      "en": "Collector armchair",
+      "zh": "典藏扶手椅",
+      "ja": "コレクションアームチェア"
+    }
+  },
+  "yachts-1": {
+    "url": "https://images.unsplash.com/photo-1540946485063-a40da27545f8?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1540946485063-a40da27545f8",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "yachts",
+    "description": {
+      "pt-br": "Embarcação de lazer",
+      "en": "Leisure yacht",
+      "zh": "休闲游艇",
+      "ja": "レジャーヨット"
+    }
+  },
+  "yachts-2": {
+    "url": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "yachts",
+    "description": {
+      "pt-br": "Experiência náutica",
+      "en": "Sailing experience",
+      "zh": "航海体验",
+      "ja": "セーリング体験"
+    }
+  },
+  "travel-1": {
+    "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "travel",
+    "description": {
+      "pt-br": "Retiro tropical",
+      "en": "Tropical retreat",
+      "zh": "热带度假",
+      "ja": "トロピカルリトリート"
+    }
+  },
+  "travel-2": {
+    "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "travel",
+    "description": {
+      "pt-br": "Viagem cultural",
+      "en": "Cultural journey",
+      "zh": "文化之旅",
+      "ja": "文化の旅"
+    }
+  },
+  "sports-1": {
+    "url": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1485965120184-e220f721d03e",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "sports",
+    "description": {
+      "pt-br": "Bicicleta de coleção",
+      "en": "Collector bicycle",
+      "zh": "典藏自行车",
+      "ja": "コレクション自転車"
+    }
+  },
+  "sports-2": {
+    "url": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "sports",
+    "description": {
+      "pt-br": "Bicicleta de estrada",
+      "en": "Road bicycle",
+      "zh": "公路自行车",
+      "ja": "ロードバイク"
+    }
+  },
+  "art-1": {
+    "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "art",
+    "description": {
+      "pt-br": "Obra para coleção fictícia",
+      "en": "Fictional collection artwork",
+      "zh": "虚构藏品艺术画作",
+      "ja": "架空コレクション作品"
+    }
+  },
+  "art-2": {
+    "url": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1100&q=80&fm=webp",
+    "original": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342",
+    "provider": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "category": "art",
+    "description": {
+      "pt-br": "Pintura para coleção fictícia",
+      "en": "Fictional collection painting",
+      "zh": "虚构藏品绘画",
+      "ja": "架空コレクション絵画"
+    }
+  }
+}

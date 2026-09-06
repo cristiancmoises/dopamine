@@ -1,0 +1,138 @@
+test_account_delete_cascades (tests.test_app.ApplicationTests.test_account_delete_cascades) ... ok
+test_account_pages_in_all_languages (tests.test_app.ApplicationTests.test_account_pages_in_all_languages) ... ok
+test_add_entire_catalog_checkout_and_replay (tests.test_app.ApplicationTests.test_add_entire_catalog_checkout_and_replay) ... ok
+test_adult_declaration_and_strong_password_required (tests.test_app.ApplicationTests.test_adult_declaration_and_strong_password_required) ... ok
+test_auth_rate_limit (tests.test_app.ApplicationTests.test_auth_rate_limit) ... ok
+test_buy_uses_server_price_and_infinite_balance (tests.test_app.ApplicationTests.test_buy_uses_server_price_and_infinite_balance) ... ok
+test_casino_replay_and_bad_stakes (tests.test_app.ApplicationTests.test_casino_replay_and_bad_stakes) ... ok
+test_catalog_and_every_translation_complete (tests.test_app.ApplicationTests.test_catalog_and_every_translation_complete) ... ok
+test_concurrent_checkout_creates_one_order (tests.test_app.ApplicationTests.test_concurrent_checkout_creates_one_order) ... ok
+test_csrf_missing_wrong_unicode_and_foreign_origin_rejected (tests.test_app.ApplicationTests.test_csrf_missing_wrong_unicode_and_foreign_origin_rejected) ... ok
+test_every_game_and_card_always_returns_fixed_bonus (tests.test_app.ApplicationTests.test_every_game_and_card_always_returns_fixed_bonus) ... ok
+test_every_product_page_all_languages (tests.test_app.ApplicationTests.test_every_product_page_all_languages) ... ok
+test_export_reauth_and_no_credentials (tests.test_app.ApplicationTests.test_export_reauth_and_no_credentials) ... ok
+test_favorites_and_cart_are_account_bound (tests.test_app.ApplicationTests.test_favorites_and_cart_are_account_bound) ... ok
+test_host_methods_static_paths_and_body_limits (tests.test_app.ApplicationTests.test_host_methods_static_paths_and_body_limits) ... ok
+test_https_proxy_trust_and_cookie_attributes (tests.test_app.ApplicationTests.test_https_proxy_trust_and_cookie_attributes) ... ok
+test_login_cannot_resurrect_session_after_concurrent_password_reset (tests.test_app.ApplicationTests.test_login_cannot_resurrect_session_after_concurrent_password_reset) ... ok
+test_login_rotates_session_logout_is_post_only (tests.test_app.ApplicationTests.test_login_rotates_session_logout_is_post_only) ... ok
+test_malformed_or_cross_action_key_rejected (tests.test_app.ApplicationTests.test_malformed_or_cross_action_key_rejected) ... ok
+test_originless_valid_csrf_works (tests.test_app.ApplicationTests.test_originless_valid_csrf_works) ... ok
+test_password_change_revokes_other_sessions (tests.test_app.ApplicationTests.test_password_change_revokes_other_sessions) ... ok
+test_production_requires_downloaded_photos (tests.test_app.ApplicationTests.test_production_requires_downloaded_photos) ... ok
+test_profile_escaping_language_and_hide_casino (tests.test_app.ApplicationTests.test_profile_escaping_language_and_hide_casino) ... ok
+test_public_pages_in_four_languages_no_javascript (tests.test_app.ApplicationTests.test_public_pages_in_four_languages_no_javascript) ... ok
+test_public_reading_does_not_create_sessions (tests.test_app.ApplicationTests.test_public_reading_does_not_create_sessions) ... ok
+test_quantity_validation_and_idempotency (tests.test_app.ApplicationTests.test_quantity_validation_and_idempotency) ... ok
+test_rate_limit_shared_and_atomic (tests.test_app.ApplicationTests.test_rate_limit_shared_and_atomic) ... ok
+test_receipts_and_rounds_cannot_be_read_by_other_account (tests.test_app.ApplicationTests.test_receipts_and_rounds_cannot_be_read_by_other_account) ... ok
+test_recovery_rotates_code_and_revokes_sessions (tests.test_app.ApplicationTests.test_recovery_rotates_code_and_revokes_sessions) ... ok
+test_safe_redirect_targets_and_language_switch (tests.test_app.ApplicationTests.test_safe_redirect_targets_and_language_switch) ... ok
+test_self_exclusion_cannot_be_shortened_and_blocks_old_form (tests.test_app.ApplicationTests.test_self_exclusion_cannot_be_shortened_and_blocks_old_form) ... ok
+test_session_expiry_and_cleanup (tests.test_app.ApplicationTests.test_session_expiry_and_cleanup) ... ok
+test_signup_hashes_and_recovery_only_once (tests.test_app.ApplicationTests.test_signup_hashes_and_recovery_only_once) ... ok
+test_unicode_nickname_and_normalized_uniqueness (tests.test_app.ApplicationTests.test_unicode_nickname_and_normalized_uniqueness) ... ok
+test_real_http_signup_purchase_and_casino_with_wsgi_validation (tests.test_http.HttpIntegrationTests.test_real_http_signup_purchase_and_casino_with_wsgi_validation) ... ok
+test_active_hand_survives_refresh_and_new_start (tests.test_live.LiveWebTests.test_active_hand_survives_refresh_and_new_start) ... ok
+test_blackjack_revision_replay_and_concurrent_move (tests.test_live.LiveWebTests.test_blackjack_revision_replay_and_concurrent_move) ... ok
+test_deletion_cascades_interactive_rounds (tests.test_live.LiveWebTests.test_deletion_cascades_interactive_rounds) ... ok
+test_every_table_localized_and_nonjs_form (tests.test_live.LiveWebTests.test_every_table_localized_and_nonjs_form) ... ok
+test_javascript_is_local_licensed_and_scoped (tests.test_live.LiveWebTests.test_javascript_is_local_licensed_and_scoped) ... ok
+test_json_enhancement_returns_only_public_fragment (tests.test_live.LiveWebTests.test_json_enhancement_returns_only_public_fragment) ... ok
+test_old_receipt_is_not_relabeled_as_a_real_model (tests.test_live.LiveWebTests.test_old_receipt_is_not_relabeled_as_a_real_model) ... ok
+test_pause_blocks_new_and_existing_actions (tests.test_live.LiveWebTests.test_pause_blocks_new_and_existing_actions) ... ok
+test_rate_limits_starts (tests.test_live.LiveWebTests.test_rate_limits_starts) ... ok
+test_replayed_start_does_not_generate_another_result (tests.test_live.LiveWebTests.test_replayed_start_does_not_generate_another_result) ... ok
+test_round_ownership_origin_and_result_input (tests.test_live.LiveWebTests.test_round_ownership_origin_and_result_input) ... ok
+test_allowlist_blocks_ssrf_and_non_images (tests.test_live.PhotoPipelineTests.test_allowlist_blocks_ssrf_and_non_images) ... ok
+test_catalog_candidates_are_unique_and_not_preverified (tests.test_live.PhotoPipelineTests.test_catalog_candidates_are_unique_and_not_preverified) ... ok
+test_category_interleaving_does_not_starve_small_categories (tests.test_live.PhotoPipelineTests.test_category_interleaving_does_not_starve_small_categories) ... ok
+test_decode_size_bounds_and_no_svg (tests.test_live.PhotoPipelineTests.test_decode_size_bounds_and_no_svg) ... ok
+test_duplicate_models_files_pixels_and_perceptual_similarity (tests.test_live.PhotoPipelineTests.test_duplicate_models_files_pixels_and_perceptual_similarity) ... ok
+test_identity_rejects_wrong_model_and_generic_photo (tests.test_live.PhotoPipelineTests.test_identity_rejects_wrong_model_and_generic_photo) ... ok
+test_license_attribution_and_unknown_license_rejected (tests.test_live.PhotoPipelineTests.test_license_attribution_and_unknown_license_rejected) ... ok
+test_metadata_json_invalid_shape_fails_closed (tests.test_live.PhotoPipelineTests.test_metadata_json_invalid_shape_fails_closed) ... ok
+test_missing_catalog_and_reduced_floor_fail_closed (tests.test_live.PhotoPipelineTests.test_missing_catalog_and_reduced_floor_fail_closed) ... ok
+test_network_failure_never_publishes_fake_fallback (tests.test_live.PhotoPipelineTests.test_network_failure_never_publishes_fake_fallback) ... METADATA BLOCK 1 FAILED: offline
+METADATA BLOCK 2 FAILED: offline
+METADATA BLOCK 3 FAILED: offline
+ok
+test_normalized_commons_filename_cache_and_publication_floor (tests.test_live.PhotoPipelineTests.test_normalized_commons_filename_cache_and_publication_floor) ... PHOTO 001: Nikon D850 [cc-by-sa-4.0]
+PHOTO 001: Nikon D850 [cc-by-sa-4.0]
+ok
+test_baccarat_naturals_payout_commission_and_tie (tests.test_live.TableEngineTests.test_baccarat_naturals_payout_commission_and_tie) ... ok
+test_baccarat_third_card_rules_exhaustive (tests.test_live.TableEngineTests.test_baccarat_third_card_rules_exhaustive) ... ok
+test_blackjack_aces_soft_seventeen (tests.test_live.TableEngineTests.test_blackjack_aces_soft_seventeen) ... ok
+test_blackjack_hit_double_bust_and_illegal_move (tests.test_live.TableEngineTests.test_blackjack_hit_double_bust_and_illegal_move) ... ok
+test_blackjack_naturals_and_push (tests.test_live.TableEngineTests.test_blackjack_naturals_and_push) ... ok
+test_blackjack_private_deck_and_hole_never_public (tests.test_live.TableEngineTests.test_blackjack_private_deck_and_hole_never_public) ... ok
+test_dice_exhaustive (tests.test_live.TableEngineTests.test_dice_exhaustive) ... ok
+test_invalid_stakes_and_choices (tests.test_live.TableEngineTests.test_invalid_stakes_and_choices) ... ok
+test_keno_validation_and_no_repeated_draws (tests.test_live.TableEngineTests.test_keno_validation_and_no_repeated_draws) ... ok
+test_plinko_paths_correspond_to_bin_and_payout (tests.test_live.TableEngineTests.test_plinko_paths_correspond_to_bin_and_payout) ... ok
+test_random_results_are_not_forced_wins (tests.test_live.TableEngineTests.test_random_results_are_not_forced_wins) ... ok
+test_roulette_all_pockets_and_edge (tests.test_live.TableEngineTests.test_roulette_all_pockets_and_edge) ... ok
+test_slots_exhaustive_paytable (tests.test_live.TableEngineTests.test_slots_exhaustive_paytable) ... ok
+test_env_is_private_roundtrips_and_rejects_symlinks (tests.test_operations.OperationsTests.test_env_is_private_roundtrips_and_rejects_symlinks) ... ok
+test_env_rejects_insecure_public_settings (tests.test_operations.OperationsTests.test_env_rejects_insecure_public_settings) ... ok
+test_online_database_backup_integrity_and_no_overwrite (tests.test_operations.OperationsTests.test_online_database_backup_integrity_and_no_overwrite) ... ok
+test_photo_allowlist_blocks_unsafe_urls (tests.test_operations.OperationsTests.test_photo_allowlist_blocks_unsafe_urls) ... ok
+test_photo_fetch_checks_type_size_redirect_and_signature (tests.test_operations.OperationsTests.test_photo_fetch_checks_type_size_redirect_and_signature) ... ok
+test_photo_import_fails_when_a_category_has_no_photo (tests.test_operations.OperationsTests.test_photo_import_fails_when_a_category_has_no_photo) ... PHOTO RETRY EXHAUSTED: cars-1: cars-1: offline
+ok
+test_photo_import_reports_category_fallback_and_verifies_hashes (tests.test_operations.OperationsTests.test_photo_import_reports_category_fallback_and_verifies_hashes) ... PHOTO RETRY EXHAUSTED: cars-2: cars-2: offline example
+PHOTO OK: cars-1
+PHOTO CATEGORY FALLBACK: cars-2 <- cars-1
+ok
+test_about_explains_display_only_currency_in_every_language (tests.test_update.UpdateTests.test_about_explains_display_only_currency_in_every_language) ... ok
+test_all_existing_product_ids_and_prices_preserved (tests.test_update.UpdateTests.test_all_existing_product_ids_and_prices_preserved) ... ok
+test_all_ten_games_and_rounds_render_in_four_languages (tests.test_update.UpdateTests.test_all_ten_games_and_rounds_render_in_four_languages) ... ok
+test_client_cannot_set_bonus_result_or_access_other_account (tests.test_update.UpdateTests.test_client_cannot_set_bonus_result_or_access_other_account) ... ok
+test_concurrent_new_game_posts_credit_once (tests.test_update.UpdateTests.test_concurrent_new_game_posts_credit_once) ... ok
+test_cross_origin_and_sibling_origin_rejected (tests.test_update.UpdateTests.test_cross_origin_and_sibling_origin_rejected) ... ok
+test_currency_formatting_and_type_rejection (tests.test_update.UpdateTests.test_currency_formatting_and_type_rejection) ... ok
+test_default_black_background_and_cache_busting (tests.test_update.UpdateTests.test_default_black_background_and_cache_busting) ... ok
+test_default_port_and_hostname_case_origin_normalization (tests.test_update.UpdateTests.test_default_port_and_hostname_case_origin_normalization) ... ok
+test_error_values_escaped_and_recovery_not_echoed (tests.test_update.UpdateTests.test_error_values_escaped_and_recovery_not_echoed) ... ok
+test_every_offered_choice_has_scripted_result (tests.test_update.UpdateTests.test_every_offered_choice_has_scripted_result) ... ok
+test_expired_session_fresh_error_form_no_silent_post_replay (tests.test_update.UpdateTests.test_expired_session_fresh_error_form_no_silent_post_replay) ... ok
+test_export_and_delete_cover_new_rounds (tests.test_update.UpdateTests.test_export_and_delete_cover_new_rounds) ... ok
+test_fetch_metadata_cross_site_denied_even_with_valid_token (tests.test_update.UpdateTests.test_fetch_metadata_cross_site_denied_even_with_valid_token) ... ok
+test_historical_prices_not_converted_when_language_changes (tests.test_update.UpdateTests.test_historical_prices_not_converted_when_language_changes) ... ok
+test_keno_requires_three_distinct_bounded_numbers (tests.test_update.UpdateTests.test_keno_requires_three_distinct_bounded_numbers) ... ok
+test_language_switch_keeps_receipt_and_round_paths (tests.test_update.UpdateTests.test_language_switch_keeps_receipt_and_round_paths) ... ok
+test_migration_failure_rolls_back_partial_ddl (tests.test_update.UpdateTests.test_migration_failure_rolls_back_partial_ddl) ... ok
+test_new_game_replay_same_result_not_second_bonus (tests.test_update.UpdateTests.test_new_game_replay_same_result_not_second_bonus) ... ok
+test_new_games_require_login_and_safe_local_redirect (tests.test_update.UpdateTests.test_new_games_require_login_and_safe_local_redirect) ... ok
+test_null_origin_stays_rejected_without_creating_user (tests.test_update.UpdateTests.test_null_origin_stays_rejected_without_creating_user) ... ok
+test_origin_port_zero_never_equals_default (tests.test_update.UpdateTests.test_origin_port_zero_never_equals_default) ... ok
+test_pause_blocks_every_new_game_and_stale_form (tests.test_update.UpdateTests.test_pause_blocks_every_new_game_and_stale_form) ... ok
+test_registration_headers_keep_origin_and_zero_javascript (tests.test_update.UpdateTests.test_registration_headers_keep_origin_and_zero_javascript) ... ok
+test_schema_upgrade_is_additive_repeatable_and_legacy_compatible (tests.test_update.UpdateTests.test_schema_upgrade_is_additive_repeatable_and_legacy_compatible) ... ok
+test_secure_proxy_signup_with_host_cookie (tests.test_update.UpdateTests.test_secure_proxy_signup_with_host_cookie) ... ok
+test_signup_all_four_languages_preserves_language (tests.test_update.UpdateTests.test_signup_all_four_languages_preserves_language) ... ok
+test_signup_session_failure_is_atomic (tests.test_update.UpdateTests.test_signup_session_failure_is_atomic) ... ok
+test_signup_validation_retains_nickname_not_secret (tests.test_update.UpdateTests.test_signup_validation_retains_nickname_not_secret) ... ok
+test_active_database_path_cannot_change_silently (tests.test_updater.UpdaterTests.test_active_database_path_cannot_change_silently) ... ok
+test_duplicate_env_rejected (tests.test_updater.UpdaterTests.test_duplicate_env_rejected) ... ok
+test_failed_build_leaves_live_source_and_container_unchanged (tests.test_updater.UpdaterTests.test_failed_build_leaves_live_source_and_container_unchanged) ... ok
+test_manifest_rejects_corrupt_release (tests.test_updater.UpdaterTests.test_manifest_rejects_corrupt_release) ... ok
+test_manifest_rejects_local_modification_before_docker (tests.test_updater.UpdaterTests.test_manifest_rejects_local_modification_before_docker) ... ok
+test_manifest_rejects_unexpected_new_file_collision (tests.test_updater.UpdaterTests.test_manifest_rejects_unexpected_new_file_collision) ... ok
+test_only_one_updater_can_hold_lock (tests.test_updater.UpdaterTests.test_only_one_updater_can_hold_lock) ... ok
+test_operator_env_edit_during_build_cancels_switch (tests.test_updater.UpdaterTests.test_operator_env_edit_during_build_cancels_switch) ... ok
+test_post_switch_failure_automatically_restores_original_image_and_source (tests.test_updater.UpdaterTests.test_post_switch_failure_automatically_restores_original_image_and_source) ... ok
+test_preflight_does_not_switch_source_or_containers (tests.test_updater.UpdaterTests.test_preflight_does_not_switch_source_or_containers) ... ok
+test_rejects_bind_mount_and_public_ports (tests.test_updater.UpdaterTests.test_rejects_bind_mount_and_public_ports) ... ok
+test_rejects_proxy_trust_mismatch (tests.test_updater.UpdaterTests.test_rejects_proxy_trust_mismatch) ... ok
+test_rollback_refuses_subsequent_custom_source_edits (tests.test_updater.UpdaterTests.test_rollback_refuses_subsequent_custom_source_edits) ... ok
+test_rollback_rejects_corrupt_snapshot_files (tests.test_updater.UpdaterTests.test_rollback_rejects_corrupt_snapshot_files) ... ok
+test_running_secret_must_match_env_file_without_printing_values (tests.test_updater.UpdaterTests.test_running_secret_must_match_env_file_without_printing_values) ... ok
+test_safe_paths_reject_traversal_and_symlinks (tests.test_updater.UpdaterTests.test_safe_paths_reject_traversal_and_symlinks) ... ok
+test_success_preserves_env_and_records_private_verified_backup (tests.test_updater.UpdaterTests.test_success_preserves_env_and_records_private_verified_backup) ... ok
+
+----------------------------------------------------------------------
+Ran 123 tests in 19.374s
+
+OK
+PHOTOS VERIFIED: 2 local slots; 1 distinct downloaded images.

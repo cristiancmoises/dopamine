@@ -1,0 +1,55 @@
+name: dopamine
+services:
+  web:
+    image: dopamine-local:1.2.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      DATABASE_PATH: /data/dopamine.sqlite3
+      SECURE_COOKIES: "true"
+      REQUIRE_LOCAL_PHOTOS: "true"
+      WEB_WORKERS: "2"
+    restart: unless-stopped
+    init: true
+    user: "10001:10001"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 128
+    mem_limit: 768m
+    cpus: 2.0
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=67108864,mode=1777
+    volumes:
+      - dopamine-data:/data
+    expose:
+      - "8000"
+    # No host ports: NPM reaches the container through the private network.
+    networks:
+      proxy:
+        aliases:
+          - dopamine-web
+    healthcheck:
+      test: ["CMD", "python", "/app/scripts/healthcheck.py"]
+      interval: 30s
+      timeout: 6s
+      start_period: 30s
+      retries: 3
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+networks:
+  proxy:
+    external: true
+    name: ${PROXY_NETWORK:-npm-bridge}
+volumes:
+  dopamine-data:
+    labels:
+      io.securityops.project: dopamine

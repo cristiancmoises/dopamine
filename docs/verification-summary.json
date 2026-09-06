@@ -1,0 +1,35 @@
+{
+  "release": "1.2.0",
+  "date": "2026-09-06",
+  "unittest_methods_passed": 123,
+  "candidate_product_language_responses": 4224,
+  "browser_bridge_flows": 56,
+  "browser_bridge_wsgi_posts": 72,
+  "animation_enabled_320px_flows": 7,
+  "animation_enabled_wsgi_posts": 9,
+  "offline_no_javascript_layout_checks": 372,
+  "browser_js_errors": 0,
+  "python_version": "3.13.5",
+  "source_compatibility": [
+    "1.0.0",
+    "1.1.0-final"
+  ],
+  "production_photo_binaries_in_artifact": 0,
+  "catalog_candidates": 1056,
+  "candidate_categories": 18,
+  "required_published_minimum": 400,
+  "maximum_published": 640,
+  "NOT_EXECUTED": [
+    "Docker build/runtime",
+    "Fish execution",
+    "Gunicorn execution",
+    "production NPM/TLS",
+    "browser-native HTTP (blocked by policy)",
+    "LibreJS browser extension",
+    "complete real photo download",
+    "human photo/identity/rights audit",
+    "current dependency/image CVE scan",
+    "independent penetration test",
+    "production load test"
+  ]
+}

@@ -1,0 +1,46 @@
+"""SQLite with explicit transactions and parameterized queries. One application node."""
+from contextlib import contextmanager, closing
+from pathlib import Path
+import sqlite3
+from .config import ROOT
+
+def connect(path: Path):
+    db = sqlite3.connect(str(path), timeout=15, isolation_level=None)
+    db.row_factory = sqlite3.Row
+    db.execute("PRAGMA foreign_keys=ON")
+    db.execute("PRAGMA busy_timeout=15000")
+    return db
+
+def initialize(path: Path):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with closing(connect(path)) as db:
+        version = db.execute("PRAGMA user_version").fetchone()[0]
+        if version not in (0,1):
+            raise RuntimeError(f"Unsupported schema version {version}; restore or migrate deliberately.")
+        db.execute("PRAGMA journal_mode=WAL")
+        db.execute("PRAGMA synchronous=NORMAL")
+        columns = {row[1] for row in db.execute("PRAGMA table_info(rounds)")}
+        addition = "ALTER TABLE rounds ADD COLUMN result_json TEXT NOT NULL DEFAULT '{}';" if columns and 'result_json' not in columns else ''
+        # Atomic, additive migration: never rewrite balances, user IDs or purchases.
+        try:
+            db.executescript("BEGIN IMMEDIATE;\n" + addition + (ROOT / "data/schema.sql").read_text() + "\nCOMMIT;")
+        except BaseException:
+            if db.in_transaction: db.execute("ROLLBACK")
+            raise
+    path.chmod(0o600)
+
+@contextmanager
+def atomic(db):
+    db.execute("BEGIN IMMEDIATE")
+    try:
+        yield db
+        db.execute("COMMIT")
+    except BaseException:
+        db.execute("ROLLBACK")
+        raise
+
+def cleanup(db, now, idle_seconds=3600):
+    with atomic(db):
+        a=db.execute("DELETE FROM sessions WHERE expires_at < ? OR touched_at < ?", (now,now-idle_seconds)).rowcount
+        b=db.execute("DELETE FROM rate_limits WHERE expires_at < ?", (now,)).rowcount
+    return {"sessions_removed":a, "rate_limits_removed":b}

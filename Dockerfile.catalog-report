@@ -1,0 +1,9 @@
+# syntax=docker/dockerfile:1
+# Read-only public import diagnostics from the same local BuildKit builder.
+FROM python:3.13-slim
+RUN --mount=type=cache,id=dopamine-real-catalog-v120,target=/catalog-cache,sharing=locked,readonly \
+    if [ -f /catalog-cache/last-import-report.json ]; then \
+        cat /catalog-cache/last-import-report.json; \
+    else \
+        echo 'No catalog report in this builder cache. Check the original build log.'; \
+    fi

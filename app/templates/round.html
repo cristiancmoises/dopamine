@@ -1,0 +1,8 @@
+{% extends 'base.html' %}{% block content %}
+<section class="narrow page-section"><div class="eyebrow">{{ t(round.game) }} / {{ t('simulated') }}</div>
+<div class="result-mark" aria-hidden="true">✓</div><h1>{{ t('round_done') }}</h1><p class="lead">{{ t('no_skill') }}</p>
+{% include '_game_result.html' %}
+<div class="panel round-result"><div><span>{{ t('stake_returned') }}</span><strong>{{ money(round.stake) }}</strong></div><div><span>{{ t('bonus') }}</span><strong class="cyan">+{{ money(round.bonus) }}</strong></div><div><span>{{ t('balance') }}</span><strong class="cyan">{{ infinite_money }}</strong></div></div>
+<p class="small-copy">{{ round.created_at|utc }} UTC · #{{ round.id[:10] }}</p>{% include '_casino_warning.html' %}
+<div class="actions"><a href="/shop" class="button secondary">{{ t('continue') }} ↗</a><a href="/casino" class="subtle-link">{{ t('casino') }} →</a></div></section>
+{% endblock %}

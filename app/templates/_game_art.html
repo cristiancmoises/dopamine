@@ -1,0 +1,21 @@
+{% if game=='prism' %}
+<div class="prism-art" aria-hidden="true"><span>◇</span><span>◇</span><span>◇</span></div>
+{% elif game=='orbit' %}
+<div class="orbit-art" aria-hidden="true"><div><strong>+100</strong><span>{{ currency.symbol }}</span></div></div>
+{% elif game=='cards' %}
+<div class="cards-art" aria-hidden="true"><span>A<small>♠</small></span><span>A<small>♥</small></span><span>A<small>♦</small></span></div>
+{% elif game=='dice' %}
+<div class="dice-art" aria-hidden="true"><span>⚃</span><span>⚃</span></div>
+{% elif game=='blackjack' %}
+<div class="cards-art blackjack-art" aria-hidden="true"><span>A<small>♠</small></span><span>K<small>♥</small></span></div>
+{% elif game=='baccarat' %}
+<div class="baccarat-art" aria-hidden="true"><div><small>P</small><strong>9</strong></div><span>:</span><div><small>B</small><strong>7</strong></div></div>
+{% elif game=='bingo' %}
+<div class="bingo-art" aria-hidden="true">{% for n in range(1,10) %}<span{% if n<=3 %} class="hit"{% endif %}>{{ n }}</span>{% endfor %}</div>
+{% elif game=='keno' %}
+<div class="keno-art" aria-hidden="true"><span>3</span><span>7</span><span>12</span></div>
+{% elif game=='plinko' %}
+<div class="plinko-art" aria-hidden="true"><strong>●</strong><span>· · ·</span><span>· · · ·</span><span>· · · · ·</span><small>+100</small></div>
+{% elif game=='treasure' %}
+<div class="treasure-art" aria-hidden="true"><span>◇</span><div>＋</div></div>
+{% endif %}

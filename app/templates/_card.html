@@ -1,0 +1,4 @@
+<article class="product-card">
+<div class="product-image"><a href="/product/{{ p.id }}" tabindex="-1" aria-hidden="true">{% if photo_ready(p.photo) %}<img src="{{ p.image }}" alt="" loading="lazy" decoding="async" width="1100" height="825">{% else %}<div class="photo-placeholder"><span>◈</span>{{ t('photo_missing') }}</div>{% endif %}</a></div>
+<div class="product-info"><div class="eyebrow mini">{{ p.category_label }}</div><h3><a href="/product/{{ p.id }}">{{ p.name }}</a></h3><p class="product-type">{{ p.type }}</p><div class="product-bottom"><div class="price">{{ money(p.credits) }}</div><a href="/product/{{ p.id }}" class="round-link" aria-label="{{ t('view') }}: {{ p.name }}">↗</a></div>{% if p.units is defined %}<p class="muted">× {{ p.units }}</p>{% endif %}</div>
+</article>

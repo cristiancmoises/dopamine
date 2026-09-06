@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "legacy_version": "1.0.0",
+  "scope": "untouched earlier source accessing an upgraded disposable SQLite database; not Docker",
+  "preserved": [
+    "password login",
+    "new-item receipt",
+    "historical fictional receipt",
+    "all purchases",
+    "interactive round after re-upgrade"
+  ]
+}

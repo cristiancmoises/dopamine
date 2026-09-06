@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "actual filesystem/hash baseline checks; no Docker",
+  "file_count": 100,
+  "checks": [
+    {
+      "case": "original-1.0.0",
+      "status": "accepted"
+    },
+    {
+      "case": "final-1.1.0",
+      "status": "accepted"
+    },
+    {
+      "case": "1.0.0-with-provided-Gunicorn-hotfix",
+      "status": "accepted"
+    },
+    {
+      "case": "unknown-local-source-edit",
+      "status": "rejected"
+    },
+    {
+      "case": "conflicting-early-1.1-archive",
+      "status": "rejected"
+    },
+    {
+      "case": "altered-release-payload",
+      "status": "rejected"
+    }
+  ]
+}

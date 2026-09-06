@@ -1,0 +1,13 @@
+Dopamine 1.2 — third-party notices
+
+The MIT license applies to the original application code, CSS, favicon and original documentation. It does not relicense photographs, trademarks, scientific papers or dependencies.
+
+New publication photos are imported from Wikimedia Commons, individually under accepted CC BY, CC BY-SA, CC0 or public-domain terms. Effective authors, credits, source URLs, licenses and processing changes are recorded in data/photos-resolved.json and displayed on the site. Resized/WebP copies retain their original image license. No production photo binaries are included in the source/update archive; they are fetched and validated at build time. Commons metadata is not a warranty; operators must review attribution and applicable rights. No company, product owner or creator is represented as endorsing this simulator.
+
+Legacy data/photos.json and app/photos.py remain for old-format regression tests, not the production importer. Legacy Unsplash category photos are not reused in v1.2 publication. Historical fictional catalog names remain for receipts; they are not mapped onto real brands or assets.
+
+The site has no actual sales, ownership certificates, deliveries, payments, deposits or withdrawals. Real model/work names identify the depicted subject only. All displayed prices and acquisitions are fictional. Brand, property, likeness and artwork rights may be separate from a photo's copyright license.
+
+app/static/tables.js is local, unminified MIT/Expat free software with its full notice, @license markers and /javascript web labels. No proprietary or third-party casino engine is included. Fonts come from the user's operating system; no font binaries are bundled.
+
+Dependencies retain their own licenses: Python, Jinja2, MarkupSafe, Argon2, CFFI, pycparser, Gunicorn and Pillow, plus OS components. Installed package metadata remains in the Docker image. Scientific papers are linked and briefly discussed, not reproduced in full.

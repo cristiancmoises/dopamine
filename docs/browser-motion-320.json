@@ -1,0 +1,97 @@
+{
+  "transport": "offline Chromium with injected WSGI bridge; production HTML/CSS/JS; not browser-native HTTP",
+  "browser_version": "144.0.7559.96",
+  "animations_enabled": true,
+  "flow_count": 7,
+  "wsgi_posts": 9,
+  "javascript_errors": [],
+  "checks": [
+    {
+      "game": "roulette",
+      "language": "en",
+      "width": 320,
+      "content_width": 320,
+      "result": "Table loss"
+    },
+    {
+      "game": "blackjack",
+      "language": "en",
+      "width": 320,
+      "content_width": 320,
+      "result": "Table loss"
+    },
+    {
+      "game": "baccarat",
+      "language": "en",
+      "width": 320,
+      "content_width": 320,
+      "result": "Table win"
+    },
+    {
+      "game": "slots",
+      "language": "en",
+      "width": 320,
+      "content_width": 320,
+      "result": "Table loss"
+    },
+    {
+      "game": "dice",
+      "language": "en",
+      "width": 320,
+      "content_width": 320,
+      "result": "Table loss"
+    },
+    {
+      "game": "keno",
+      "language": "en",
+      "width": 320,
+      "content_width": 320,
+      "result": "Push / stake returned"
+    },
+    {
+      "game": "plinko",
+      "language": "en",
+      "width": 320,
+      "content_width": 320,
+      "result": "Table loss"
+    }
+  ],
+  "requests": [
+    {
+      "path": "/play/roulette",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/3fa37246308a42ba9397b93c82c355b6",
+      "status": 200
+    },
+    {
+      "path": "/play/blackjack/3fa37246308a42ba9397b93c82c355b6",
+      "status": 200
+    },
+    {
+      "path": "/play/baccarat",
+      "status": 200
+    },
+    {
+      "path": "/play/slots",
+      "status": 200
+    },
+    {
+      "path": "/play/dice",
+      "status": 200
+    },
+    {
+      "path": "/play/keno",
+      "status": 200
+    },
+    {
+      "path": "/play/plinko",
+      "status": 200
+    }
+  ]
+}

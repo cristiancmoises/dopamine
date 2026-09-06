@@ -1,0 +1,2243 @@
+{
+  "transport": "offline server-rendered HTML + identical project CSS",
+  "javascript_enabled": false,
+  "real_http_transport_tested": false,
+  "layout_checks": [
+    {
+      "path": "/shop",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/science",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/about",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/signup",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/login",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/recover",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/profile",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/cart",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/collection",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/prism",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/cards",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/dice",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/keno",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "pt-br",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/shop",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/science",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/about",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/signup",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/login",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/recover",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/profile",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/cart",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/collection",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/prism",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/cards",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/dice",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/keno",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "en",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/shop",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/science",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/about",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/signup",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/login",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/recover",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/profile",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/cart",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/collection",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/prism",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/cards",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/dice",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/keno",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "zh",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/shop",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/science",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/about",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/signup",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/login",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/recover",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/profile",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/cart",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/collection",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/prism",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/cards",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/dice",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/keno",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "ja",
+      "viewport": 1440,
+      "content_width": 1440
+    },
+    {
+      "path": "/shop",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/science",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/about",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/signup",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/login",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/recover",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/profile",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/cart",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/collection",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/prism",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/cards",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/dice",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/keno",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "pt-br",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/shop",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/science",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/about",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/signup",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/login",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/recover",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/profile",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/cart",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/collection",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/prism",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/cards",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/dice",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/keno",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "en",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/shop",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/science",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/about",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/signup",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/login",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/recover",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/profile",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/cart",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/collection",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/prism",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/cards",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/dice",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/keno",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "zh",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/shop",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/science",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/about",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/signup",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/login",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/recover",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/profile",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/cart",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/collection",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/prism",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/cards",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/dice",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/keno",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "ja",
+      "viewport": 390,
+      "content_width": 390
+    },
+    {
+      "path": "/shop",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/science",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/about",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/signup",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/login",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/recover",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/profile",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/cart",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/collection",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/prism",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/cards",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/dice",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/keno",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "pt-br",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/shop",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/science",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/about",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/signup",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/login",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/recover",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/profile",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/cart",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/collection",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/prism",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/cards",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/dice",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/keno",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "en",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/shop",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/science",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/about",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/signup",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/login",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/recover",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/profile",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/cart",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/collection",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/prism",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/cards",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/dice",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/keno",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "zh",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/shop",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/science",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/about",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/signup",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/login",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/recover",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/product/real-fallingwater",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/profile",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/cart",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/collection",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/prism",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/orbit",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/cards",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/dice",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/blackjack",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/baccarat",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/bingo",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/keno",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/plinko",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/casino/treasure",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/da4729096ee14950998b2e51be34f9a2",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3ccf098df04a42b0b0060218db8ca951",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/e18150acaf2445fe87f0b4e1ee415010",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3edbfed11c544236b9bd5a3f00aa402d",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/2f39c7495aee442780738ba150298d48",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/3db4934bc13040d9a2b0cdcf4b1f8905",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/ecca894a525747adb776d19bf13d7b86",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/b93203f72b9443a7a5994845b436f580",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/609a1b7929ed4f75aec9b801f859250a",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    },
+    {
+      "path": "/round/73b97128670c4d7288b3f39c41867c35",
+      "language": "ja",
+      "viewport": 360,
+      "content_width": 360
+    }
+  ],
+  "photo_binaries_present": 0,
+  "browser_version": "144.0.7559.96",
+  "native_controls": "language details + animation checkbox passed",
+  "status": "passed"
+}

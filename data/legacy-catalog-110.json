@@ -1,0 +1,6294 @@
+{
+  "categories": [
+    {
+      "id": "cars",
+      "label": {
+        "pt-br": "Carros",
+        "en": "Cars",
+        "zh": "汽车",
+        "ja": "自動車"
+      }
+    },
+    {
+      "id": "homes",
+      "label": {
+        "pt-br": "Imóveis",
+        "en": "Real estate",
+        "zh": "房产",
+        "ja": "不動産"
+      }
+    },
+    {
+      "id": "watches",
+      "label": {
+        "pt-br": "Relógios",
+        "en": "Watches",
+        "zh": "腕表",
+        "ja": "腕時計"
+      }
+    },
+    {
+      "id": "jewelry",
+      "label": {
+        "pt-br": "Joias",
+        "en": "Jewelry",
+        "zh": "珠宝",
+        "ja": "ジュエリー"
+      }
+    },
+    {
+      "id": "fashion",
+      "label": {
+        "pt-br": "Roupas",
+        "en": "Clothing",
+        "zh": "服装",
+        "ja": "ファッション"
+      }
+    },
+    {
+      "id": "shoes",
+      "label": {
+        "pt-br": "Calçados",
+        "en": "Shoes",
+        "zh": "鞋履",
+        "ja": "シューズ"
+      }
+    },
+    {
+      "id": "bags",
+      "label": {
+        "pt-br": "Bolsas e malas",
+        "en": "Bags & luggage",
+        "zh": "箱包",
+        "ja": "バッグ・旅行かばん"
+      }
+    },
+    {
+      "id": "technology",
+      "label": {
+        "pt-br": "Tecnologia",
+        "en": "Technology",
+        "zh": "科技",
+        "ja": "テクノロジー"
+      }
+    },
+    {
+      "id": "audio",
+      "label": {
+        "pt-br": "Áudio",
+        "en": "Audio",
+        "zh": "音频",
+        "ja": "オーディオ"
+      }
+    },
+    {
+      "id": "cameras",
+      "label": {
+        "pt-br": "Fotografia",
+        "en": "Photography",
+        "zh": "摄影",
+        "ja": "写真・カメラ"
+      }
+    },
+    {
+      "id": "appliances",
+      "label": {
+        "pt-br": "Eletrodomésticos",
+        "en": "Appliances",
+        "zh": "家用电器",
+        "ja": "家電"
+      }
+    },
+    {
+      "id": "furniture",
+      "label": {
+        "pt-br": "Móveis",
+        "en": "Furniture",
+        "zh": "家具",
+        "ja": "家具"
+      }
+    },
+    {
+      "id": "yachts",
+      "label": {
+        "pt-br": "Náutica",
+        "en": "Yachts & sailing",
+        "zh": "游艇与航海",
+        "ja": "ヨット・セーリング"
+      }
+    },
+    {
+      "id": "travel",
+      "label": {
+        "pt-br": "Viagens",
+        "en": "Travel",
+        "zh": "旅行",
+        "ja": "旅行"
+      }
+    },
+    {
+      "id": "sports",
+      "label": {
+        "pt-br": "Esportes",
+        "en": "Sports",
+        "zh": "运动",
+        "ja": "スポーツ"
+      }
+    },
+    {
+      "id": "art",
+      "label": {
+        "pt-br": "Arte",
+        "en": "Art",
+        "zh": "艺术",
+        "ja": "アート"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "cars-1-1",
+      "name": "Aster GT · Aura",
+      "type": {
+        "pt-br": "Coupé esportivo",
+        "en": "Sports coupé",
+        "zh": "运动轿跑",
+        "ja": "スポーツクーペ"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 2400000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 256
+    },
+    {
+      "id": "cars-1-2",
+      "name": "Aster GT · Noir",
+      "type": {
+        "pt-br": "Coupé esportivo",
+        "en": "Sports coupé",
+        "zh": "运动轿跑",
+        "ja": "スポーツクーペ"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 2880000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 288
+    },
+    {
+      "id": "cars-1-3",
+      "name": "Aster GT · Atelier",
+      "type": {
+        "pt-br": "Coupé esportivo",
+        "en": "Sports coupé",
+        "zh": "运动轿跑",
+        "ja": "スポーツクーペ"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 3360000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 320
+    },
+    {
+      "id": "cars-1-4",
+      "name": "Aster GT · Horizon",
+      "type": {
+        "pt-br": "Coupé esportivo",
+        "en": "Sports coupé",
+        "zh": "运动轿跑",
+        "ja": "スポーツクーペ"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 3840000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 352
+    },
+    {
+      "id": "cars-2-1",
+      "name": "Vela Grand Touring · Aura",
+      "type": {
+        "pt-br": "Grand tourer",
+        "en": "Grand tourer",
+        "zh": "豪华旅行跑车",
+        "ja": "グランドツアラー"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 3200000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 257
+    },
+    {
+      "id": "cars-2-2",
+      "name": "Vela Grand Touring · Noir",
+      "type": {
+        "pt-br": "Grand tourer",
+        "en": "Grand tourer",
+        "zh": "豪华旅行跑车",
+        "ja": "グランドツアラー"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 3840000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 289
+    },
+    {
+      "id": "cars-2-3",
+      "name": "Vela Grand Touring · Atelier",
+      "type": {
+        "pt-br": "Grand tourer",
+        "en": "Grand tourer",
+        "zh": "豪华旅行跑车",
+        "ja": "グランドツアラー"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 4480000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 321
+    },
+    {
+      "id": "cars-2-4",
+      "name": "Vela Grand Touring · Horizon",
+      "type": {
+        "pt-br": "Grand tourer",
+        "en": "Grand tourer",
+        "zh": "豪华旅行跑车",
+        "ja": "グランドツアラー"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 5120000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 353
+    },
+    {
+      "id": "homes-1-1",
+      "name": "Villa Horizonte · Aura",
+      "type": {
+        "pt-br": "Casa contemporânea",
+        "en": "Contemporary villa",
+        "zh": "现代别墅",
+        "ja": "モダンヴィラ"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 18000000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 258
+    },
+    {
+      "id": "homes-1-2",
+      "name": "Villa Horizonte · Noir",
+      "type": {
+        "pt-br": "Casa contemporânea",
+        "en": "Contemporary villa",
+        "zh": "现代别墅",
+        "ja": "モダンヴィラ"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 21600000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 290
+    },
+    {
+      "id": "homes-1-3",
+      "name": "Villa Horizonte · Atelier",
+      "type": {
+        "pt-br": "Casa contemporânea",
+        "en": "Contemporary villa",
+        "zh": "现代别墅",
+        "ja": "モダンヴィラ"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 25200000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 322
+    },
+    {
+      "id": "homes-1-4",
+      "name": "Villa Horizonte · Horizon",
+      "type": {
+        "pt-br": "Casa contemporânea",
+        "en": "Contemporary villa",
+        "zh": "现代别墅",
+        "ja": "モダンヴィラ"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 28800000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 354
+    },
+    {
+      "id": "homes-2-1",
+      "name": "Mirante Residence · Aura",
+      "type": {
+        "pt-br": "Residência de design",
+        "en": "Designer residence",
+        "zh": "设计师住宅",
+        "ja": "デザイナーズ住宅"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 24000000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 259
+    },
+    {
+      "id": "homes-2-2",
+      "name": "Mirante Residence · Noir",
+      "type": {
+        "pt-br": "Residência de design",
+        "en": "Designer residence",
+        "zh": "设计师住宅",
+        "ja": "デザイナーズ住宅"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 28800000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 291
+    },
+    {
+      "id": "homes-2-3",
+      "name": "Mirante Residence · Atelier",
+      "type": {
+        "pt-br": "Residência de design",
+        "en": "Designer residence",
+        "zh": "设计师住宅",
+        "ja": "デザイナーズ住宅"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 33600000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 323
+    },
+    {
+      "id": "homes-2-4",
+      "name": "Mirante Residence · Horizon",
+      "type": {
+        "pt-br": "Residência de design",
+        "en": "Designer residence",
+        "zh": "设计师住宅",
+        "ja": "デザイナーズ住宅"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 38400000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 355
+    },
+    {
+      "id": "watches-1-1",
+      "name": "Meridian · Aura",
+      "type": {
+        "pt-br": "Relógio de coleção",
+        "en": "Collector watch",
+        "zh": "典藏腕表",
+        "ja": "コレクションウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 145000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 260
+    },
+    {
+      "id": "watches-1-2",
+      "name": "Meridian · Noir",
+      "type": {
+        "pt-br": "Relógio de coleção",
+        "en": "Collector watch",
+        "zh": "典藏腕表",
+        "ja": "コレクションウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 174000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 292
+    },
+    {
+      "id": "watches-1-3",
+      "name": "Meridian · Atelier",
+      "type": {
+        "pt-br": "Relógio de coleção",
+        "en": "Collector watch",
+        "zh": "典藏腕表",
+        "ja": "コレクションウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 203000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 324
+    },
+    {
+      "id": "watches-1-4",
+      "name": "Meridian · Horizon",
+      "type": {
+        "pt-br": "Relógio de coleção",
+        "en": "Collector watch",
+        "zh": "典藏腕表",
+        "ja": "コレクションウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 232000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 356
+    },
+    {
+      "id": "watches-2-1",
+      "name": "Tempo Studio · Aura",
+      "type": {
+        "pt-br": "Relógio minimalista",
+        "en": "Minimalist watch",
+        "zh": "极简腕表",
+        "ja": "ミニマルウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 88000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 261
+    },
+    {
+      "id": "watches-2-2",
+      "name": "Tempo Studio · Noir",
+      "type": {
+        "pt-br": "Relógio minimalista",
+        "en": "Minimalist watch",
+        "zh": "极简腕表",
+        "ja": "ミニマルウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 105600,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 293
+    },
+    {
+      "id": "watches-2-3",
+      "name": "Tempo Studio · Atelier",
+      "type": {
+        "pt-br": "Relógio minimalista",
+        "en": "Minimalist watch",
+        "zh": "极简腕表",
+        "ja": "ミニマルウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 123200,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 325
+    },
+    {
+      "id": "watches-2-4",
+      "name": "Tempo Studio · Horizon",
+      "type": {
+        "pt-br": "Relógio minimalista",
+        "en": "Minimalist watch",
+        "zh": "极简腕表",
+        "ja": "ミニマルウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 140800,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 357
+    },
+    {
+      "id": "jewelry-1-1",
+      "name": "Éclat · Aura",
+      "type": {
+        "pt-br": "Coleção de joias",
+        "en": "Jewelry collection",
+        "zh": "珠宝系列",
+        "ja": "ジュエリーコレクション"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 280000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 262
+    },
+    {
+      "id": "jewelry-1-2",
+      "name": "Éclat · Noir",
+      "type": {
+        "pt-br": "Coleção de joias",
+        "en": "Jewelry collection",
+        "zh": "珠宝系列",
+        "ja": "ジュエリーコレクション"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 336000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 294
+    },
+    {
+      "id": "jewelry-1-3",
+      "name": "Éclat · Atelier",
+      "type": {
+        "pt-br": "Coleção de joias",
+        "en": "Jewelry collection",
+        "zh": "珠宝系列",
+        "ja": "ジュエリーコレクション"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 392000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 326
+    },
+    {
+      "id": "jewelry-1-4",
+      "name": "Éclat · Horizon",
+      "type": {
+        "pt-br": "Coleção de joias",
+        "en": "Jewelry collection",
+        "zh": "珠宝系列",
+        "ja": "ジュエリーコレクション"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 448000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 358
+    },
+    {
+      "id": "jewelry-2-1",
+      "name": "Solstice · Aura",
+      "type": {
+        "pt-br": "Anel de coleção",
+        "en": "Collector ring",
+        "zh": "典藏戒指",
+        "ja": "コレクションリング"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 320000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 263
+    },
+    {
+      "id": "jewelry-2-2",
+      "name": "Solstice · Noir",
+      "type": {
+        "pt-br": "Anel de coleção",
+        "en": "Collector ring",
+        "zh": "典藏戒指",
+        "ja": "コレクションリング"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 384000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 295
+    },
+    {
+      "id": "jewelry-2-3",
+      "name": "Solstice · Atelier",
+      "type": {
+        "pt-br": "Anel de coleção",
+        "en": "Collector ring",
+        "zh": "典藏戒指",
+        "ja": "コレクションリング"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 448000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 327
+    },
+    {
+      "id": "jewelry-2-4",
+      "name": "Solstice · Horizon",
+      "type": {
+        "pt-br": "Anel de coleção",
+        "en": "Collector ring",
+        "zh": "典藏戒指",
+        "ja": "コレクションリング"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 512000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 359
+    },
+    {
+      "id": "fashion-1-1",
+      "name": "Maison 01 · Aura",
+      "type": {
+        "pt-br": "Jaqueta de design",
+        "en": "Designer jacket",
+        "zh": "设计款夹克",
+        "ja": "デザイナージャケット"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 12000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 264
+    },
+    {
+      "id": "fashion-1-2",
+      "name": "Maison 01 · Noir",
+      "type": {
+        "pt-br": "Jaqueta de design",
+        "en": "Designer jacket",
+        "zh": "设计款夹克",
+        "ja": "デザイナージャケット"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 14400,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 296
+    },
+    {
+      "id": "fashion-1-3",
+      "name": "Maison 01 · Atelier",
+      "type": {
+        "pt-br": "Jaqueta de design",
+        "en": "Designer jacket",
+        "zh": "设计款夹克",
+        "ja": "デザイナージャケット"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 16800,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 328
+    },
+    {
+      "id": "fashion-1-4",
+      "name": "Maison 01 · Horizon",
+      "type": {
+        "pt-br": "Jaqueta de design",
+        "en": "Designer jacket",
+        "zh": "设计款夹克",
+        "ja": "デザイナージャケット"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 19200,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 360
+    },
+    {
+      "id": "fashion-2-1",
+      "name": "Atelier Urbain · Aura",
+      "type": {
+        "pt-br": "Jaqueta de coleção",
+        "en": "Collection jacket",
+        "zh": "典藏夹克",
+        "ja": "コレクションジャケット"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 18000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 265
+    },
+    {
+      "id": "fashion-2-2",
+      "name": "Atelier Urbain · Noir",
+      "type": {
+        "pt-br": "Jaqueta de coleção",
+        "en": "Collection jacket",
+        "zh": "典藏夹克",
+        "ja": "コレクションジャケット"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 21600,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 297
+    },
+    {
+      "id": "fashion-2-3",
+      "name": "Atelier Urbain · Atelier",
+      "type": {
+        "pt-br": "Jaqueta de coleção",
+        "en": "Collection jacket",
+        "zh": "典藏夹克",
+        "ja": "コレクションジャケット"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 25200,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 329
+    },
+    {
+      "id": "fashion-2-4",
+      "name": "Atelier Urbain · Horizon",
+      "type": {
+        "pt-br": "Jaqueta de coleção",
+        "en": "Collection jacket",
+        "zh": "典藏夹克",
+        "ja": "コレクションジャケット"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 28800,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 361
+    },
+    {
+      "id": "shoes-1-1",
+      "name": "Stride · Aura",
+      "type": {
+        "pt-br": "Tênis de coleção",
+        "en": "Collector sneakers",
+        "zh": "典藏运动鞋",
+        "ja": "コレクションスニーカー"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 6900,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 266
+    },
+    {
+      "id": "shoes-1-2",
+      "name": "Stride · Noir",
+      "type": {
+        "pt-br": "Tênis de coleção",
+        "en": "Collector sneakers",
+        "zh": "典藏运动鞋",
+        "ja": "コレクションスニーカー"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 8280,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 298
+    },
+    {
+      "id": "shoes-1-3",
+      "name": "Stride · Atelier",
+      "type": {
+        "pt-br": "Tênis de coleção",
+        "en": "Collector sneakers",
+        "zh": "典藏运动鞋",
+        "ja": "コレクションスニーカー"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 9660,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 330
+    },
+    {
+      "id": "shoes-1-4",
+      "name": "Stride · Horizon",
+      "type": {
+        "pt-br": "Tênis de coleção",
+        "en": "Collector sneakers",
+        "zh": "典藏运动鞋",
+        "ja": "コレクションスニーカー"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 11040,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 362
+    },
+    {
+      "id": "shoes-2-1",
+      "name": "Ligne · Aura",
+      "type": {
+        "pt-br": "Sapato de design",
+        "en": "Designer shoes",
+        "zh": "设计款鞋履",
+        "ja": "デザイナーズシューズ"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 9500,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 267
+    },
+    {
+      "id": "shoes-2-2",
+      "name": "Ligne · Noir",
+      "type": {
+        "pt-br": "Sapato de design",
+        "en": "Designer shoes",
+        "zh": "设计款鞋履",
+        "ja": "デザイナーズシューズ"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 11400,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 299
+    },
+    {
+      "id": "shoes-2-3",
+      "name": "Ligne · Atelier",
+      "type": {
+        "pt-br": "Sapato de design",
+        "en": "Designer shoes",
+        "zh": "设计款鞋履",
+        "ja": "デザイナーズシューズ"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 13300,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 331
+    },
+    {
+      "id": "shoes-2-4",
+      "name": "Ligne · Horizon",
+      "type": {
+        "pt-br": "Sapato de design",
+        "en": "Designer shoes",
+        "zh": "设计款鞋履",
+        "ja": "デザイナーズシューズ"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 15200,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 363
+    },
+    {
+      "id": "bags-1-1",
+      "name": "Porta · Aura",
+      "type": {
+        "pt-br": "Bolsa de design",
+        "en": "Designer handbag",
+        "zh": "设计款手袋",
+        "ja": "デザイナーハンドバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 24000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 268
+    },
+    {
+      "id": "bags-1-2",
+      "name": "Porta · Noir",
+      "type": {
+        "pt-br": "Bolsa de design",
+        "en": "Designer handbag",
+        "zh": "设计款手袋",
+        "ja": "デザイナーハンドバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 28800,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 300
+    },
+    {
+      "id": "bags-1-3",
+      "name": "Porta · Atelier",
+      "type": {
+        "pt-br": "Bolsa de design",
+        "en": "Designer handbag",
+        "zh": "设计款手袋",
+        "ja": "デザイナーハンドバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 33600,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 332
+    },
+    {
+      "id": "bags-1-4",
+      "name": "Porta · Horizon",
+      "type": {
+        "pt-br": "Bolsa de design",
+        "en": "Designer handbag",
+        "zh": "设计款手袋",
+        "ja": "デザイナーハンドバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 38400,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 364
+    },
+    {
+      "id": "bags-2-1",
+      "name": "Nomad · Aura",
+      "type": {
+        "pt-br": "Mochila de viagem",
+        "en": "Travel backpack",
+        "zh": "旅行背包",
+        "ja": "トラベルバックパック"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 8200,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 269
+    },
+    {
+      "id": "bags-2-2",
+      "name": "Nomad · Noir",
+      "type": {
+        "pt-br": "Mochila de viagem",
+        "en": "Travel backpack",
+        "zh": "旅行背包",
+        "ja": "トラベルバックパック"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 9840,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 301
+    },
+    {
+      "id": "bags-2-3",
+      "name": "Nomad · Atelier",
+      "type": {
+        "pt-br": "Mochila de viagem",
+        "en": "Travel backpack",
+        "zh": "旅行背包",
+        "ja": "トラベルバックパック"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 11480,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 333
+    },
+    {
+      "id": "bags-2-4",
+      "name": "Nomad · Horizon",
+      "type": {
+        "pt-br": "Mochila de viagem",
+        "en": "Travel backpack",
+        "zh": "旅行背包",
+        "ja": "トラベルバックパック"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 13120,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 365
+    },
+    {
+      "id": "technology-1-1",
+      "name": "Lumen Pro · Aura",
+      "type": {
+        "pt-br": "Notebook de criação",
+        "en": "Creative notebook",
+        "zh": "创作笔记本电脑",
+        "ja": "クリエイティブノートPC"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 36000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 270
+    },
+    {
+      "id": "technology-1-2",
+      "name": "Lumen Pro · Noir",
+      "type": {
+        "pt-br": "Notebook de criação",
+        "en": "Creative notebook",
+        "zh": "创作笔记本电脑",
+        "ja": "クリエイティブノートPC"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 43200,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 302
+    },
+    {
+      "id": "technology-1-3",
+      "name": "Lumen Pro · Atelier",
+      "type": {
+        "pt-br": "Notebook de criação",
+        "en": "Creative notebook",
+        "zh": "创作笔记本电脑",
+        "ja": "クリエイティブノートPC"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 50400,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 334
+    },
+    {
+      "id": "technology-1-4",
+      "name": "Lumen Pro · Horizon",
+      "type": {
+        "pt-br": "Notebook de criação",
+        "en": "Creative notebook",
+        "zh": "创作笔记本电脑",
+        "ja": "クリエイティブノートPC"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 57600,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 366
+    },
+    {
+      "id": "technology-2-1",
+      "name": "Axis One · Aura",
+      "type": {
+        "pt-br": "Smartphone de coleção",
+        "en": "Collector smartphone",
+        "zh": "典藏智能手机",
+        "ja": "コレクションスマートフォン"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 16000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 271
+    },
+    {
+      "id": "technology-2-2",
+      "name": "Axis One · Noir",
+      "type": {
+        "pt-br": "Smartphone de coleção",
+        "en": "Collector smartphone",
+        "zh": "典藏智能手机",
+        "ja": "コレクションスマートフォン"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 19200,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 303
+    },
+    {
+      "id": "technology-2-3",
+      "name": "Axis One · Atelier",
+      "type": {
+        "pt-br": "Smartphone de coleção",
+        "en": "Collector smartphone",
+        "zh": "典藏智能手机",
+        "ja": "コレクションスマートフォン"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 22400,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 335
+    },
+    {
+      "id": "technology-2-4",
+      "name": "Axis One · Horizon",
+      "type": {
+        "pt-br": "Smartphone de coleção",
+        "en": "Collector smartphone",
+        "zh": "典藏智能手机",
+        "ja": "コレクションスマートフォン"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 25600,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 367
+    },
+    {
+      "id": "audio-1-1",
+      "name": "Sonora · Aura",
+      "type": {
+        "pt-br": "Fone de ouvido",
+        "en": "Headphones",
+        "zh": "耳机",
+        "ja": "ヘッドホン"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 8900,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 272
+    },
+    {
+      "id": "audio-1-2",
+      "name": "Sonora · Noir",
+      "type": {
+        "pt-br": "Fone de ouvido",
+        "en": "Headphones",
+        "zh": "耳机",
+        "ja": "ヘッドホン"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 10680,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 304
+    },
+    {
+      "id": "audio-1-3",
+      "name": "Sonora · Atelier",
+      "type": {
+        "pt-br": "Fone de ouvido",
+        "en": "Headphones",
+        "zh": "耳机",
+        "ja": "ヘッドホン"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 12460,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 336
+    },
+    {
+      "id": "audio-1-4",
+      "name": "Sonora · Horizon",
+      "type": {
+        "pt-br": "Fone de ouvido",
+        "en": "Headphones",
+        "zh": "耳机",
+        "ja": "ヘッドホン"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 14240,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 368
+    },
+    {
+      "id": "audio-2-1",
+      "name": "Resonance · Aura",
+      "type": {
+        "pt-br": "Caixa de som",
+        "en": "Loudspeaker",
+        "zh": "扬声器",
+        "ja": "スピーカー"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 18000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 273
+    },
+    {
+      "id": "audio-2-2",
+      "name": "Resonance · Noir",
+      "type": {
+        "pt-br": "Caixa de som",
+        "en": "Loudspeaker",
+        "zh": "扬声器",
+        "ja": "スピーカー"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 21600,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 305
+    },
+    {
+      "id": "audio-2-3",
+      "name": "Resonance · Atelier",
+      "type": {
+        "pt-br": "Caixa de som",
+        "en": "Loudspeaker",
+        "zh": "扬声器",
+        "ja": "スピーカー"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 25200,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 337
+    },
+    {
+      "id": "audio-2-4",
+      "name": "Resonance · Horizon",
+      "type": {
+        "pt-br": "Caixa de som",
+        "en": "Loudspeaker",
+        "zh": "扬声器",
+        "ja": "スピーカー"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 28800,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 369
+    },
+    {
+      "id": "cameras-1-1",
+      "name": "Frame Studio · Aura",
+      "type": {
+        "pt-br": "Câmera de coleção",
+        "en": "Collector camera",
+        "zh": "典藏相机",
+        "ja": "コレクションカメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 42000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 274
+    },
+    {
+      "id": "cameras-1-2",
+      "name": "Frame Studio · Noir",
+      "type": {
+        "pt-br": "Câmera de coleção",
+        "en": "Collector camera",
+        "zh": "典藏相机",
+        "ja": "コレクションカメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 50400,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 306
+    },
+    {
+      "id": "cameras-1-3",
+      "name": "Frame Studio · Atelier",
+      "type": {
+        "pt-br": "Câmera de coleção",
+        "en": "Collector camera",
+        "zh": "典藏相机",
+        "ja": "コレクションカメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 58800,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 338
+    },
+    {
+      "id": "cameras-1-4",
+      "name": "Frame Studio · Horizon",
+      "type": {
+        "pt-br": "Câmera de coleção",
+        "en": "Collector camera",
+        "zh": "典藏相机",
+        "ja": "コレクションカメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 67200,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 370
+    },
+    {
+      "id": "cameras-2-1",
+      "name": "Optik · Aura",
+      "type": {
+        "pt-br": "Sistema fotográfico",
+        "en": "Camera system",
+        "zh": "摄影系统",
+        "ja": "カメラシステム"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 62000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 275
+    },
+    {
+      "id": "cameras-2-2",
+      "name": "Optik · Noir",
+      "type": {
+        "pt-br": "Sistema fotográfico",
+        "en": "Camera system",
+        "zh": "摄影系统",
+        "ja": "カメラシステム"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 74400,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 307
+    },
+    {
+      "id": "cameras-2-3",
+      "name": "Optik · Atelier",
+      "type": {
+        "pt-br": "Sistema fotográfico",
+        "en": "Camera system",
+        "zh": "摄影系统",
+        "ja": "カメラシステム"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 86800,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 339
+    },
+    {
+      "id": "cameras-2-4",
+      "name": "Optik · Horizon",
+      "type": {
+        "pt-br": "Sistema fotográfico",
+        "en": "Camera system",
+        "zh": "摄影系统",
+        "ja": "カメラシステム"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 99200,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 371
+    },
+    {
+      "id": "appliances-1-1",
+      "name": "Casa Frio · Aura",
+      "type": {
+        "pt-br": "Refrigerador",
+        "en": "Refrigerator",
+        "zh": "冰箱",
+        "ja": "冷蔵庫"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 32000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 276
+    },
+    {
+      "id": "appliances-1-2",
+      "name": "Casa Frio · Noir",
+      "type": {
+        "pt-br": "Refrigerador",
+        "en": "Refrigerator",
+        "zh": "冰箱",
+        "ja": "冷蔵庫"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 38400,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 308
+    },
+    {
+      "id": "appliances-1-3",
+      "name": "Casa Frio · Atelier",
+      "type": {
+        "pt-br": "Refrigerador",
+        "en": "Refrigerator",
+        "zh": "冰箱",
+        "ja": "冷蔵庫"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 44800,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 340
+    },
+    {
+      "id": "appliances-1-4",
+      "name": "Casa Frio · Horizon",
+      "type": {
+        "pt-br": "Refrigerador",
+        "en": "Refrigerator",
+        "zh": "冰箱",
+        "ja": "冷蔵庫"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 51200,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 372
+    },
+    {
+      "id": "appliances-2-1",
+      "name": "Casa Chef · Aura",
+      "type": {
+        "pt-br": "Micro-ondas de design",
+        "en": "Designer microwave",
+        "zh": "设计款微波炉",
+        "ja": "デザイン電子レンジ"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 12000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 277
+    },
+    {
+      "id": "appliances-2-2",
+      "name": "Casa Chef · Noir",
+      "type": {
+        "pt-br": "Micro-ondas de design",
+        "en": "Designer microwave",
+        "zh": "设计款微波炉",
+        "ja": "デザイン電子レンジ"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 14400,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 309
+    },
+    {
+      "id": "appliances-2-3",
+      "name": "Casa Chef · Atelier",
+      "type": {
+        "pt-br": "Micro-ondas de design",
+        "en": "Designer microwave",
+        "zh": "设计款微波炉",
+        "ja": "デザイン電子レンジ"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 16800,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 341
+    },
+    {
+      "id": "appliances-2-4",
+      "name": "Casa Chef · Horizon",
+      "type": {
+        "pt-br": "Micro-ondas de design",
+        "en": "Designer microwave",
+        "zh": "设计款微波炉",
+        "ja": "デザイン電子レンジ"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 19200,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 373
+    },
+    {
+      "id": "furniture-1-1",
+      "name": "Forma · Aura",
+      "type": {
+        "pt-br": "Sofá de design",
+        "en": "Designer sofa",
+        "zh": "设计款沙发",
+        "ja": "デザイナーズソファ"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 64000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 278
+    },
+    {
+      "id": "furniture-1-2",
+      "name": "Forma · Noir",
+      "type": {
+        "pt-br": "Sofá de design",
+        "en": "Designer sofa",
+        "zh": "设计款沙发",
+        "ja": "デザイナーズソファ"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 76800,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 310
+    },
+    {
+      "id": "furniture-1-3",
+      "name": "Forma · Atelier",
+      "type": {
+        "pt-br": "Sofá de design",
+        "en": "Designer sofa",
+        "zh": "设计款沙发",
+        "ja": "デザイナーズソファ"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 89600,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 342
+    },
+    {
+      "id": "furniture-1-4",
+      "name": "Forma · Horizon",
+      "type": {
+        "pt-br": "Sofá de design",
+        "en": "Designer sofa",
+        "zh": "设计款沙发",
+        "ja": "デザイナーズソファ"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 102400,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 374
+    },
+    {
+      "id": "furniture-2-1",
+      "name": "Curva · Aura",
+      "type": {
+        "pt-br": "Poltrona de coleção",
+        "en": "Collector armchair",
+        "zh": "典藏扶手椅",
+        "ja": "コレクションアームチェア"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 29000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 279
+    },
+    {
+      "id": "furniture-2-2",
+      "name": "Curva · Noir",
+      "type": {
+        "pt-br": "Poltrona de coleção",
+        "en": "Collector armchair",
+        "zh": "典藏扶手椅",
+        "ja": "コレクションアームチェア"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 34800,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 311
+    },
+    {
+      "id": "furniture-2-3",
+      "name": "Curva · Atelier",
+      "type": {
+        "pt-br": "Poltrona de coleção",
+        "en": "Collector armchair",
+        "zh": "典藏扶手椅",
+        "ja": "コレクションアームチェア"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 40600,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 343
+    },
+    {
+      "id": "furniture-2-4",
+      "name": "Curva · Horizon",
+      "type": {
+        "pt-br": "Poltrona de coleção",
+        "en": "Collector armchair",
+        "zh": "典藏扶手椅",
+        "ja": "コレクションアームチェア"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 46400,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 375
+    },
+    {
+      "id": "yachts-1-1",
+      "name": "Maré · Aura",
+      "type": {
+        "pt-br": "Embarcação de lazer",
+        "en": "Leisure yacht",
+        "zh": "休闲游艇",
+        "ja": "レジャーヨット"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 42000000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 280
+    },
+    {
+      "id": "yachts-1-2",
+      "name": "Maré · Noir",
+      "type": {
+        "pt-br": "Embarcação de lazer",
+        "en": "Leisure yacht",
+        "zh": "休闲游艇",
+        "ja": "レジャーヨット"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 50400000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 312
+    },
+    {
+      "id": "yachts-1-3",
+      "name": "Maré · Atelier",
+      "type": {
+        "pt-br": "Embarcação de lazer",
+        "en": "Leisure yacht",
+        "zh": "休闲游艇",
+        "ja": "レジャーヨット"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 58800000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 344
+    },
+    {
+      "id": "yachts-1-4",
+      "name": "Maré · Horizon",
+      "type": {
+        "pt-br": "Embarcação de lazer",
+        "en": "Leisure yacht",
+        "zh": "休闲游艇",
+        "ja": "レジャーヨット"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 67200000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 376
+    },
+    {
+      "id": "yachts-2-1",
+      "name": "Oceana · Aura",
+      "type": {
+        "pt-br": "Experiência náutica",
+        "en": "Sailing experience",
+        "zh": "航海体验",
+        "ja": "セーリング体験"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 28000000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 281
+    },
+    {
+      "id": "yachts-2-2",
+      "name": "Oceana · Noir",
+      "type": {
+        "pt-br": "Experiência náutica",
+        "en": "Sailing experience",
+        "zh": "航海体验",
+        "ja": "セーリング体験"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 33600000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 313
+    },
+    {
+      "id": "yachts-2-3",
+      "name": "Oceana · Atelier",
+      "type": {
+        "pt-br": "Experiência náutica",
+        "en": "Sailing experience",
+        "zh": "航海体验",
+        "ja": "セーリング体験"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 39200000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 345
+    },
+    {
+      "id": "yachts-2-4",
+      "name": "Oceana · Horizon",
+      "type": {
+        "pt-br": "Experiência náutica",
+        "en": "Sailing experience",
+        "zh": "航海体验",
+        "ja": "セーリング体験"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 44800000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 377
+    },
+    {
+      "id": "travel-1-1",
+      "name": "Ilha Serena · Aura",
+      "type": {
+        "pt-br": "Retiro tropical",
+        "en": "Tropical retreat",
+        "zh": "热带度假",
+        "ja": "トロピカルリトリート"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 180000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 282
+    },
+    {
+      "id": "travel-1-2",
+      "name": "Ilha Serena · Noir",
+      "type": {
+        "pt-br": "Retiro tropical",
+        "en": "Tropical retreat",
+        "zh": "热带度假",
+        "ja": "トロピカルリトリート"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 216000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 314
+    },
+    {
+      "id": "travel-1-3",
+      "name": "Ilha Serena · Atelier",
+      "type": {
+        "pt-br": "Retiro tropical",
+        "en": "Tropical retreat",
+        "zh": "热带度假",
+        "ja": "トロピカルリトリート"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 252000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 346
+    },
+    {
+      "id": "travel-1-4",
+      "name": "Ilha Serena · Horizon",
+      "type": {
+        "pt-br": "Retiro tropical",
+        "en": "Tropical retreat",
+        "zh": "热带度假",
+        "ja": "トロピカルリトリート"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 288000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 378
+    },
+    {
+      "id": "travel-2-1",
+      "name": "Kyoto Journey · Aura",
+      "type": {
+        "pt-br": "Viagem cultural",
+        "en": "Cultural journey",
+        "zh": "文化之旅",
+        "ja": "文化の旅"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 95000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 283
+    },
+    {
+      "id": "travel-2-2",
+      "name": "Kyoto Journey · Noir",
+      "type": {
+        "pt-br": "Viagem cultural",
+        "en": "Cultural journey",
+        "zh": "文化之旅",
+        "ja": "文化の旅"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 114000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 315
+    },
+    {
+      "id": "travel-2-3",
+      "name": "Kyoto Journey · Atelier",
+      "type": {
+        "pt-br": "Viagem cultural",
+        "en": "Cultural journey",
+        "zh": "文化之旅",
+        "ja": "文化の旅"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 133000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 347
+    },
+    {
+      "id": "travel-2-4",
+      "name": "Kyoto Journey · Horizon",
+      "type": {
+        "pt-br": "Viagem cultural",
+        "en": "Cultural journey",
+        "zh": "文化之旅",
+        "ja": "文化の旅"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 152000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 379
+    },
+    {
+      "id": "sports-1-1",
+      "name": "Vento · Aura",
+      "type": {
+        "pt-br": "Bicicleta de coleção",
+        "en": "Collector bicycle",
+        "zh": "典藏自行车",
+        "ja": "コレクション自転車"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 85000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 284
+    },
+    {
+      "id": "sports-1-2",
+      "name": "Vento · Noir",
+      "type": {
+        "pt-br": "Bicicleta de coleção",
+        "en": "Collector bicycle",
+        "zh": "典藏自行车",
+        "ja": "コレクション自転車"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 102000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 316
+    },
+    {
+      "id": "sports-1-3",
+      "name": "Vento · Atelier",
+      "type": {
+        "pt-br": "Bicicleta de coleção",
+        "en": "Collector bicycle",
+        "zh": "典藏自行车",
+        "ja": "コレクション自転車"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 119000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 348
+    },
+    {
+      "id": "sports-1-4",
+      "name": "Vento · Horizon",
+      "type": {
+        "pt-br": "Bicicleta de coleção",
+        "en": "Collector bicycle",
+        "zh": "典藏自行车",
+        "ja": "コレクション自転車"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 136000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 380
+    },
+    {
+      "id": "sports-2-1",
+      "name": "Velum Studio · Aura",
+      "type": {
+        "pt-br": "Bicicleta de estrada",
+        "en": "Road bicycle",
+        "zh": "公路自行车",
+        "ja": "ロードバイク"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 110000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 285
+    },
+    {
+      "id": "sports-2-2",
+      "name": "Velum Studio · Noir",
+      "type": {
+        "pt-br": "Bicicleta de estrada",
+        "en": "Road bicycle",
+        "zh": "公路自行车",
+        "ja": "ロードバイク"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 132000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 317
+    },
+    {
+      "id": "sports-2-3",
+      "name": "Velum Studio · Atelier",
+      "type": {
+        "pt-br": "Bicicleta de estrada",
+        "en": "Road bicycle",
+        "zh": "公路自行车",
+        "ja": "ロードバイク"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 154000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 349
+    },
+    {
+      "id": "sports-2-4",
+      "name": "Velum Studio · Horizon",
+      "type": {
+        "pt-br": "Bicicleta de estrada",
+        "en": "Road bicycle",
+        "zh": "公路自行车",
+        "ja": "ロードバイク"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 176000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 381
+    },
+    {
+      "id": "art-1-1",
+      "name": "Galeria I · Aura",
+      "type": {
+        "pt-br": "Obra para coleção fictícia",
+        "en": "Fictional collection artwork",
+        "zh": "虚构藏品艺术画作",
+        "ja": "架空コレクション作品"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 480000,
+      "edition": "Aura",
+      "featured": true,
+      "rank": 286
+    },
+    {
+      "id": "art-1-2",
+      "name": "Galeria I · Noir",
+      "type": {
+        "pt-br": "Obra para coleção fictícia",
+        "en": "Fictional collection artwork",
+        "zh": "虚构藏品艺术画作",
+        "ja": "架空コレクション作品"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 576000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 318
+    },
+    {
+      "id": "art-1-3",
+      "name": "Galeria I · Atelier",
+      "type": {
+        "pt-br": "Obra para coleção fictícia",
+        "en": "Fictional collection artwork",
+        "zh": "虚构藏品艺术画作",
+        "ja": "架空コレクション作品"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 672000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 350
+    },
+    {
+      "id": "art-1-4",
+      "name": "Galeria I · Horizon",
+      "type": {
+        "pt-br": "Obra para coleção fictícia",
+        "en": "Fictional collection artwork",
+        "zh": "虚构藏品艺术画作",
+        "ja": "架空コレクション作品"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 768000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 382
+    },
+    {
+      "id": "art-2-1",
+      "name": "Galeria II · Aura",
+      "type": {
+        "pt-br": "Pintura para coleção fictícia",
+        "en": "Fictional collection painting",
+        "zh": "虚构藏品绘画",
+        "ja": "架空コレクション絵画"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 720000,
+      "edition": "Aura",
+      "featured": false,
+      "rank": 287
+    },
+    {
+      "id": "art-2-2",
+      "name": "Galeria II · Noir",
+      "type": {
+        "pt-br": "Pintura para coleção fictícia",
+        "en": "Fictional collection painting",
+        "zh": "虚构藏品绘画",
+        "ja": "架空コレクション絵画"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 864000,
+      "edition": "Noir",
+      "featured": false,
+      "rank": 319
+    },
+    {
+      "id": "art-2-3",
+      "name": "Galeria II · Atelier",
+      "type": {
+        "pt-br": "Pintura para coleção fictícia",
+        "en": "Fictional collection painting",
+        "zh": "虚构藏品绘画",
+        "ja": "架空コレクション絵画"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 1008000,
+      "edition": "Atelier",
+      "featured": false,
+      "rank": 351
+    },
+    {
+      "id": "art-2-4",
+      "name": "Galeria II · Horizon",
+      "type": {
+        "pt-br": "Pintura para coleção fictícia",
+        "en": "Fictional collection painting",
+        "zh": "虚构藏品绘画",
+        "ja": "架空コレクション絵画"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 1152000,
+      "edition": "Horizon",
+      "featured": false,
+      "rank": 383
+    },
+    {
+      "id": "cars-new-01",
+      "name": "Solstice Spider",
+      "type": {
+        "pt-br": "Conversível de dois lugares",
+        "en": "Two-seat convertible",
+        "zh": "双座敞篷车",
+        "ja": "2シーター・オープンカー"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 350000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 0
+    },
+    {
+      "id": "cars-new-02",
+      "name": "Aureon E",
+      "type": {
+        "pt-br": "Sedã elétrico de luxo",
+        "en": "Luxury electric sedan",
+        "zh": "豪华电动轿车",
+        "ja": "高級電気セダン"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 420000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 16
+    },
+    {
+      "id": "cars-new-03",
+      "name": "Vela Touring",
+      "type": {
+        "pt-br": "Perua de turismo",
+        "en": "Touring estate",
+        "zh": "旅行轿车",
+        "ja": "ツーリングワゴン"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 490000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 32
+    },
+    {
+      "id": "cars-new-04",
+      "name": "Obsidian X",
+      "type": {
+        "pt-br": "SUV de luxo",
+        "en": "Luxury SUV",
+        "zh": "豪华运动型多用途车",
+        "ja": "高級SUV"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 560000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 48
+    },
+    {
+      "id": "cars-new-05",
+      "name": "Cobalto Rally",
+      "type": {
+        "pt-br": "Coupé de rali",
+        "en": "Rally coupé",
+        "zh": "拉力轿跑",
+        "ja": "ラリークーペ"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 630000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 64
+    },
+    {
+      "id": "cars-new-06",
+      "name": "Altair Limo",
+      "type": {
+        "pt-br": "Limusine de coleção",
+        "en": "Collector limousine",
+        "zh": "收藏级加长轿车",
+        "ja": "コレクター向けリムジン"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 700000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 80
+    },
+    {
+      "id": "cars-new-07",
+      "name": "Nebula Track",
+      "type": {
+        "pt-br": "Esportivo de pista",
+        "en": "Track sports car",
+        "zh": "赛道跑车",
+        "ja": "サーキット・スポーツカー"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 770000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 96
+    },
+    {
+      "id": "cars-new-08",
+      "name": "Mirage Hybrid",
+      "type": {
+        "pt-br": "Grand tourer híbrido",
+        "en": "Hybrid grand tourer",
+        "zh": "混合动力旅行跑车",
+        "ja": "ハイブリッドGT"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 840000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 112
+    },
+    {
+      "id": "cars-new-09",
+      "name": "Aurora Compact",
+      "type": {
+        "pt-br": "Compacto elétrico premium",
+        "en": "Premium electric compact",
+        "zh": "高端紧凑型电动车",
+        "ja": "プレミアム電気コンパクト"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 910000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 128
+    },
+    {
+      "id": "cars-new-10",
+      "name": "Terra Overland",
+      "type": {
+        "pt-br": "Jipe de expedição",
+        "en": "Expedition off-roader",
+        "zh": "探险越野车",
+        "ja": "探検用オフローダー"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 980000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 144
+    },
+    {
+      "id": "cars-new-11",
+      "name": "Lyra Classic",
+      "type": {
+        "pt-br": "Roadster clássico",
+        "en": "Classic roadster",
+        "zh": "经典敞篷跑车",
+        "ja": "クラシック・ロードスター"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 1050000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 160
+    },
+    {
+      "id": "cars-new-12",
+      "name": "Zenith Coupe",
+      "type": {
+        "pt-br": "Coupé de quatro lugares",
+        "en": "Four-seat coupé",
+        "zh": "四座轿跑",
+        "ja": "4シータークーペ"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 1120000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 176
+    },
+    {
+      "id": "cars-new-13",
+      "name": "Orion Sportback",
+      "type": {
+        "pt-br": "Sportback elétrico",
+        "en": "Electric sportback",
+        "zh": "电动溜背车",
+        "ja": "電気スポーツバック"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 1190000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 192
+    },
+    {
+      "id": "cars-new-14",
+      "name": "Atlas Pickup",
+      "type": {
+        "pt-br": "Picape de luxo",
+        "en": "Luxury pickup",
+        "zh": "豪华皮卡",
+        "ja": "高級ピックアップ"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 1260000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 208
+    },
+    {
+      "id": "cars-new-15",
+      "name": "Selene Van",
+      "type": {
+        "pt-br": "Van executiva",
+        "en": "Executive van",
+        "zh": "商务豪华厢式车",
+        "ja": "エグゼクティブ・バン"
+      },
+      "category": "cars",
+      "photo": "cars-1",
+      "credits": 1330000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 224
+    },
+    {
+      "id": "cars-new-16",
+      "name": "Eclipse Twelve",
+      "type": {
+        "pt-br": "Hipercarro conceitual",
+        "en": "Concept hypercar",
+        "zh": "概念超级跑车",
+        "ja": "コンセプト・ハイパーカー"
+      },
+      "category": "cars",
+      "photo": "cars-2",
+      "credits": 1400000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 240
+    },
+    {
+      "id": "homes-new-01",
+      "name": "Casa Maré",
+      "type": {
+        "pt-br": "Casa de praia",
+        "en": "Beach house",
+        "zh": "海滨住宅",
+        "ja": "ビーチハウス"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 2000000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 1
+    },
+    {
+      "id": "homes-new-02",
+      "name": "Penthouse Lume",
+      "type": {
+        "pt-br": "Cobertura com jardim",
+        "en": "Garden penthouse",
+        "zh": "花园顶层公寓",
+        "ja": "庭園付きペントハウス"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 2400000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 17
+    },
+    {
+      "id": "homes-new-03",
+      "name": "Chalet Boreal",
+      "type": {
+        "pt-br": "Chalé de montanha",
+        "en": "Mountain chalet",
+        "zh": "山间木屋",
+        "ja": "山のシャレー"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 2800000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 33
+    },
+    {
+      "id": "homes-new-04",
+      "name": "Loft Aço",
+      "type": {
+        "pt-br": "Loft industrial",
+        "en": "Industrial loft",
+        "zh": "工业风阁楼",
+        "ja": "インダストリアル・ロフト"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 3200000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 49
+    },
+    {
+      "id": "homes-new-05",
+      "name": "Palazzo Aurora",
+      "type": {
+        "pt-br": "Palacete urbano",
+        "en": "Urban mansion",
+        "zh": "城市宅邸",
+        "ja": "都会の邸宅"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 3600000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 65
+    },
+    {
+      "id": "homes-new-06",
+      "name": "Refúgio Verde",
+      "type": {
+        "pt-br": "Casa na floresta",
+        "en": "Forest retreat",
+        "zh": "森林度假屋",
+        "ja": "森のリトリート"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 4000000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 81
+    },
+    {
+      "id": "homes-new-07",
+      "name": "Villa Duna",
+      "type": {
+        "pt-br": "Vila no deserto",
+        "en": "Desert villa",
+        "zh": "沙漠别墅",
+        "ja": "砂漠のヴィラ"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 4400000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 97
+    },
+    {
+      "id": "homes-new-08",
+      "name": "Casa Lago",
+      "type": {
+        "pt-br": "Residência à beira do lago",
+        "en": "Lakefront residence",
+        "zh": "湖畔住宅",
+        "ja": "湖畔の住まい"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 4800000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 113
+    },
+    {
+      "id": "homes-new-09",
+      "name": "Atelier Sul",
+      "type": {
+        "pt-br": "Casa com estúdio de arte",
+        "en": "Home with art studio",
+        "zh": "带艺术工作室的住宅",
+        "ja": "アトリエ付き住宅"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 5200000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 129
+    },
+    {
+      "id": "homes-new-10",
+      "name": "Mirante Azul",
+      "type": {
+        "pt-br": "Apartamento panorâmico",
+        "en": "Panoramic apartment",
+        "zh": "全景公寓",
+        "ja": "パノラマ・アパートメント"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 5600000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 145
+    },
+    {
+      "id": "homes-new-11",
+      "name": "Solar Oliveira",
+      "type": {
+        "pt-br": "Casa de campo",
+        "en": "Country estate",
+        "zh": "乡间庄园",
+        "ja": "カントリー・エステート"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 6000000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 161
+    },
+    {
+      "id": "homes-new-12",
+      "name": "Jardim Suspenso",
+      "type": {
+        "pt-br": "Duplex com terraço",
+        "en": "Terrace duplex",
+        "zh": "露台复式公寓",
+        "ja": "テラス付きメゾネット"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 6400000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 177
+    },
+    {
+      "id": "homes-new-13",
+      "name": "Vila das Ondas",
+      "type": {
+        "pt-br": "Condomínio de praia",
+        "en": "Beach condominium",
+        "zh": "海滨公寓",
+        "ja": "ビーチ・コンドミニアム"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 6800000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 193
+    },
+    {
+      "id": "homes-new-14",
+      "name": "Pátio Sereno",
+      "type": {
+        "pt-br": "Casa com pátio interno",
+        "en": "Courtyard house",
+        "zh": "庭院住宅",
+        "ja": "中庭のある家"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 7200000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 209
+    },
+    {
+      "id": "homes-new-15",
+      "name": "Estação Alpina",
+      "type": {
+        "pt-br": "Lodge de inverno",
+        "en": "Winter lodge",
+        "zh": "冬季度假山庄",
+        "ja": "ウィンター・ロッジ"
+      },
+      "category": "homes",
+      "photo": "homes-1",
+      "credits": 7600000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 225
+    },
+    {
+      "id": "homes-new-16",
+      "name": "Horizonte Modular",
+      "type": {
+        "pt-br": "Residência modular",
+        "en": "Modular residence",
+        "zh": "模块化住宅",
+        "ja": "モジュラー住宅"
+      },
+      "category": "homes",
+      "photo": "homes-2",
+      "credits": 8000000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 241
+    },
+    {
+      "id": "watches-new-01",
+      "name": "Meridian GMT",
+      "type": {
+        "pt-br": "Relógio de dois fusos",
+        "en": "Dual-time watch",
+        "zh": "双时区腕表",
+        "ja": "デュアルタイム腕時計"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 20000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 2
+    },
+    {
+      "id": "watches-new-02",
+      "name": "Abyss Diver",
+      "type": {
+        "pt-br": "Relógio de mergulho",
+        "en": "Diving watch",
+        "zh": "潜水表",
+        "ja": "ダイバーズウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 24000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 18
+    },
+    {
+      "id": "watches-new-03",
+      "name": "Celeste Moon",
+      "type": {
+        "pt-br": "Relógio com fase lunar",
+        "en": "Moon-phase watch",
+        "zh": "月相腕表",
+        "ja": "ムーンフェイズ腕時計"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 28000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 34
+    },
+    {
+      "id": "watches-new-04",
+      "name": "Tempo Chrono",
+      "type": {
+        "pt-br": "Cronógrafo de coleção",
+        "en": "Collector chronograph",
+        "zh": "收藏级计时表",
+        "ja": "コレクター向けクロノグラフ"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 32000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 50
+    },
+    {
+      "id": "watches-new-05",
+      "name": "Axis Skeleton",
+      "type": {
+        "pt-br": "Relógio esqueletizado",
+        "en": "Skeleton watch",
+        "zh": "镂空腕表",
+        "ja": "スケルトン腕時計"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 36000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 66
+    },
+    {
+      "id": "watches-new-06",
+      "name": "Eterno Calendar",
+      "type": {
+        "pt-br": "Relógio de calendário",
+        "en": "Calendar watch",
+        "zh": "日历腕表",
+        "ja": "カレンダー腕時計"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 40000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 82
+    },
+    {
+      "id": "watches-new-07",
+      "name": "Sirocco Pilot",
+      "type": {
+        "pt-br": "Relógio de aviador",
+        "en": "Pilot watch",
+        "zh": "飞行员腕表",
+        "ja": "パイロットウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 44000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 98
+    },
+    {
+      "id": "watches-new-08",
+      "name": "Platina Dress",
+      "type": {
+        "pt-br": "Relógio social fino",
+        "en": "Slim dress watch",
+        "zh": "纤薄正装表",
+        "ja": "薄型ドレスウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 48000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 114
+    },
+    {
+      "id": "watches-new-09",
+      "name": "Pulse Digital",
+      "type": {
+        "pt-br": "Relógio digital de luxo",
+        "en": "Luxury digital watch",
+        "zh": "豪华数字腕表",
+        "ja": "高級デジタル腕時計"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 52000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 130
+    },
+    {
+      "id": "watches-new-10",
+      "name": "Aurea Pocket",
+      "type": {
+        "pt-br": "Relógio de bolso",
+        "en": "Pocket watch",
+        "zh": "怀表",
+        "ja": "懐中時計"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 56000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 146
+    },
+    {
+      "id": "watches-new-11",
+      "name": "Nautilus Regatta",
+      "type": {
+        "pt-br": "Cronômetro náutico",
+        "en": "Sailing timer",
+        "zh": "航海计时表",
+        "ja": "セーリングタイマー"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 60000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 162
+    },
+    {
+      "id": "watches-new-12",
+      "name": "Luna Ceramic",
+      "type": {
+        "pt-br": "Relógio de cerâmica",
+        "en": "Ceramic watch",
+        "zh": "陶瓷腕表",
+        "ja": "セラミック腕時計"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 64000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 178
+    },
+    {
+      "id": "watches-new-13",
+      "name": "Helix Tourbillon",
+      "type": {
+        "pt-br": "Relógio turbilhão",
+        "en": "Tourbillon watch",
+        "zh": "陀飞轮腕表",
+        "ja": "トゥールビヨン腕時計"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 68000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 194
+    },
+    {
+      "id": "watches-new-14",
+      "name": "Nord Field",
+      "type": {
+        "pt-br": "Relógio de campo",
+        "en": "Field watch",
+        "zh": "野战腕表",
+        "ja": "フィールドウォッチ"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 72000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 210
+    },
+    {
+      "id": "watches-new-15",
+      "name": "Noctis Onyx",
+      "type": {
+        "pt-br": "Relógio com mostrador ônix",
+        "en": "Onyx-dial watch",
+        "zh": "缟玛瑙表盘腕表",
+        "ja": "オニキス文字盤腕時計"
+      },
+      "category": "watches",
+      "photo": "watches-1",
+      "credits": 76000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 226
+    },
+    {
+      "id": "watches-new-16",
+      "name": "Silva Automatic",
+      "type": {
+        "pt-br": "Relógio automático clássico",
+        "en": "Classic automatic watch",
+        "zh": "经典自动腕表",
+        "ja": "クラシック自動巻き腕時計"
+      },
+      "category": "watches",
+      "photo": "watches-2",
+      "credits": 80000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 242
+    },
+    {
+      "id": "jewelry-new-01",
+      "name": "Solara Halo",
+      "type": {
+        "pt-br": "Anel de diamante imaginário",
+        "en": "Imaginary diamond ring",
+        "zh": "虚构钻石戒指",
+        "ja": "架空ダイヤモンドリング"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 12000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 3
+    },
+    {
+      "id": "jewelry-new-02",
+      "name": "Maré Pearl",
+      "type": {
+        "pt-br": "Colar de pérolas",
+        "en": "Pearl necklace",
+        "zh": "珍珠项链",
+        "ja": "パールネックレス"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 14400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 19
+    },
+    {
+      "id": "jewelry-new-03",
+      "name": "Íris Sapphire",
+      "type": {
+        "pt-br": "Brincos de safira",
+        "en": "Sapphire earrings",
+        "zh": "蓝宝石耳环",
+        "ja": "サファイアのイヤリング"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 16800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 35
+    },
+    {
+      "id": "jewelry-new-04",
+      "name": "Aurora Cuff",
+      "type": {
+        "pt-br": "Bracelete escultural",
+        "en": "Sculptural cuff",
+        "zh": "雕塑感手镯",
+        "ja": "彫刻的なカフ"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 19200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 51
+    },
+    {
+      "id": "jewelry-new-05",
+      "name": "Flor Rubi",
+      "type": {
+        "pt-br": "Broche de rubi",
+        "en": "Ruby brooch",
+        "zh": "红宝石胸针",
+        "ja": "ルビーのブローチ"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 21600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 67
+    },
+    {
+      "id": "jewelry-new-06",
+      "name": "Órbita Gold",
+      "type": {
+        "pt-br": "Corrente de ouro",
+        "en": "Gold chain",
+        "zh": "金链",
+        "ja": "ゴールドチェーン"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 24000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 83
+    },
+    {
+      "id": "jewelry-new-07",
+      "name": "Lume Pendant",
+      "type": {
+        "pt-br": "Pingente de opala",
+        "en": "Opal pendant",
+        "zh": "欧泊吊坠",
+        "ja": "オパールのペンダント"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 26400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 99
+    },
+    {
+      "id": "jewelry-new-08",
+      "name": "Verde Emerald",
+      "type": {
+        "pt-br": "Anel de esmeralda",
+        "en": "Emerald ring",
+        "zh": "祖母绿戒指",
+        "ja": "エメラルドリング"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 28800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 115
+    },
+    {
+      "id": "jewelry-new-09",
+      "name": "Céu Tiara",
+      "type": {
+        "pt-br": "Tiara de coleção",
+        "en": "Collector tiara",
+        "zh": "收藏级冠饰",
+        "ja": "コレクター向けティアラ"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 31200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 131
+    },
+    {
+      "id": "jewelry-new-10",
+      "name": "Nexo Platinum",
+      "type": {
+        "pt-br": "Abotoaduras de platina",
+        "en": "Platinum cufflinks",
+        "zh": "铂金袖扣",
+        "ja": "プラチナのカフリンクス"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 33600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 147
+    },
+    {
+      "id": "jewelry-new-11",
+      "name": "Arco Tennis",
+      "type": {
+        "pt-br": "Pulseira de pedras",
+        "en": "Gemstone tennis bracelet",
+        "zh": "宝石网球手链",
+        "ja": "ジェムストーン・テニスブレスレット"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 36000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 163
+    },
+    {
+      "id": "jewelry-new-12",
+      "name": "Cascata Crystal",
+      "type": {
+        "pt-br": "Brincos de cristal",
+        "en": "Crystal drop earrings",
+        "zh": "水晶垂坠耳环",
+        "ja": "クリスタル・ドロップイヤリング"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 38400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 179
+    },
+    {
+      "id": "jewelry-new-13",
+      "name": "Trama Silver",
+      "type": {
+        "pt-br": "Colar de prata trançada",
+        "en": "Braided silver necklace",
+        "zh": "编织银项链",
+        "ja": "編み込みシルバーネックレス"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 40800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 195
+    },
+    {
+      "id": "jewelry-new-14",
+      "name": "Seda Rose",
+      "type": {
+        "pt-br": "Anel de ouro rosé",
+        "en": "Rose-gold ring",
+        "zh": "玫瑰金戒指",
+        "ja": "ローズゴールドリング"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 43200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 211
+    },
+    {
+      "id": "jewelry-new-15",
+      "name": "Hera Jade",
+      "type": {
+        "pt-br": "Pulseira de jade",
+        "en": "Jade bracelet",
+        "zh": "玉石手镯",
+        "ja": "ジェイドのブレスレット"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-1",
+      "credits": 45600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 227
+    },
+    {
+      "id": "jewelry-new-16",
+      "name": "Câmara Gems",
+      "type": {
+        "pt-br": "Estojo de joias",
+        "en": "Jewelry presentation case",
+        "zh": "珠宝展示盒",
+        "ja": "ジュエリーケース"
+      },
+      "category": "jewelry",
+      "photo": "jewelry-2",
+      "credits": 48000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 243
+    },
+    {
+      "id": "fashion-new-01",
+      "name": "Atelier Tux",
+      "type": {
+        "pt-br": "Smoking de alfaiataria",
+        "en": "Tailored tuxedo",
+        "zh": "定制燕尾礼服",
+        "ja": "テーラード・タキシード"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 3000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 4
+    },
+    {
+      "id": "fashion-new-02",
+      "name": "Linho Solaris",
+      "type": {
+        "pt-br": "Terno de linho",
+        "en": "Linen suit",
+        "zh": "亚麻西装",
+        "ja": "リネンスーツ"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 3600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 20
+    },
+    {
+      "id": "fashion-new-03",
+      "name": "Seda Noturna",
+      "type": {
+        "pt-br": "Vestido de seda",
+        "en": "Silk evening dress",
+        "zh": "丝绸晚礼服",
+        "ja": "シルクのイブニングドレス"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 4200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 36
+    },
+    {
+      "id": "fashion-new-04",
+      "name": "Boreal Coat",
+      "type": {
+        "pt-br": "Casaco de lã",
+        "en": "Wool overcoat",
+        "zh": "羊毛大衣",
+        "ja": "ウールコート"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 4800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 52
+    },
+    {
+      "id": "fashion-new-05",
+      "name": "Cashmere Cloud",
+      "type": {
+        "pt-br": "Suéter de cashmere",
+        "en": "Cashmere sweater",
+        "zh": "羊绒毛衣",
+        "ja": "カシミヤセーター"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 5400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 68
+    },
+    {
+      "id": "fashion-new-06",
+      "name": "Jardim Scarf",
+      "type": {
+        "pt-br": "Lenço de seda",
+        "en": "Silk scarf",
+        "zh": "丝巾",
+        "ja": "シルクスカーフ"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 6000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 84
+    },
+    {
+      "id": "fashion-new-07",
+      "name": "Névoa Trench",
+      "type": {
+        "pt-br": "Trench coat",
+        "en": "Trench coat",
+        "zh": "风衣",
+        "ja": "トレンチコート"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 6600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 100
+    },
+    {
+      "id": "fashion-new-08",
+      "name": "Cobalto Denim",
+      "type": {
+        "pt-br": "Jaqueta jeans de ateliê",
+        "en": "Atelier denim jacket",
+        "zh": "工坊牛仔夹克",
+        "ja": "アトリエ・デニムジャケット"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 7200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 116
+    },
+    {
+      "id": "fashion-new-09",
+      "name": "Noir Blazer",
+      "type": {
+        "pt-br": "Blazer estruturado",
+        "en": "Structured blazer",
+        "zh": "挺括西装外套",
+        "ja": "ストラクチャード・ブレザー"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 7800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 132
+    },
+    {
+      "id": "fashion-new-10",
+      "name": "Pérola Shirt",
+      "type": {
+        "pt-br": "Camisa de algodão",
+        "en": "Cotton shirt",
+        "zh": "棉质衬衫",
+        "ja": "コットンシャツ"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 8400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 148
+    },
+    {
+      "id": "fashion-new-11",
+      "name": "Terra Trousers",
+      "type": {
+        "pt-br": "Calça de alfaiataria",
+        "en": "Tailored trousers",
+        "zh": "西裤",
+        "ja": "テーラード・トラウザーズ"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 9000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 164
+    },
+    {
+      "id": "fashion-new-12",
+      "name": "Plissê Aurora",
+      "type": {
+        "pt-br": "Saia plissada",
+        "en": "Pleated skirt",
+        "zh": "百褶裙",
+        "ja": "プリーツスカート"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 9600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 180
+    },
+    {
+      "id": "fashion-new-13",
+      "name": "Brisa Resort",
+      "type": {
+        "pt-br": "Conjunto de resort",
+        "en": "Resort outfit",
+        "zh": "度假套装",
+        "ja": "リゾートウェア"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 10200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 196
+    },
+    {
+      "id": "fashion-new-14",
+      "name": "Veludo Opera",
+      "type": {
+        "pt-br": "Capa de veludo",
+        "en": "Velvet cape",
+        "zh": "天鹅绒披肩",
+        "ja": "ベルベットのケープ"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 10800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 212
+    },
+    {
+      "id": "fashion-new-15",
+      "name": "Atlas Parka",
+      "type": {
+        "pt-br": "Parka de expedição",
+        "en": "Expedition parka",
+        "zh": "探险派克大衣",
+        "ja": "探検用パーカ"
+      },
+      "category": "fashion",
+      "photo": "fashion-1",
+      "credits": 11400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 228
+    },
+    {
+      "id": "fashion-new-16",
+      "name": "Forma Knit",
+      "type": {
+        "pt-br": "Vestido de tricô",
+        "en": "Knitted dress",
+        "zh": "针织连衣裙",
+        "ja": "ニットドレス"
+      },
+      "category": "fashion",
+      "photo": "fashion-2",
+      "credits": 12000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 244
+    },
+    {
+      "id": "shoes-new-01",
+      "name": "Passo Oxford",
+      "type": {
+        "pt-br": "Sapato Oxford",
+        "en": "Oxford shoe",
+        "zh": "牛津鞋",
+        "ja": "オックスフォードシューズ"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 1500,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 5
+    },
+    {
+      "id": "shoes-new-02",
+      "name": "Sereno Loafer",
+      "type": {
+        "pt-br": "Mocassim clássico",
+        "en": "Classic loafer",
+        "zh": "经典乐福鞋",
+        "ja": "クラシック・ローファー"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 1800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 21
+    },
+    {
+      "id": "shoes-new-03",
+      "name": "Nuvem Sneaker",
+      "type": {
+        "pt-br": "Tênis de luxo",
+        "en": "Luxury sneaker",
+        "zh": "豪华运动鞋",
+        "ja": "ラグジュアリー・スニーカー"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 2100,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 37
+    },
+    {
+      "id": "shoes-new-04",
+      "name": "Noir Chelsea",
+      "type": {
+        "pt-br": "Bota Chelsea",
+        "en": "Chelsea boot",
+        "zh": "切尔西靴",
+        "ja": "チェルシーブーツ"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 2400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 53
+    },
+    {
+      "id": "shoes-new-05",
+      "name": "Aurora Heel",
+      "type": {
+        "pt-br": "Sapato de salto",
+        "en": "High-heel shoe",
+        "zh": "高跟鞋",
+        "ja": "ハイヒール"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 2700,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 69
+    },
+    {
+      "id": "shoes-new-06",
+      "name": "Maré Sandal",
+      "type": {
+        "pt-br": "Sandália de resort",
+        "en": "Resort sandal",
+        "zh": "度假凉鞋",
+        "ja": "リゾートサンダル"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 3000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 85
+    },
+    {
+      "id": "shoes-new-07",
+      "name": "Ritmo Ballet",
+      "type": {
+        "pt-br": "Sapatilha de balé",
+        "en": "Ballet flat",
+        "zh": "芭蕾平底鞋",
+        "ja": "バレエフラット"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 3300,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 101
+    },
+    {
+      "id": "shoes-new-08",
+      "name": "Alpina Trek",
+      "type": {
+        "pt-br": "Bota de caminhada",
+        "en": "Hiking boot",
+        "zh": "徒步靴",
+        "ja": "ハイキングブーツ"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 3600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 117
+    },
+    {
+      "id": "shoes-new-09",
+      "name": "Terra Derby",
+      "type": {
+        "pt-br": "Sapato Derby",
+        "en": "Derby shoe",
+        "zh": "德比鞋",
+        "ja": "ダービーシューズ"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 3900,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 133
+    },
+    {
+      "id": "shoes-new-10",
+      "name": "Onda Espadrille",
+      "type": {
+        "pt-br": "Alpargata artesanal",
+        "en": "Artisan espadrille",
+        "zh": "手工草编鞋",
+        "ja": "職人のエスパドリーユ"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 4200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 149
+    },
+    {
+      "id": "shoes-new-11",
+      "name": "Vento Runner",
+      "type": {
+        "pt-br": "Tênis de corrida",
+        "en": "Running shoe",
+        "zh": "跑鞋",
+        "ja": "ランニングシューズ"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 4500,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 165
+    },
+    {
+      "id": "shoes-new-12",
+      "name": "Seda Slipper",
+      "type": {
+        "pt-br": "Chinelo de seda",
+        "en": "Silk slipper",
+        "zh": "丝绸拖鞋",
+        "ja": "シルクのスリッパ"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 4800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 181
+    },
+    {
+      "id": "shoes-new-13",
+      "name": "Velvet Mule",
+      "type": {
+        "pt-br": "Mule de veludo",
+        "en": "Velvet mule",
+        "zh": "天鹅绒穆勒鞋",
+        "ja": "ベルベット・ミュール"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 5100,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 197
+    },
+    {
+      "id": "shoes-new-14",
+      "name": "Neve Boot",
+      "type": {
+        "pt-br": "Bota de inverno",
+        "en": "Winter boot",
+        "zh": "冬靴",
+        "ja": "ウィンターブーツ"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 5400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 213
+    },
+    {
+      "id": "shoes-new-15",
+      "name": "Cobalto Deck",
+      "type": {
+        "pt-br": "Sapato náutico",
+        "en": "Deck shoe",
+        "zh": "帆船鞋",
+        "ja": "デッキシューズ"
+      },
+      "category": "shoes",
+      "photo": "shoes-1",
+      "credits": 5700,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 229
+    },
+    {
+      "id": "shoes-new-16",
+      "name": "Horizonte Court",
+      "type": {
+        "pt-br": "Tênis de quadra",
+        "en": "Court sneaker",
+        "zh": "场地运动鞋",
+        "ja": "コートスニーカー"
+      },
+      "category": "shoes",
+      "photo": "shoes-2",
+      "credits": 6000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 245
+    },
+    {
+      "id": "bags-new-01",
+      "name": "Nomad Cabin",
+      "type": {
+        "pt-br": "Mala de cabine",
+        "en": "Cabin suitcase",
+        "zh": "登机箱",
+        "ja": "キャビンスーツケース"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 4000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 6
+    },
+    {
+      "id": "bags-new-02",
+      "name": "Atlas Trunk",
+      "type": {
+        "pt-br": "Baú de viagem",
+        "en": "Travel trunk",
+        "zh": "旅行箱柜",
+        "ja": "トラベルトランク"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 4800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 22
+    },
+    {
+      "id": "bags-new-03",
+      "name": "Seda Clutch",
+      "type": {
+        "pt-br": "Clutch de noite",
+        "en": "Evening clutch",
+        "zh": "晚宴手拿包",
+        "ja": "イブニングクラッチ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 5600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 38
+    },
+    {
+      "id": "bags-new-04",
+      "name": "Lume Tote",
+      "type": {
+        "pt-br": "Bolsa tote",
+        "en": "Tote bag",
+        "zh": "托特包",
+        "ja": "トートバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 6400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 54
+    },
+    {
+      "id": "bags-new-05",
+      "name": "Rota Weekender",
+      "type": {
+        "pt-br": "Bolsa de fim de semana",
+        "en": "Weekender bag",
+        "zh": "周末旅行包",
+        "ja": "ウィークエンダーバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 7200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 70
+    },
+    {
+      "id": "bags-new-06",
+      "name": "Noir Brief",
+      "type": {
+        "pt-br": "Pasta executiva",
+        "en": "Executive briefcase",
+        "zh": "商务公文包",
+        "ja": "エグゼクティブ・ブリーフケース"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 8000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 86
+    },
+    {
+      "id": "bags-new-07",
+      "name": "Aero Backpack",
+      "type": {
+        "pt-br": "Mochila de viagem",
+        "en": "Travel backpack",
+        "zh": "旅行背包",
+        "ja": "トラベルバックパック"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 8800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 102
+    },
+    {
+      "id": "bags-new-08",
+      "name": "Lua Crossbody",
+      "type": {
+        "pt-br": "Bolsa transversal",
+        "en": "Crossbody bag",
+        "zh": "斜挎包",
+        "ja": "クロスボディバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 9600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 118
+    },
+    {
+      "id": "bags-new-09",
+      "name": "Atelier Satchel",
+      "type": {
+        "pt-br": "Bolsa satchel",
+        "en": "Satchel bag",
+        "zh": "剑桥包",
+        "ja": "サッチェルバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 10400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 134
+    },
+    {
+      "id": "bags-new-10",
+      "name": "Solara Basket",
+      "type": {
+        "pt-br": "Bolsa de palha",
+        "en": "Woven basket bag",
+        "zh": "编织草篮包",
+        "ja": "バスケットバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 11200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 150
+    },
+    {
+      "id": "bags-new-11",
+      "name": "Trama Mini",
+      "type": {
+        "pt-br": "Minibolsa estruturada",
+        "en": "Structured mini bag",
+        "zh": "挺括迷你包",
+        "ja": "ストラクチャード・ミニバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 12000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 166
+    },
+    {
+      "id": "bags-new-12",
+      "name": "Porto Duffle",
+      "type": {
+        "pt-br": "Bolsa esportiva",
+        "en": "Sports duffle",
+        "zh": "运动旅行包",
+        "ja": "スポーツダッフル"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 12800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 182
+    },
+    {
+      "id": "bags-new-13",
+      "name": "Orion Camera",
+      "type": {
+        "pt-br": "Bolsa para câmera",
+        "en": "Camera bag",
+        "zh": "相机包",
+        "ja": "カメラバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 13600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 198
+    },
+    {
+      "id": "bags-new-14",
+      "name": "Nuvem Vanity",
+      "type": {
+        "pt-br": "Necessaire de viagem",
+        "en": "Travel vanity case",
+        "zh": "旅行化妆箱",
+        "ja": "トラベルバニティケース"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 14400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 214
+    },
+    {
+      "id": "bags-new-15",
+      "name": "Forma Laptop",
+      "type": {
+        "pt-br": "Pasta para notebook",
+        "en": "Laptop folio",
+        "zh": "笔记本电脑包",
+        "ja": "ノートパソコンフォリオ"
+      },
+      "category": "bags",
+      "photo": "bags-1",
+      "credits": 15200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 230
+    },
+    {
+      "id": "bags-new-16",
+      "name": "Céu Garment",
+      "type": {
+        "pt-br": "Porta-terno de viagem",
+        "en": "Travel garment bag",
+        "zh": "旅行衣物袋",
+        "ja": "トラベルガーメントバッグ"
+      },
+      "category": "bags",
+      "photo": "bags-2",
+      "credits": 16000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 246
+    },
+    {
+      "id": "technology-new-01",
+      "name": "Nexus Fold",
+      "type": {
+        "pt-br": "Smartphone dobrável",
+        "en": "Foldable smartphone",
+        "zh": "折叠屏手机",
+        "ja": "折りたたみスマートフォン"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 6000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 7
+    },
+    {
+      "id": "technology-new-02",
+      "name": "Cobalto Pro",
+      "type": {
+        "pt-br": "Notebook profissional",
+        "en": "Professional laptop",
+        "zh": "专业笔记本电脑",
+        "ja": "プロ向けノートパソコン"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 7200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 23
+    },
+    {
+      "id": "technology-new-03",
+      "name": "Atlas Station",
+      "type": {
+        "pt-br": "Estação de trabalho",
+        "en": "Workstation",
+        "zh": "工作站",
+        "ja": "ワークステーション"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 8400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 39
+    },
+    {
+      "id": "technology-new-04",
+      "name": "Pixel Canvas",
+      "type": {
+        "pt-br": "Tablet de desenho",
+        "en": "Drawing tablet",
+        "zh": "绘图平板",
+        "ja": "液晶ペンタブレット"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 9600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 55
+    },
+    {
+      "id": "technology-new-05",
+      "name": "Vela Screen",
+      "type": {
+        "pt-br": "Monitor ultrawide",
+        "en": "Ultrawide monitor",
+        "zh": "超宽屏显示器",
+        "ja": "ウルトラワイドモニター"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 10800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 71
+    },
+    {
+      "id": "technology-new-06",
+      "name": "Orion Cinema",
+      "type": {
+        "pt-br": "Projetor de cinema",
+        "en": "Cinema projector",
+        "zh": "影院投影仪",
+        "ja": "シネマプロジェクター"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 12000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 87
+    },
+    {
+      "id": "technology-new-07",
+      "name": "Aurea TV",
+      "type": {
+        "pt-br": "Televisor de luxo",
+        "en": "Luxury television",
+        "zh": "豪华电视",
+        "ja": "高級テレビ"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 13200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 103
+    },
+    {
+      "id": "technology-new-08",
+      "name": "Halo Vision",
+      "type": {
+        "pt-br": "Óculos de realidade virtual",
+        "en": "Virtual-reality headset",
+        "zh": "虚拟现实头显",
+        "ja": "VRヘッドセット"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 14400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 119
+    },
+    {
+      "id": "technology-new-09",
+      "name": "Forma Print",
+      "type": {
+        "pt-br": "Impressora 3D",
+        "en": "3D printer",
+        "zh": "3D打印机",
+        "ja": "3Dプリンター"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 15600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 135
+    },
+    {
+      "id": "technology-new-10",
+      "name": "Terra Reader",
+      "type": {
+        "pt-br": "Leitor digital",
+        "en": "E-reader",
+        "zh": "电子阅读器",
+        "ja": "電子書籍リーダー"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 16800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 151
+    },
+    {
+      "id": "technology-new-11",
+      "name": "Prisma Keys",
+      "type": {
+        "pt-br": "Teclado mecânico",
+        "en": "Mechanical keyboard",
+        "zh": "机械键盘",
+        "ja": "メカニカルキーボード"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 18000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 167
+    },
+    {
+      "id": "technology-new-12",
+      "name": "Flux Pointer",
+      "type": {
+        "pt-br": "Mouse de precisão",
+        "en": "Precision mouse",
+        "zh": "精准鼠标",
+        "ja": "精密マウス"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 19200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 183
+    },
+    {
+      "id": "technology-new-13",
+      "name": "Nimbo Server",
+      "type": {
+        "pt-br": "Servidor doméstico",
+        "en": "Home server",
+        "zh": "家用服务器",
+        "ja": "ホームサーバー"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 20400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 199
+    },
+    {
+      "id": "technology-new-14",
+      "name": "Cyan Console",
+      "type": {
+        "pt-br": "Console de jogos",
+        "en": "Game console",
+        "zh": "游戏主机",
+        "ja": "ゲームコンソール"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 21600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 215
+    },
+    {
+      "id": "technology-new-15",
+      "name": "Scribe Pen",
+      "type": {
+        "pt-br": "Caneta digital",
+        "en": "Digital stylus",
+        "zh": "数字触控笔",
+        "ja": "デジタルスタイラス"
+      },
+      "category": "technology",
+      "photo": "technology-1",
+      "credits": 22800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 231
+    },
+    {
+      "id": "technology-new-16",
+      "name": "Loop Dock",
+      "type": {
+        "pt-br": "Dock de trabalho",
+        "en": "Desktop dock",
+        "zh": "桌面扩展坞",
+        "ja": "デスクトップドック"
+      },
+      "category": "technology",
+      "photo": "technology-2",
+      "credits": 24000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 247
+    },
+    {
+      "id": "audio-new-01",
+      "name": "Sonata Tower",
+      "type": {
+        "pt-br": "Caixas de som de piso",
+        "en": "Floorstanding speakers",
+        "zh": "落地音箱",
+        "ja": "フロア型スピーカー"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 4000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 8
+    },
+    {
+      "id": "audio-new-02",
+      "name": "Nimbus Headphones",
+      "type": {
+        "pt-br": "Fones de ouvido hi-fi",
+        "en": "Hi-fi headphones",
+        "zh": "高保真耳机",
+        "ja": "Hi-Fiヘッドフォン"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 4800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 24
+    },
+    {
+      "id": "audio-new-03",
+      "name": "Velvet Turntable",
+      "type": {
+        "pt-br": "Toca-discos de coleção",
+        "en": "Collector turntable",
+        "zh": "收藏级唱片机",
+        "ja": "コレクター向けターンテーブル"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 5600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 40
+    },
+    {
+      "id": "audio-new-04",
+      "name": "Tube Nocturne",
+      "type": {
+        "pt-br": "Amplificador valvulado",
+        "en": "Valve amplifier",
+        "zh": "电子管放大器",
+        "ja": "真空管アンプ"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 6400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 56
+    },
+    {
+      "id": "audio-new-05",
+      "name": "Pulse Studio",
+      "type": {
+        "pt-br": "Monitores de estúdio",
+        "en": "Studio monitors",
+        "zh": "录音室监听音箱",
+        "ja": "スタジオモニター"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 7200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 72
+    },
+    {
+      "id": "audio-new-06",
+      "name": "Lume Earbuds",
+      "type": {
+        "pt-br": "Fones sem fio",
+        "en": "Wireless earbuds",
+        "zh": "无线耳塞",
+        "ja": "ワイヤレスイヤフォン"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 8000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 88
+    },
+    {
+      "id": "audio-new-07",
+      "name": "Aurora Soundbar",
+      "type": {
+        "pt-br": "Barra de som",
+        "en": "Soundbar",
+        "zh": "条形音箱",
+        "ja": "サウンドバー"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 8800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 104
+    },
+    {
+      "id": "audio-new-08",
+      "name": "Echo Sub",
+      "type": {
+        "pt-br": "Subwoofer de cinema",
+        "en": "Cinema subwoofer",
+        "zh": "影院低音炮",
+        "ja": "シネマサブウーファー"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 9600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 120
+    },
+    {
+      "id": "audio-new-09",
+      "name": "Clara DAC",
+      "type": {
+        "pt-br": "Conversor de áudio",
+        "en": "Audio converter",
+        "zh": "音频转换器",
+        "ja": "オーディオコンバーター"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 10400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 136
+    },
+    {
+      "id": "audio-new-10",
+      "name": "Nexo Interface",
+      "type": {
+        "pt-br": "Interface de áudio",
+        "en": "Audio interface",
+        "zh": "音频接口",
+        "ja": "オーディオインターフェース"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 11200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 152
+    },
+    {
+      "id": "audio-new-11",
+      "name": "Voz Condenser",
+      "type": {
+        "pt-br": "Microfone condensador",
+        "en": "Condenser microphone",
+        "zh": "电容麦克风",
+        "ja": "コンデンサーマイク"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 12000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 168
+    },
+    {
+      "id": "audio-new-12",
+      "name": "Ritmo Mixer",
+      "type": {
+        "pt-br": "Mesa de mixagem",
+        "en": "Mixing desk",
+        "zh": "调音台",
+        "ja": "ミキシングデスク"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 12800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 184
+    },
+    {
+      "id": "audio-new-13",
+      "name": "Atlas Portable",
+      "type": {
+        "pt-br": "Caixa de som portátil",
+        "en": "Portable speaker",
+        "zh": "便携音箱",
+        "ja": "ポータブルスピーカー"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 13600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 200
+    },
+    {
+      "id": "audio-new-14",
+      "name": "Sonata Stream",
+      "type": {
+        "pt-br": "Reprodutor de áudio em rede",
+        "en": "Network audio player",
+        "zh": "网络音频播放器",
+        "ja": "ネットワークオーディオプレーヤー"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 14400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 216
+    },
+    {
+      "id": "audio-new-15",
+      "name": "Prisma Recorder",
+      "type": {
+        "pt-br": "Gravador de campo",
+        "en": "Field recorder",
+        "zh": "现场录音机",
+        "ja": "フィールドレコーダー"
+      },
+      "category": "audio",
+      "photo": "audio-1",
+      "credits": 15200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 232
+    },
+    {
+      "id": "audio-new-16",
+      "name": "Câmara Phono",
+      "type": {
+        "pt-br": "Pré-amplificador phono",
+        "en": "Phono preamplifier",
+        "zh": "唱头前置放大器",
+        "ja": "フォノプリアンプ"
+      },
+      "category": "audio",
+      "photo": "audio-2",
+      "credits": 16000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 248
+    },
+    {
+      "id": "cameras-new-01",
+      "name": "Luz Mirror",
+      "type": {
+        "pt-br": "Câmera mirrorless",
+        "en": "Mirrorless camera",
+        "zh": "无反相机",
+        "ja": "ミラーレスカメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 7000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 9
+    },
+    {
+      "id": "cameras-new-02",
+      "name": "Atlas Medium",
+      "type": {
+        "pt-br": "Câmera de médio formato",
+        "en": "Medium-format camera",
+        "zh": "中画幅相机",
+        "ja": "中判カメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 8400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 25
+    },
+    {
+      "id": "cameras-new-03",
+      "name": "Aurora Cinema",
+      "type": {
+        "pt-br": "Câmera de cinema",
+        "en": "Cinema camera",
+        "zh": "电影摄影机",
+        "ja": "シネマカメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 9800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 41
+    },
+    {
+      "id": "cameras-new-04",
+      "name": "Vela Compact",
+      "type": {
+        "pt-br": "Câmera compacta",
+        "en": "Compact camera",
+        "zh": "便携相机",
+        "ja": "コンパクトカメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 11200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 57
+    },
+    {
+      "id": "cameras-new-05",
+      "name": "Nimbo Aerial",
+      "type": {
+        "pt-br": "Câmera aérea",
+        "en": "Aerial camera",
+        "zh": "航拍相机",
+        "ja": "空撮カメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 12600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 73
+    },
+    {
+      "id": "cameras-new-06",
+      "name": "Terra Action",
+      "type": {
+        "pt-br": "Câmera de ação",
+        "en": "Action camera",
+        "zh": "运动相机",
+        "ja": "アクションカメラ"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 14000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 89
+    },
+    {
+      "id": "cameras-new-07",
+      "name": "Prisma Macro",
+      "type": {
+        "pt-br": "Lente macro",
+        "en": "Macro lens",
+        "zh": "微距镜头",
+        "ja": "マクロレンズ"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 15400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 105
+    },
+    {
+      "id": "cameras-new-08",
+      "name": "Órbita Portrait",
+      "type": {
+        "pt-br": "Lente de retrato",
+        "en": "Portrait lens",
+        "zh": "人像镜头",
+        "ja": "ポートレートレンズ"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 16800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 121
+    },
+    {
+      "id": "cameras-new-09",
+      "name": "Horizonte Wide",
+      "type": {
+        "pt-br": "Lente grande-angular",
+        "en": "Wide-angle lens",
+        "zh": "广角镜头",
+        "ja": "広角レンズ"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 18200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 137
+    },
+    {
+      "id": "cameras-new-10",
+      "name": "Atlas Tele",
+      "type": {
+        "pt-br": "Teleobjetiva",
+        "en": "Telephoto lens",
+        "zh": "长焦镜头",
+        "ja": "望遠レンズ"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 19600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 153
+    },
+    {
+      "id": "cameras-new-11",
+      "name": "Rota Tripod",
+      "type": {
+        "pt-br": "Tripé de viagem",
+        "en": "Travel tripod",
+        "zh": "旅行三脚架",
+        "ja": "トラベル三脚"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 21000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 169
+    },
+    {
+      "id": "cameras-new-12",
+      "name": "Nexus Gimbal",
+      "type": {
+        "pt-br": "Estabilizador de câmera",
+        "en": "Camera stabilizer",
+        "zh": "相机稳定器",
+        "ja": "カメラスタビライザー"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 22400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 185
+    },
+    {
+      "id": "cameras-new-13",
+      "name": "Clara Light",
+      "type": {
+        "pt-br": "Iluminação de estúdio",
+        "en": "Studio lighting",
+        "zh": "摄影棚灯光",
+        "ja": "スタジオ照明"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 23800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 201
+    },
+    {
+      "id": "cameras-new-14",
+      "name": "Lume Flash",
+      "type": {
+        "pt-br": "Flash de estúdio",
+        "en": "Studio flash",
+        "zh": "影室闪光灯",
+        "ja": "スタジオフラッシュ"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 25200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 217
+    },
+    {
+      "id": "cameras-new-15",
+      "name": "Seda Filter",
+      "type": {
+        "pt-br": "Kit de filtros ópticos",
+        "en": "Optical filter set",
+        "zh": "光学滤镜套装",
+        "ja": "光学フィルターセット"
+      },
+      "category": "cameras",
+      "photo": "cameras-1",
+      "credits": 26600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 233
+    },
+    {
+      "id": "cameras-new-16",
+      "name": "Câmara Archive",
+      "type": {
+        "pt-br": "Scanner de filme",
+        "en": "Film scanner",
+        "zh": "胶片扫描仪",
+        "ja": "フィルムスキャナー"
+      },
+      "category": "cameras",
+      "photo": "cameras-2",
+      "credits": 28000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 249
+    },
+    {
+      "id": "appliances-new-01",
+      "name": "Crema Barista",
+      "type": {
+        "pt-br": "Máquina de espresso",
+        "en": "Espresso machine",
+        "zh": "意式咖啡机",
+        "ja": "エスプレッソマシン"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 5000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 10
+    },
+    {
+      "id": "appliances-new-02",
+      "name": "Terra Fridge",
+      "type": {
+        "pt-br": "Refrigerador de luxo",
+        "en": "Luxury refrigerator",
+        "zh": "豪华冰箱",
+        "ja": "高級冷蔵庫"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 6000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 26
+    },
+    {
+      "id": "appliances-new-03",
+      "name": "Vapor Chef",
+      "type": {
+        "pt-br": "Forno a vapor",
+        "en": "Steam oven",
+        "zh": "蒸汽烤箱",
+        "ja": "スチームオーブン"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 7000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 42
+    },
+    {
+      "id": "appliances-new-04",
+      "name": "Atlas Wash",
+      "type": {
+        "pt-br": "Lava e seca",
+        "en": "Washer-dryer",
+        "zh": "洗烘一体机",
+        "ja": "洗濯乾燥機"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 8000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 58
+    },
+    {
+      "id": "appliances-new-05",
+      "name": "Silva Dishwasher",
+      "type": {
+        "pt-br": "Lava-louças",
+        "en": "Dishwasher",
+        "zh": "洗碗机",
+        "ja": "食器洗い機"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 9000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 74
+    },
+    {
+      "id": "appliances-new-06",
+      "name": "Brisa Pure",
+      "type": {
+        "pt-br": "Purificador de ar",
+        "en": "Air purifier",
+        "zh": "空气净化器",
+        "ja": "空気清浄機"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 10000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 90
+    },
+    {
+      "id": "appliances-new-07",
+      "name": "Nimbo Vacuum",
+      "type": {
+        "pt-br": "Aspirador robô",
+        "en": "Robot vacuum",
+        "zh": "扫地机器人",
+        "ja": "ロボット掃除機"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 11000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 106
+    },
+    {
+      "id": "appliances-new-08",
+      "name": "Forma Mixer",
+      "type": {
+        "pt-br": "Batedeira planetária",
+        "en": "Stand mixer",
+        "zh": "厨师机",
+        "ja": "スタンドミキサー"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 12000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 122
+    },
+    {
+      "id": "appliances-new-09",
+      "name": "Gelato Cloud",
+      "type": {
+        "pt-br": "Sorveteira",
+        "en": "Ice-cream maker",
+        "zh": "冰淇淋机",
+        "ja": "アイスクリームメーカー"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 13000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 138
+    },
+    {
+      "id": "appliances-new-10",
+      "name": "Cobalto Induction",
+      "type": {
+        "pt-br": "Cooktop de indução",
+        "en": "Induction hob",
+        "zh": "电磁灶",
+        "ja": "IHクッキングヒーター"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 14000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 154
+    },
+    {
+      "id": "appliances-new-11",
+      "name": "Cristal Kettle",
+      "type": {
+        "pt-br": "Chaleira elétrica",
+        "en": "Electric kettle",
+        "zh": "电热水壶",
+        "ja": "電気ケトル"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 15000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 170
+    },
+    {
+      "id": "appliances-new-12",
+      "name": "Ritmo Blender",
+      "type": {
+        "pt-br": "Liquidificador de bancada",
+        "en": "Countertop blender",
+        "zh": "台式搅拌机",
+        "ja": "据え置きブレンダー"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 16000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 186
+    },
+    {
+      "id": "appliances-new-13",
+      "name": "Pão Atelier",
+      "type": {
+        "pt-br": "Máquina de pão",
+        "en": "Bread maker",
+        "zh": "面包机",
+        "ja": "ホームベーカリー"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 17000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 202
+    },
+    {
+      "id": "appliances-new-14",
+      "name": "Lume Toaster",
+      "type": {
+        "pt-br": "Torradeira de design",
+        "en": "Designer toaster",
+        "zh": "设计款烤面包机",
+        "ja": "デザイナートースター"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 18000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 218
+    },
+    {
+      "id": "appliances-new-15",
+      "name": "Aero Fry",
+      "type": {
+        "pt-br": "Fritadeira de ar",
+        "en": "Air fryer",
+        "zh": "空气炸锅",
+        "ja": "エアフライヤー"
+      },
+      "category": "appliances",
+      "photo": "appliances-1",
+      "credits": 19000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 234
+    },
+    {
+      "id": "appliances-new-16",
+      "name": "Neve Ice",
+      "type": {
+        "pt-br": "Máquina de gelo",
+        "en": "Ice maker",
+        "zh": "制冰机",
+        "ja": "製氷機"
+      },
+      "category": "appliances",
+      "photo": "appliances-2",
+      "credits": 20000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 250
+    },
+    {
+      "id": "furniture-new-01",
+      "name": "Nuvem Sofa",
+      "type": {
+        "pt-br": "Sofá modular",
+        "en": "Modular sofa",
+        "zh": "模块化沙发",
+        "ja": "モジュラーソファ"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 6000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 11
+    },
+    {
+      "id": "furniture-new-02",
+      "name": "Arco Lounge",
+      "type": {
+        "pt-br": "Poltrona de descanso",
+        "en": "Lounge chair",
+        "zh": "休闲椅",
+        "ja": "ラウンジチェア"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 7200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 27
+    },
+    {
+      "id": "furniture-new-03",
+      "name": "Terra Table",
+      "type": {
+        "pt-br": "Mesa de jantar",
+        "en": "Dining table",
+        "zh": "餐桌",
+        "ja": "ダイニングテーブル"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 8400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 43
+    },
+    {
+      "id": "furniture-new-04",
+      "name": "Forma Desk",
+      "type": {
+        "pt-br": "Mesa de trabalho",
+        "en": "Writing desk",
+        "zh": "书桌",
+        "ja": "ライティングデスク"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 9600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 59
+    },
+    {
+      "id": "furniture-new-05",
+      "name": "Lume Lamp",
+      "type": {
+        "pt-br": "Luminária de piso",
+        "en": "Floor lamp",
+        "zh": "落地灯",
+        "ja": "フロアランプ"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 10800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 75
+    },
+    {
+      "id": "furniture-new-06",
+      "name": "Horizonte Shelf",
+      "type": {
+        "pt-br": "Estante de livros",
+        "en": "Bookcase",
+        "zh": "书架",
+        "ja": "ブックケース"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 12000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 91
+    },
+    {
+      "id": "furniture-new-07",
+      "name": "Seda Bed",
+      "type": {
+        "pt-br": "Cama estofada",
+        "en": "Upholstered bed",
+        "zh": "软包床",
+        "ja": "布張りベッド"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 13200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 107
+    },
+    {
+      "id": "furniture-new-08",
+      "name": "Nexo Sideboard",
+      "type": {
+        "pt-br": "Aparador de madeira",
+        "en": "Wooden sideboard",
+        "zh": "木质餐边柜",
+        "ja": "木製サイドボード"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 14400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 123
+    },
+    {
+      "id": "furniture-new-09",
+      "name": "Órbita Coffee",
+      "type": {
+        "pt-br": "Mesa de centro",
+        "en": "Coffee table",
+        "zh": "咖啡桌",
+        "ja": "コーヒーテーブル"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 15600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 139
+    },
+    {
+      "id": "furniture-new-10",
+      "name": "Brisa Outdoor",
+      "type": {
+        "pt-br": "Conjunto de varanda",
+        "en": "Patio set",
+        "zh": "露台家具套装",
+        "ja": "パティオセット"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 16800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 155
+    },
+    {
+      "id": "furniture-new-11",
+      "name": "Aurea Mirror",
+      "type": {
+        "pt-br": "Espelho de corpo inteiro",
+        "en": "Full-length mirror",
+        "zh": "全身镜",
+        "ja": "全身鏡"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 18000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 171
+    },
+    {
+      "id": "furniture-new-12",
+      "name": "Atelier Stool",
+      "type": {
+        "pt-br": "Banco escultural",
+        "en": "Sculptural stool",
+        "zh": "雕塑感凳子",
+        "ja": "彫刻的なスツール"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 19200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 187
+    },
+    {
+      "id": "furniture-new-13",
+      "name": "Trama Rug",
+      "type": {
+        "pt-br": "Tapete tecido à mão",
+        "en": "Handwoven rug",
+        "zh": "手织地毯",
+        "ja": "手織りラグ"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 20400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 203
+    },
+    {
+      "id": "furniture-new-14",
+      "name": "Porto Cabinet",
+      "type": {
+        "pt-br": "Armário de coleção",
+        "en": "Display cabinet",
+        "zh": "展示柜",
+        "ja": "ディスプレイキャビネット"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 21600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 219
+    },
+    {
+      "id": "furniture-new-15",
+      "name": "Sereno Chaise",
+      "type": {
+        "pt-br": "Chaise-longue",
+        "en": "Chaise longue",
+        "zh": "躺椅",
+        "ja": "シェーズロング"
+      },
+      "category": "furniture",
+      "photo": "furniture-1",
+      "credits": 22800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 235
+    },
+    {
+      "id": "furniture-new-16",
+      "name": "Lago Bench",
+      "type": {
+        "pt-br": "Banco de jardim",
+        "en": "Garden bench",
+        "zh": "花园长椅",
+        "ja": "ガーデンベンチ"
+      },
+      "category": "furniture",
+      "photo": "furniture-2",
+      "credits": 24000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 251
+    },
+    {
+      "id": "yachts-new-01",
+      "name": "Maré Forty",
+      "type": {
+        "pt-br": "Iate a motor",
+        "en": "Motor yacht",
+        "zh": "机动游艇",
+        "ja": "モーターヨット"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 1800000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 12
+    },
+    {
+      "id": "yachts-new-02",
+      "name": "Vela Ocean",
+      "type": {
+        "pt-br": "Veleiro oceânico",
+        "en": "Ocean sailing yacht",
+        "zh": "远洋帆船",
+        "ja": "オーシャンセーリングヨット"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 2160000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 28
+    },
+    {
+      "id": "yachts-new-03",
+      "name": "Horizonte Cat",
+      "type": {
+        "pt-br": "Catamarã de cruzeiro",
+        "en": "Cruising catamaran",
+        "zh": "巡航双体船",
+        "ja": "クルージング・カタマラン"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 2520000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 44
+    },
+    {
+      "id": "yachts-new-04",
+      "name": "Nimbo Electric",
+      "type": {
+        "pt-br": "Lancha elétrica",
+        "en": "Electric launch",
+        "zh": "电动快艇",
+        "ja": "電動ランチ"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 2880000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 60
+    },
+    {
+      "id": "yachts-new-05",
+      "name": "Atlas Explorer",
+      "type": {
+        "pt-br": "Iate de exploração",
+        "en": "Explorer yacht",
+        "zh": "探险游艇",
+        "ja": "エクスプローラーヨット"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 3240000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 76
+    },
+    {
+      "id": "yachts-new-06",
+      "name": "Cobalto Sport",
+      "type": {
+        "pt-br": "Lancha esportiva",
+        "en": "Sport speedboat",
+        "zh": "运动快艇",
+        "ja": "スポーツスピードボート"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 3600000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 92
+    },
+    {
+      "id": "yachts-new-07",
+      "name": "Lago Tender",
+      "type": {
+        "pt-br": "Barco de apoio",
+        "en": "Yacht tender",
+        "zh": "游艇接驳艇",
+        "ja": "ヨットテンダー"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 3960000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 108
+    },
+    {
+      "id": "yachts-new-08",
+      "name": "Ritmo Regatta",
+      "type": {
+        "pt-br": "Veleiro de regata",
+        "en": "Racing sailboat",
+        "zh": "竞赛帆船",
+        "ja": "レーシングヨット"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 4320000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 124
+    },
+    {
+      "id": "yachts-new-09",
+      "name": "Casa Flutuante",
+      "type": {
+        "pt-br": "Casa-barco",
+        "en": "Houseboat",
+        "zh": "船屋",
+        "ja": "ハウスボート"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 4680000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 140
+    },
+    {
+      "id": "yachts-new-10",
+      "name": "Solar Cruiser",
+      "type": {
+        "pt-br": "Barco solar conceitual",
+        "en": "Concept solar boat",
+        "zh": "概念太阳能船",
+        "ja": "コンセプト・ソーラーボート"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 5040000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 156
+    },
+    {
+      "id": "yachts-new-11",
+      "name": "Terra Trawler",
+      "type": {
+        "pt-br": "Traineira de passeio",
+        "en": "Leisure trawler",
+        "zh": "休闲拖网式游艇",
+        "ja": "レジャートローラー"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 5400000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 172
+    },
+    {
+      "id": "yachts-new-12",
+      "name": "Órbita Trimaran",
+      "type": {
+        "pt-br": "Trimarã de lazer",
+        "en": "Leisure trimaran",
+        "zh": "休闲三体船",
+        "ja": "レジャー・トリマラン"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 5760000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 188
+    },
+    {
+      "id": "yachts-new-13",
+      "name": "Luz Dayboat",
+      "type": {
+        "pt-br": "Barco de passeio diurno",
+        "en": "Dayboat",
+        "zh": "日间游艇",
+        "ja": "デイボート"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 6120000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 204
+    },
+    {
+      "id": "yachts-new-14",
+      "name": "Silva Classic",
+      "type": {
+        "pt-br": "Barco clássico de madeira",
+        "en": "Classic wooden boat",
+        "zh": "经典木船",
+        "ja": "クラシック木造艇"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 6480000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 220
+    },
+    {
+      "id": "yachts-new-15",
+      "name": "Neve Polar",
+      "type": {
+        "pt-br": "Iate polar imaginário",
+        "en": "Imaginary polar yacht",
+        "zh": "虚构极地游艇",
+        "ja": "架空の極地ヨット"
+      },
+      "category": "yachts",
+      "photo": "yachts-1",
+      "credits": 6840000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 236
+    },
+    {
+      "id": "yachts-new-16",
+      "name": "Aurora Sloop",
+      "type": {
+        "pt-br": "Veleiro de mastro único",
+        "en": "Single-mast sloop",
+        "zh": "单桅帆船",
+        "ja": "シングルマスト・スループ"
+      },
+      "category": "yachts",
+      "photo": "yachts-2",
+      "credits": 7200000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 252
+    },
+    {
+      "id": "travel-new-01",
+      "name": "Aurora Rail",
+      "type": {
+        "pt-br": "Viagem de trem panorâmico",
+        "en": "Panoramic rail journey",
+        "zh": "全景列车之旅",
+        "ja": "パノラマ鉄道の旅"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 18000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 13
+    },
+    {
+      "id": "travel-new-02",
+      "name": "Maré Retreat",
+      "type": {
+        "pt-br": "Retiro em ilha imaginária",
+        "en": "Imaginary island retreat",
+        "zh": "虚构海岛度假",
+        "ja": "架空の島のリトリート"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 21600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 29
+    },
+    {
+      "id": "travel-new-03",
+      "name": "Alpina Week",
+      "type": {
+        "pt-br": "Semana nos Alpes imaginários",
+        "en": "Imaginary Alpine week",
+        "zh": "虚构阿尔卑斯一周游",
+        "ja": "架空のアルプスでの1週間"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 25200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 45
+    },
+    {
+      "id": "travel-new-04",
+      "name": "Sakura Walk",
+      "type": {
+        "pt-br": "Roteiro de jardins",
+        "en": "Garden itinerary",
+        "zh": "花园游览路线",
+        "ja": "庭園を巡る旅"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 28800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 61
+    },
+    {
+      "id": "travel-new-05",
+      "name": "Cobalto Coast",
+      "type": {
+        "pt-br": "Roteiro pela costa",
+        "en": "Coastal itinerary",
+        "zh": "海岸游览路线",
+        "ja": "海岸を巡る旅"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 32400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 77
+    },
+    {
+      "id": "travel-new-06",
+      "name": "Atlas Desert",
+      "type": {
+        "pt-br": "Acampamento no deserto",
+        "en": "Desert camp",
+        "zh": "沙漠营地",
+        "ja": "砂漠キャンプ"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 36000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 93
+    },
+    {
+      "id": "travel-new-07",
+      "name": "Nimbo Balloon",
+      "type": {
+        "pt-br": "Passeio de balão",
+        "en": "Balloon trip",
+        "zh": "热气球之旅",
+        "ja": "熱気球の旅"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 39600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 109
+    },
+    {
+      "id": "travel-new-08",
+      "name": "Horizonte Cruise",
+      "type": {
+        "pt-br": "Cruzeiro imaginário",
+        "en": "Imaginary cruise",
+        "zh": "虚构邮轮之旅",
+        "ja": "架空のクルーズ"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 43200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 125
+    },
+    {
+      "id": "travel-new-09",
+      "name": "Terra Safari",
+      "type": {
+        "pt-br": "Observação da natureza",
+        "en": "Nature-watching retreat",
+        "zh": "自然观察之旅",
+        "ja": "自然観察のリトリート"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 46800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 141
+    },
+    {
+      "id": "travel-new-10",
+      "name": "Noctis Sky",
+      "type": {
+        "pt-br": "Retiro de observação do céu",
+        "en": "Stargazing retreat",
+        "zh": "观星度假",
+        "ja": "星空観察のリトリート"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 50400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 157
+    },
+    {
+      "id": "travel-new-11",
+      "name": "Lume Museum",
+      "type": {
+        "pt-br": "Circuito de museus",
+        "en": "Museum circuit",
+        "zh": "博物馆路线",
+        "ja": "ミュージアム巡り"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 54000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 173
+    },
+    {
+      "id": "travel-new-12",
+      "name": "Sonata Opera",
+      "type": {
+        "pt-br": "Fim de semana de ópera",
+        "en": "Opera weekend",
+        "zh": "歌剧周末游",
+        "ja": "オペラを楽しむ週末"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 57600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 189
+    },
+    {
+      "id": "travel-new-13",
+      "name": "Brisa Spa",
+      "type": {
+        "pt-br": "Retiro de descanso",
+        "en": "Relaxation retreat",
+        "zh": "休闲度假",
+        "ja": "くつろぎのリトリート"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 61200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 205
+    },
+    {
+      "id": "travel-new-14",
+      "name": "Rota Mountains",
+      "type": {
+        "pt-br": "Travessia de montanhas",
+        "en": "Mountain itinerary",
+        "zh": "山地旅行路线",
+        "ja": "山々を巡る旅"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 64800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 221
+    },
+    {
+      "id": "travel-new-15",
+      "name": "Cristal Fjord",
+      "type": {
+        "pt-br": "Roteiro de fiordes",
+        "en": "Fjord itinerary",
+        "zh": "峡湾旅行路线",
+        "ja": "フィヨルドを巡る旅"
+      },
+      "category": "travel",
+      "photo": "travel-1",
+      "credits": 68400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 237
+    },
+    {
+      "id": "travel-new-16",
+      "name": "Atelier City",
+      "type": {
+        "pt-br": "Roteiro de arquitetura",
+        "en": "Architecture itinerary",
+        "zh": "建筑之旅",
+        "ja": "建築を巡る旅"
+      },
+      "category": "travel",
+      "photo": "travel-2",
+      "credits": 72000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 253
+    },
+    {
+      "id": "sports-new-01",
+      "name": "Vento Road",
+      "type": {
+        "pt-br": "Bicicleta de estrada",
+        "en": "Road bicycle",
+        "zh": "公路自行车",
+        "ja": "ロードバイク"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 4000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 14
+    },
+    {
+      "id": "sports-new-02",
+      "name": "Terra Trail",
+      "type": {
+        "pt-br": "Bicicleta de montanha",
+        "en": "Mountain bicycle",
+        "zh": "山地自行车",
+        "ja": "マウンテンバイク"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 4800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 30
+    },
+    {
+      "id": "sports-new-03",
+      "name": "Lume E-Bike",
+      "type": {
+        "pt-br": "Bicicleta elétrica",
+        "en": "Electric bicycle",
+        "zh": "电动自行车",
+        "ja": "電動自転車"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 5600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 46
+    },
+    {
+      "id": "sports-new-04",
+      "name": "Neve Alpine",
+      "type": {
+        "pt-br": "Esquis de montanha",
+        "en": "Alpine skis",
+        "zh": "高山滑雪板",
+        "ja": "アルペンスキー"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 6400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 62
+    },
+    {
+      "id": "sports-new-05",
+      "name": "Cobalto Snow",
+      "type": {
+        "pt-br": "Prancha de snowboard",
+        "en": "Snowboard",
+        "zh": "单板滑雪板",
+        "ja": "スノーボード"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 7200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 78
+    },
+    {
+      "id": "sports-new-06",
+      "name": "Maré Surf",
+      "type": {
+        "pt-br": "Prancha de surfe",
+        "en": "Surfboard",
+        "zh": "冲浪板",
+        "ja": "サーフボード"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 8000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 94
+    },
+    {
+      "id": "sports-new-07",
+      "name": "Lago Paddle",
+      "type": {
+        "pt-br": "Prancha de stand-up paddle",
+        "en": "Paddleboard",
+        "zh": "桨板",
+        "ja": "パドルボード"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 8800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 110
+    },
+    {
+      "id": "sports-new-08",
+      "name": "Órbita Tennis",
+      "type": {
+        "pt-br": "Raquete de tênis",
+        "en": "Tennis racket",
+        "zh": "网球拍",
+        "ja": "テニスラケット"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 9600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 126
+    },
+    {
+      "id": "sports-new-09",
+      "name": "Atlas Golf",
+      "type": {
+        "pt-br": "Conjunto de golfe",
+        "en": "Golf set",
+        "zh": "高尔夫球具套装",
+        "ja": "ゴルフセット"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 10400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 142
+    },
+    {
+      "id": "sports-new-10",
+      "name": "Nimbo Row",
+      "type": {
+        "pt-br": "Remo ergométrico",
+        "en": "Rowing machine",
+        "zh": "划船机",
+        "ja": "ローイングマシン"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 11200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 158
+    },
+    {
+      "id": "sports-new-11",
+      "name": "Ritmo Run",
+      "type": {
+        "pt-br": "Esteira de corrida",
+        "en": "Treadmill",
+        "zh": "跑步机",
+        "ja": "トレッドミル"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 12000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 174
+    },
+    {
+      "id": "sports-new-12",
+      "name": "Forma Pilates",
+      "type": {
+        "pt-br": "Reformer de pilates",
+        "en": "Pilates reformer",
+        "zh": "普拉提核心床",
+        "ja": "ピラティス・リフォーマー"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 12800,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 190
+    },
+    {
+      "id": "sports-new-13",
+      "name": "Trama Yoga",
+      "type": {
+        "pt-br": "Kit de ioga",
+        "en": "Yoga set",
+        "zh": "瑜伽套装",
+        "ja": "ヨガセット"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 13600,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 206
+    },
+    {
+      "id": "sports-new-14",
+      "name": "Aurora Court",
+      "type": {
+        "pt-br": "Mesa de tênis de mesa",
+        "en": "Table-tennis table",
+        "zh": "乒乓球桌",
+        "ja": "卓球台"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 14400,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 222
+    },
+    {
+      "id": "sports-new-15",
+      "name": "Horizonte Climb",
+      "type": {
+        "pt-br": "Equipamento de escalada",
+        "en": "Climbing equipment",
+        "zh": "攀岩装备",
+        "ja": "クライミング用品"
+      },
+      "category": "sports",
+      "photo": "sports-1",
+      "credits": 15200,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 238
+    },
+    {
+      "id": "sports-new-16",
+      "name": "Porto Kayak",
+      "type": {
+        "pt-br": "Caiaque de turismo",
+        "en": "Touring kayak",
+        "zh": "旅行皮划艇",
+        "ja": "ツーリングカヤック"
+      },
+      "category": "sports",
+      "photo": "sports-2",
+      "credits": 16000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 254
+    },
+    {
+      "id": "art-new-01",
+      "name": "Horizonte No. 1",
+      "type": {
+        "pt-br": "Pintura abstrata",
+        "en": "Abstract painting",
+        "zh": "抽象画",
+        "ja": "抽象画"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 25000,
+      "edition": "Collection 2026",
+      "featured": true,
+      "rank": 15
+    },
+    {
+      "id": "art-new-02",
+      "name": "Luz em Bronze",
+      "type": {
+        "pt-br": "Escultura de bronze",
+        "en": "Bronze sculpture",
+        "zh": "青铜雕塑",
+        "ja": "ブロンズ彫刻"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 30000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 31
+    },
+    {
+      "id": "art-new-03",
+      "name": "Maré Impressa",
+      "type": {
+        "pt-br": "Gravura de edição",
+        "en": "Editioned print",
+        "zh": "限量版画",
+        "ja": "エディション付き版画"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 35000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 47
+    },
+    {
+      "id": "art-new-04",
+      "name": "Forma Cerâmica",
+      "type": {
+        "pt-br": "Vaso de cerâmica",
+        "en": "Ceramic vase",
+        "zh": "陶瓷花瓶",
+        "ja": "陶器の花瓶"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 40000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 63
+    },
+    {
+      "id": "art-new-05",
+      "name": "Cobalto Glass",
+      "type": {
+        "pt-br": "Escultura de vidro",
+        "en": "Glass sculpture",
+        "zh": "玻璃雕塑",
+        "ja": "ガラス彫刻"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 45000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 79
+    },
+    {
+      "id": "art-new-06",
+      "name": "Trama Mural",
+      "type": {
+        "pt-br": "Tapeçaria de parede",
+        "en": "Wall tapestry",
+        "zh": "壁挂织锦",
+        "ja": "ウォールタペストリー"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 50000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 95
+    },
+    {
+      "id": "art-new-07",
+      "name": "Seda Ink",
+      "type": {
+        "pt-br": "Desenho a tinta",
+        "en": "Ink drawing",
+        "zh": "水墨画",
+        "ja": "インクドローイング"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 55000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 111
+    },
+    {
+      "id": "art-new-08",
+      "name": "Aurora Lens",
+      "type": {
+        "pt-br": "Fotografia de galeria",
+        "en": "Gallery photograph",
+        "zh": "画廊摄影作品",
+        "ja": "ギャラリー写真"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 60000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 127
+    },
+    {
+      "id": "art-new-09",
+      "name": "Órbita Mobile",
+      "type": {
+        "pt-br": "Móbile cinético",
+        "en": "Kinetic mobile",
+        "zh": "动态悬挂雕塑",
+        "ja": "キネティックモビール"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 65000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 143
+    },
+    {
+      "id": "art-new-10",
+      "name": "Terra Relief",
+      "type": {
+        "pt-br": "Relevo de madeira",
+        "en": "Wooden relief",
+        "zh": "木质浮雕",
+        "ja": "木製レリーフ"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 70000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 159
+    },
+    {
+      "id": "art-new-11",
+      "name": "Noctis Monograph",
+      "type": {
+        "pt-br": "Livro de arte",
+        "en": "Art monograph",
+        "zh": "艺术专著",
+        "ja": "アートモノグラフ"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 75000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 175
+    },
+    {
+      "id": "art-new-12",
+      "name": "Atlas Marble",
+      "type": {
+        "pt-br": "Escultura de mármore",
+        "en": "Marble sculpture",
+        "zh": "大理石雕塑",
+        "ja": "大理石彫刻"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 80000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 191
+    },
+    {
+      "id": "art-new-13",
+      "name": "Brisa Watercolor",
+      "type": {
+        "pt-br": "Aquarela de paisagem",
+        "en": "Landscape watercolor",
+        "zh": "风景水彩画",
+        "ja": "風景水彩画"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 85000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 207
+    },
+    {
+      "id": "art-new-14",
+      "name": "Lume Lightwork",
+      "type": {
+        "pt-br": "Instalação de luz",
+        "en": "Light installation",
+        "zh": "灯光装置艺术",
+        "ja": "ライトインスタレーション"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 90000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 223
+    },
+    {
+      "id": "art-new-15",
+      "name": "Prisma Mosaic",
+      "type": {
+        "pt-br": "Painel de mosaico",
+        "en": "Mosaic panel",
+        "zh": "马赛克面板",
+        "ja": "モザイクパネル"
+      },
+      "category": "art",
+      "photo": "art-1",
+      "credits": 95000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 239
+    },
+    {
+      "id": "art-new-16",
+      "name": "Jardim Paper",
+      "type": {
+        "pt-br": "Escultura de papel",
+        "en": "Paper sculpture",
+        "zh": "纸艺雕塑",
+        "ja": "ペーパースカルプチャー"
+      },
+      "category": "art",
+      "photo": "art-2",
+      "credits": 100000,
+      "edition": "Collection 2026",
+      "featured": false,
+      "rank": 255
+    }
+  ]
+}

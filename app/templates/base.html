@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ html_lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="{{ t('about_intro') }}">
+<title>{{ title }}{% if title != 'Dopamine' %} · Dopamine{% endif %}</title>
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/style.css?v={{ asset_version }}">
+{% if interactive %}<script src="/static/tables.js?v={{ asset_version }}" integrity="{{ js_integrity }}" defer></script>{% endif %}
+</head>
+<body{% if user and user.reduced_motion %} class="reduced-motion"{% endif %}>
+<a class="skip" href="#content">{{ t('skip') }}</a>
+<input class="motion-check" type="checkbox" id="motion-toggle" aria-label="{{ t('reduced_motion') }}">
+<div class="site">
+<div class="fiction-bar"><span class="status-dot" aria-hidden="true"></span>{{ t('fiction_banner') }}<span class="age-mark">18+</span></div>
+<header class="header wrap">
+<a class="brand" href="/shop" aria-label="Dopamine"><span class="brand-icon" aria-hidden="true">∞</span><span>dopamine<span class="brand-dot">.</span></span></a>
+<nav class="desktop-nav" aria-label="{{ t('mobile_menu') }}">
+<a href="/shop"{% if active == 'shop' %} aria-current="page"{% endif %}>{{ t('shop') }}</a>
+{% if not user or not user.casino_hidden %}<a href="/casino"{% if active == 'casino' %} aria-current="page"{% endif %}>{{ t('casino') }}</a>{% endif %}
+<a href="/science"{% if active == 'science' %} aria-current="page"{% endif %}>{{ t('science') }}</a>
+<a href="/about"{% if active == 'about' %} aria-current="page"{% endif %}>{{ t('about') }}</a>
+</nav>
+<div class="header-actions">
+<details class="language"><summary aria-label="{{ t('language') }}">{{ {'pt-br':'PT-BR','en':'EN','zh':'中文','ja':'日本語'}[lang] }} <span aria-hidden="true">⌄</span></summary><div class="language-menu">{% for key,label in languages.items() %}<a href="{{ link('/language', lang=key, next=path) }}" lang="{{ 'zh-Hans' if key == 'zh' else key }}"{% if key==lang %} aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}</div></details>
+{% if user %}<a class="icon-button bag-link" href="/cart" aria-label="{{ t('cart') }}"><span aria-hidden="true">▱</span><span>{{ bag_count }}</span></a><a class="avatar" href="/profile" aria-label="{{ t('profile') }}">{{ user.nickname[:1]|upper }}</a>
+{% else %}<a class="sign-in" href="/login">{{ t('login') }}</a><a class="button small" href="/signup">{{ t('signup') }} <span aria-hidden="true">↗</span></a>{% endif %}
+</div>
+</header>
+<div class="subbar"><div class="wrap subbar-inner"><span class="subbar-note">{{ t('footer_tag') }}</span><div class="wallet"><span>{{ t('balance') }}</span><strong>∞</strong><span>{{ currency.symbol }}</span></div><label for="motion-toggle" class="motion-switch">{{ t('reduced_motion') }}</label></div></div>
+<details class="mobile-nav wrap"><summary>{{ t('mobile_menu') }} <span aria-hidden="true">＋</span></summary><nav><a href="/shop">{{ t('shop') }}</a>{% if not user or not user.casino_hidden %}<a href="/casino">{{ t('casino') }}</a>{% endif %}<a href="/science">{{ t('science') }}</a><a href="/about">{{ t('about') }}</a>{% if user %}<a href="/collection">{{ t('collection') }}</a><a href="/profile">{{ t('profile') }}</a>{% endif %}</nav></details>
+<main id="content" class="wrap">
+{% if notice %}<div class="notice" role="status">{{ notice }}</div>{% endif %}
+{% block content %}{% endblock %}
+</main>
+<footer class="footer"><div class="wrap"><div class="footer-main"><div><a class="brand" href="/shop"><span class="brand-icon" aria-hidden="true">∞</span><span>dopamine<span class="brand-dot">.</span></span></a><p>{{ t('footer_tag') }}</p></div><nav><a href="/about">{{ t('about') }}</a><a href="/science">{{ t('science') }}</a><a href="/privacy">{{ t('privacy') }}</a><a href="/javascript" rel="jslicense">{{ t('js_source') }}</a><a href="/about#photos">{{ t('photo_credits') }}</a>{% if user %}<a href="/collection">{{ t('collection') }}</a><form method="post" action="/logout"><input type="hidden" name="csrf" value="{{ csrf }}"><button class="text-button">{{ t('logout') }}</button></form>{% endif %}</nav></div><p class="currency-footer"><a href="/about#currency">{{ t('currency_caption') }}: {{ currency.code }} · {{ t('how_works') }} ↗</a></p><p class="footer-disclaimer">{{ t('credits_note') }} {{ t('non_therapy') }}</p><div class="footer-bottom"><span>© 2026 · {{ t('copyright') }}</span><span>HTML + CSS · MIT · v{{ version }}</span></div></div></footer>
+</div>
+</body>
+</html>
