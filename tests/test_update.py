@@ -46,7 +46,7 @@ class UpdateTests(unittest.TestCase):
         r=self.client.get('/signup')
         self.assertEqual(r.header('Referrer-Policy'),'same-origin')
         self.assertIn("script-src 'none'",r.header('Content-Security-Policy'))
-        self.assertEqual(r.header('X-Dopamine-Version'),'1.2.0')
+        self.assertEqual(r.header('X-Dopamine-Version'),'1.2.1')
         self.assertIn('no-store',r.header('Cache-Control'))
         self.assertNotIn('<script',r.text)
 
@@ -280,7 +280,7 @@ class UpdateTests(unittest.TestCase):
         css=(ROOT/'app/static/style.css').read_text()
         self.assertIn('--bg:#000000',css.replace(' ',''))
         r=self.client.get('/shop')
-        self.assertIn('v=1.2.0',r.text)
+        self.assertIn('v=1.2.1',r.text)
         self.assertIn('content="#000000"',r.text)
 
     def test_language_switch_keeps_receipt_and_round_paths(self):

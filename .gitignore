@@ -2,6 +2,7 @@
 .env.*
 !.env.example
 .git
+.gitignore
 .venv
 __pycache__
 **/__pycache__
@@ -14,5 +15,7 @@ local-data
 *.log
 **/*.log
 *.tar.gz
+!tests/fixtures/early11-source.tar.gz
 *.zip
+docs/screenshots
 .pytest_cache

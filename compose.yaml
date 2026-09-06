@@ -1,7 +1,7 @@
 name: dopamine
 services:
   web:
-    image: dopamine-local:1.2.0
+    image: dopamine-local:1.2.1
     build:
       context: .
       dockerfile: Dockerfile

@@ -23,7 +23,7 @@ RUN --mount=type=cache,id=dopamine-real-catalog-v120,target=/catalog-cache,shari
 RUN python -m pip freeze > /app/data/installed-packages.txt
 
 FROM python:3.13-slim AS runtime
-LABEL org.opencontainers.image.title="Dopamine" org.opencontainers.image.version="1.2.0"
+LABEL org.opencontainers.image.title="Dopamine" org.opencontainers.image.version="1.2.1"
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1

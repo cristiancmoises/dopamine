@@ -1,6 +1,8 @@
-# Dopamine 1.2.0
+# Dopamine 1.2.1 — ponte de compatibilidade early11
 
 [English](README.md) · [Português (Brasil)](README.pt-BR.md) · [Documentação](docs/README.md)
+
+Projeto oficial em execução: [dopamine.securityops.co](https://dopamine.securityops.co/). A instalação hospedada pode estar em outra versão; esta atualização do repositório não atualiza a VPS.
 
 Coleção de compras fictícias e simulador gratuito de cassino, com tema preto/ciano, PT-BR por padrão e opções de inglês, chinês simplificado e japonês.
 
@@ -8,7 +10,7 @@ Coleção de compras fictícias e simulador gratuito de cassino, com tema preto/
 
 ![Dopamine 1.2.0 em demonstração local, sem catálogo fotográfico de produção](docs/screenshots/home.jpg)
 
-Captura feita no Chromium em 6 de setembro de 2026, executando esta versão localmente. Fotografias ausentes são indicadas pela aplicação. Isso não comprova atualização da VPS nem importação do catálogo de produção.
+Captura histórica da versão 1.2.0, feita no Chromium em 6 de setembro de 2026. Fotografias ausentes são indicadas pela aplicação. Isso não comprova implantação da 1.2.1 na VPS nem importação do catálogo de produção.
 
 ## Executar localmente
 
@@ -31,7 +33,9 @@ Abra `http://127.0.0.1:3236/`. O comando é de desenvolvimento, limita o acesso 
 
 ## Fotografias e produção
 
-O registro contém 1.056 candidatos em 18 categorias, não 1.056 produtos já validados. Fotografias de produção não estão incluídas. O build só publica de 400 a 640 itens após verificar identidade, licença e unicidade. Falhas não devem ser escondidas reduzindo esse limite ou inventando licenças.
+O registro contém 1.056 candidatos em 18 categorias, não 1.056 produtos já validados. Fotografias de produção não estão incluídas. O build só publica de 513 a 640 itens após verificar identidade, licença e unicidade. Falhas não devem ser escondidas reduzindo esse limite ou inventando licenças.
+
+A ponte early11 aceita a primeira implementação 1.1.0 com esquema 2 conhecido. Preserva as 512 identidades originais, mantém `user_version=2` e adiciona tabelas específicas. Variantes incompatíveis e mudanças funcionais desconhecidas são recusadas. Use o pacote `dopamine-update-1.2.1-early11.tar.gz`; não aplique o atualizador original da 1.2.0. Leia [o guia da ponte](docs/BRIDGE-1.2.1.md).
 
 Uma instalação existente requer o pacote de atualização e seus procedimentos, não a execução cega do instalador inicial. Preserve `.env`, segredo, banco SQLite, volumes, rede e destino NPM. A versão antiga deve continuar servindo se o build do catálogo falhar.
 

@@ -1,6 +1,9 @@
 <section class="panel game-result" aria-label="{{ t('game_outcome') }}">
   <div class="eyebrow">{{ t('game_outcome') }}</div>
   {% if not result %}<p>{{ t('legacy_round') }}</p>
+  {% elif result.get('schema') == 1 and 'tiles' in result %}
+    <div class="result-values">{% for value in result['tiles'] %}<span>{{ value }}</span>{% endfor %}</div>
+    <p class="small-copy">{{ t('early11_record') }}</p>
   {% elif result.kind=='baccarat' %}
     <div class="result-duel"><div><span>{{ t('choice_player') }}</span><strong>{{ result.player }}</strong></div><div><span>{{ t('choice_banker') }}</span><strong>{{ result.banker }}</strong></div></div>
     <p>{{ t(result.choice_label) }}</p>

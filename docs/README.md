@@ -2,6 +2,10 @@
 
 [English overview](../README.md) · [Apresentação em português](../README.pt-BR.md)
 
+Official running project / Projeto oficial: [dopamine.securityops.co](https://dopamine.securityops.co/).
+
+Current source: **1.2.1, early11-schema2-v1**. Read the [compatibility bridge guide](BRIDGE-1.2.1.md) before updating the first 1.1.0 installation. The hosted version is independent of this source publication.
+
 ## Português (Brasil)
 
 [Guia de uso e operação](GUIA.pt-BR.md): instalação local, funcionamento, saldos fictícios, catálogo, segurança, atualização, backup e recuperação.

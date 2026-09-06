@@ -1,10 +1,12 @@
-# Dopamine 1.2.0
+# Dopamine 1.2.1 — early11 compatibility bridge
 
 [English](README.md) · [Português (Brasil)](README.pt-BR.md) · [Documentation / Documentação](docs/README.md)
 
+Official running project: [dopamine.securityops.co](https://dopamine.securityops.co/). The hosted installation may run a different version; this repository update does not deploy the VPS.
+
 ![Dopamine 1.2.0 local demonstration, with missing photographs explicitly marked](docs/screenshots/home.jpg)
 
-Screenshots were captured from this version in local development mode on 6 September 2026. They do not claim that the production photo catalog has been imported or that the existing VPS has been upgraded.
+Screenshots show the earlier 1.2.0 local demonstration captured on 6 September 2026. They are retained as a dated visual reference, not evidence of a 1.2.1 production deployment or imported production photo catalog.
 
 ## Quick local start
 
@@ -20,7 +22,9 @@ Open `http://127.0.0.1:3236/`. This loopback-only development command permits cl
 A fictional shopping collection and free casino simulator. Black/cyan theme, Portuguese (Brazil) by default, English, simplified Chinese and Japanese. Unlimited simulated balance, no real money, sales, payments, delivery or withdrawals.
 
 ## This release
-Model-specific, non-reused photo import instead of generic category illustrations; 1,056 real-model/work candidates across 18 categories. The Docker build publishes 400–640 only after identity, license and uniqueness checks succeed. Candidates are NOT already verified products. No production photos are bundled, and authoring-network restrictions prevented downloading the complete set here. See docs/PHOTOS.md for the exact checks and limitations.
+The early11 bridge targets the first 1.1.0 implementation with the known schema 2 and 512 original catalog identities. It preserves core `user_version=2` and uses additive bridge tables. Unknown functional changes and other 1.1.0 variants are rejected. Read [the bridge guide](docs/BRIDGE-1.2.1.md) before any production update; do not use the incompatible original 1.2.0 updater.
+
+Model-specific, non-reused photo import instead of generic category illustrations; 1,056 real-model/work candidates across 18 categories. The Docker build publishes 513–640 only after identity, license and uniqueness checks succeed. Candidates are NOT already verified products. No production photos are bundled. See docs/PHOTOS.md for the exact checks and limitations.
 
 Seven interactive tables: European roulette; hit/stand/double blackjack; punto banco baccarat; three reels; two dice; Keno; Plinko. Random table outcomes can win, lose or push. A separately disclosed simulated refund and 100-unit grant preserve the unlimited-funds design without manipulating those results. Ten legacy scripted games remain clearly labeled in the Classic demonstrations section.
 
@@ -29,7 +33,7 @@ One small local MIT/Expat JavaScript file progressively enhances tables. No clie
 Amounts use R$/BRL, US$/USD, CN¥/CNY or JP¥/JPY according to language. Symbols/formatting change, not stored values or exchange rates. Names are real, prices and acquisitions fictional. Source credit and license links appear with published photos. Old fictional receipts preserve old names, not relabeled branded products.
 
 ## Existing production deployment
-Use the separate dopamine-update-1.2.0 bundle's apply.fish, not the fresh-install deploy script. It preserves /opt/dopamine, the active .env/secret, named SQLite volume, npm-bridge and NPM upstream dopamine-web:8000. Only web is recreated. See docs/OPERATIONS.md for Fish upload/apply/preflight and rollback procedures.
+Use the separate `dopamine-update-1.2.1-early11.tar.gz` bundle's `apply.fish`, not the fresh-install deploy script. It preserves /opt/dopamine, the active .env/secret, named SQLite volume, npm-bridge and NPM upstream dopamine-web:8000. Only web is recreated. See docs/OPERATIONS.md for Fish upload/apply/preflight and rollback procedures.
 
 ```fish
 fish apply.fish --target /opt/dopamine --npm npm-attachment --check

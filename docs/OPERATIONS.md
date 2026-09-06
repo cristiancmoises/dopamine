@@ -1,86 +1,133 @@
-# Dopamine 1.2.0 — deployment and recovery
+# Dopamine 1.2.1 — ponte específica para a primeira 1.1.0 / esquema 2
 
-## What is delivered
-An update for /opt/dopamine, not a replacement installation. Supported baselines: original 1.0.0 (including the forwarder_headers hotfix), and the final 384-item/10-game 1.1.0 bundle. Unknown edits and the conflicting early 1.1 archive are refused. No .env or real user database is included in this package.
+## Origem suportada
+Este pacote aceita exclusivamente o código e a imagem da primeira variante 1.1.0
+(catálogo original de 512 itens), com user_version=2 e estrutura SQLite conhecida.
+Reconhece também as cópias EXATAS de BUILD_PROMPT.md, CHANGELOG.md, README.md,
+SECURITY.md e docs/ da 1.2.0 que foram aplicadas pelas instruções anteriores.
+Não é necessário desfazer essas cópias manualmente. Alterações desconhecidas continuam
+bloqueadas, agora listadas em conjunto, sem sobrescrever arquivo por arquivo.
 
-Photographs are NOT embedded. The VPS image build resolves, downloads and checks the real catalog. Candidate count: 1,056 across 18 categories. Publication floor: 400 unique metadata-verified subjects/photos. Cap: 640. The actual count and category coverage depend on sources passing every check. No human visual audit of the eventual photo set has been done here. The running app is not switched if the build cannot meet the publication floor.
+Não utilize o antigo dopamine-update-1.2.0.tar.gz, os comandos de normalização de
+arquivos ou PRAGMA user_version manual. Este pacote não altera .env nem recompõe
+um banco antigo sobre a base em uso.
 
-## Upload from your computer (Fish)
-Download dopamine-update-1.2.0.tar.gz into ~/Downloads, then run:
+## Arquivo e envio
+Nome: dopamine-update-1.2.1-early11.tar.gz. Confira o SHA-256 fornecido junto ao download
+ANTES de extrair. Não reutilize o checksum de outra versão.
+
+No computador, com o arquivo em ~/Downloads (Fish):
 
 ```fish
-scp -P 5119 ~/Downloads/dopamine-update-1.2.0.tar.gz root@securityops.co:/root/
+scp -P 5119 ~/Downloads/dopamine-update-1.2.1-early11.tar.gz root@securityops.co:/root/
 ssh -p 5119 root@securityops.co
 ```
 
-## On the VPS (Fish)
-Verify the SHA-256 supplied next to the archive before extraction. Use a fresh staging folder; do not rename /opt/dopamine, delete volumes or rerun the old install script.
+Na VPS, extraia em um diretório de staging NOVO. Não mova /opt/dopamine nem
+reextraia o novo source sobre ele. O entrypoint é apply.fish; opções: --target,
+--npm, --check. --check faz leitura dos arquivos, runtime e metadados do banco;
+cria apenas o arquivo de trava do atualizador, não aplica a versão.
 
 ```fish
-function dopamine_update_120
-    set -l archive /root/dopamine-update-1.2.0.tar.gz
-    test -f "$archive"; or return 1
-    set -l stage (mktemp -d /root/dopamine-update-1.2.0.XXXXXXXX)
-    test -n "$stage"; or return 1
-    tar --no-same-owner --no-same-permissions -xzf "$archive" -C "$stage"; or return 1
-    set -l installer "$stage/dopamine-update-1.2.0/apply.fish"
-    echo "Extracted package: $stage/dopamine-update-1.2.0"
-    fish "$installer" --target /opt/dopamine --npm npm-attachment --check; or return 1
-    fish "$installer" --target /opt/dopamine --npm npm-attachment
-end
-dopamine_update_120
-set -l update_status $status
-functions -e dopamine_update_120
-test "$update_status" -eq 0
+set -l stage (mktemp -d /root/dopamine-bridge121.XXXXXXXX)
+test -n "$stage"
+and tar --no-same-owner --no-same-permissions -xzf /root/dopamine-update-1.2.1-early11.tar.gz -C "$stage"
+and fish "$stage/dopamine-update-1.2.1-early11/apply.fish" --target /opt/dopamine --npm npm-attachment --check
+and fish "$stage/dopamine-update-1.2.1-early11/apply.fish" --target /opt/dopamine --npm npm-attachment
 ```
 
-Preflight needs Docker Engine/Compose, Python 3 and Fish already installed. It checks exact running settings against .env without printing secret values. PROXY_NETWORK must remain npm-bridge. TRUSTED_PROXY_CIDRS must contain the actual current NPM address as /32 or /128; it is checked, not replaced with a historical address. The source files must match a supported baseline. At least 2 GiB free space in the target filesystem is required; Docker's storage partition must also have room for the old and new images and BuildKit cache. The updater does not prune or automatically install dependencies.
+As opções do atualizador acima não recebem senhas ou segredos. Não publique .env
+ou os backups. Nenhuma senha de NPM é necessária.
 
-## Update sequence
-1. Verify baseline and payload hashes, lock deployment, check current NPM-to-app health.
-2. Retain the exact old image; create private source/.env backups and a consistent, integrity-checked SQLite snapshot.
-3. Build candidate while the existing app runs. Run unit/integration tests and Gunicorn configuration check. Import and verify unique model-specific pictures; no category fallback or old photo reuse. Successful public downloads persist in the local BuildKit cache even across a failed build.
-4. Rehearse additive migrations twice on a COPY of the database snapshot inside the candidate image. The rehearsal container has no network or live data-volume mount.
-5. Recheck source/configuration, install only manifest-owned files, recreate only web using the existing named volume and npm-bridge. This step causes an application-only interruption; it is not zero-downtime deployment.
-6. Verify container/image/volume, photographs and NPM requests to /healthz, /shop, /signup. Copy public import provenance and reports into the printed backup folder.
+## Ordem da atualização
+1. Confere TODOS os hashes do pacote e dos arquivos locais gerenciados. Confere
+   37 arquivos do runtime antigo, esquema 2 e a estrutura efetiva das tabelas.
+2. Confere container Compose dopamine/web, NPM ativo, rede npm-bridge,
+   TRUSTED_PROXY_CIDRS com IP exato, DATABASE_PATH, volume nomeado e ausência
+   de portas publicadas. .env e ambiente do container precisam concordar.
+3. Exige 2 GiB livres nos filesystems do projeto e do Docker e banco de até
+   128 MiB para este fluxo conservador de snapshots. Não amplia esses limites
+   silenciosamente. Não executa prune, down -v ou regras de firewall.
+4. Retém a imagem antiga por ID, salva arquivos/configuração privadamente e
+   cria um snapshot SQLite com a API de backup, incluindo conteúdo confirmado
+   do WAL. Um helper temporário usa a imagem antiga e monta o volume somente
+   para leitura; não recebe segredos nem acesso à rede.
+5. Constrói dopamine-local:1.2.1 com testes, check-config do Gunicorn e importação
+   real de fotografias. A aplicação antiga CONTINUA em execução nessa fase.
+6. Ensaios em cópia: migração duas vezes, integridade, chaves estrangeiras,
+   igualdade dos valores de todas as tabelas existentes e do DDL anterior.
+7. Cria marcador de manutenção com nonce próprio e para SOMENTE o serviço web.
+   Faz snapshot final e repete o ensaio para incluir as gravações feitas
+   enquanto o build estava em andamento.
+8. Copia o source validado. Remove apenas quatro arquivos funcionais antigos
+   conhecidos e já salvos (módulo currency antigo, teste de release antigo e
+   seus dois fixtures), evitando testes obsoletos em builds futuros.
+9. Recria SOMENTE web, no mesmo volume e rede. O entrypoint aplica a migração
+   aditiva. Confere imagem por ID, 47 hashes do runtime novo, esquema/recursos,
+   fotografias e HTTP do NPM para /healthz, /shop e /signup.
+10. Remove SOMENTE seu próprio marcador e libera os POSTs. NPM não é reiniciado,
+    seu banco não é editado e porta 8000 não é publicada.
 
-Neither NPM nor unrelated containers are restarted. No firewall, DNS, certificates, NPM database, host ports or secret are changed. Never move the service back to dopamine-proxy.
+## Migração e histórico
+O número do core continua **user_version=2**. A tabela rounds original, seus
+nove jogos, IDs, request_key, timestamps, valores e result_json não são regravados.
+São adicionadas extra_rounds, all_rounds, interactive_rounds, interactive_actions,
+schema_features e seus índices. O marcador early11_bridge=1 identifica a ponte;
+interactive_tables=1 identifica o recurso interativo. Nenhum user_version é
+rebaixado para 1. Não usamos writable_schema, nem DROP/rename da tabela rounds.
 
-## NPM and final public check
-Keep the Proxy Host: dopamine.securityops.co, scheme http, hostname dopamine-web, port 8000, current valid certificate and Force SSL. No new websocket support is required.
+As 512 identidades históricas vêm da PRIMEIRA 1.1.0, não da segunda variante.
+Recibos conservam nomes e preços armazenados, sem transformá-los em produtos
+reais. Resultados antigos com tiles são exibidos a partir do JSON salvo, sem
+nova rodada. Login, recuperação e hash das senhas não são recalculados.
+Limpeza rotineira de sessões expiradas continua sendo função do aplicativo.
 
+## Fotografias e build
+O pacote mantém os recursos interativos da 1.2.0. Contém 1.056 candidatos reais,
+não 1.056 produtos já verificados. Como a origem contém 512 itens, o piso desta
+ponte é **513 itens/fotos aceitos**, com teto de 640. Nomes, identidades e fotos
+compartilhadas entre itens são rejeitados conforme as regras do importador.
+Não há fallback genérico nem cópias repetidas para preencher catálogo. O build
+falha antes do cutover se a importação não atingir o piso. Nenhuma fotografia
+real nova foi baixada ou revisada visualmente nesta execução de autoria.
+A checagem de metadados e similaridade não substitui revisão humana das imagens.
+
+O fixture tests/fixtures/early11-source.tar.gz é código histórico de teste,
+não contém banco de usuários, segredos de produção ou fotografias. O Dockerfile
+inclui explicitamente esse fixture para executar os testes da ponte no build.
+
+## Validação pública após o update
 ```fish
 curl --fail --silent --show-error --connect-timeout 10 --max-time 20 -D - https://dopamine.securityops.co/healthz
 ```
+Esperado: HTTP 200, x-dopamine-version: 1.2.1 e corpo
+{"status":"ok","service":"dopamine"}. Não use -k como prova de certificado válido.
+O updater valida HTTP interno a partir do NPM; não certifica DNS/TLS público.
 
-Expect HTTP 200, `X-Dopamine-Version: 1.2.0` and body `{"status":"ok","service":"dopamine"}`. This command validates TLS normally; do not add `-k` as a success test. Reopen /signup after upgrading rather than submitting an old form. Then test a fresh registration, one purchase, blackjack hit/stand and a language change in your own browser. No test account is automatically created in production by the updater.
+NPM permanece: domínio dopamine.securityops.co, scheme http, host dopamine-web,
+porta 8000, rede npm-bridge. Não altere seu certificado ou o upstream.
 
-## If the image import cannot finish
-Read the build output and the accepted count. The existing app remains running because no source/container switch occurs before the build succeeds. Do not lower the 400-product floor to hide missing photographs, disable hash checks, reuse category photos or invent licenses. Causes can include network/DNS failure, Wikimedia rate limits, exact subject mismatches, unsupported licenses or duplicate images. The candidate registry is not a promise that every record can be published.
+## Falhas e rollback
+O diretório exato é impresso antes do build, sob:
+/opt/dopamine-backups/bridge121-<timestamp>/
 
-The last public import report is retained in cache id `dopamine-real-catalog-v120` for the SAME local BuildKit builder. From the extracted package's `release` directory, read it without changing the cache:
+O comando exato também é impresso:
+fish /opt/dopamine-backups/bridge121-<timestamp>/rollback.fish
 
-```fish
-docker build --no-cache --progress=plain -f Dockerfile.catalog-report .
-```
+Antes do cutover: falhas de build/importação/primeiro ensaio deixam o app antigo
+em execução. Após parar web e antes de copiar source: uma falha tenta iniciar
+novamente o container antigo e limpar somente o marcador próprio.
+Depois da troca: uma falha tenta restaurar source e imagem retida, sem restaurar
+um snapshot sobre os dados atuais. A mesma estrutura core-2 permite o runtime
+antigo voltar a usar o banco. Tabelas novas permanecem preservadas, mas seus
+jogos podem ficar invisíveis no runtime antigo até a reatualização.
 
-No image from this diagnostic build is deployed. If no report exists, inspect the original failure log; failure may have preceded import. Once publication succeeds, reports are also copied to `/opt/dopamine-backups/<timestamp>/catalog-import-report.json`, `catalog-live.json` and `photos-resolved.json`. The actual WebP files remain in the image at /app/app/static/photos, not an external hotlink.
+O rollback manual também preserva gravações posteriores. Ele recusa .env,
+backup, imagem ou source alterados desde a atualização. Não presume recuperação
+bem-sucedida se Docker/host falharem: imprime o diretório e o comando para inspeção.
+Morte abrupta do processo/servidor pode deixar manutenção ativa; utilize o rollback
+salvo. Não remova marcadores desconhecidos e não rode dois updaters simultaneamente.
 
-## Data semantics
-Old fictional listings are archived, not renamed into real models. Their original names and stored amounts remain available on receipts. Old cart/favorite rows remain in the database but are excluded from current shopping navigation; there is no meaningful one-to-one conversion. The old 32 category images are not copied into the new image. Brand/model identities and photos refer to real subjects, but acquisitions/prices/currency amounts are fictional, with no sale, title transfer or endorsement.
-
-Practice games use additional tables. Old classic game records remain untouched. Table outcomes can lose; the separate demo refund and 100-unit grant do not alter them. Unlimited wallet amounts cannot be withdrawn. Currency changes only symbols/formatting, not stored numbers or exchange rates.
-
-## Rollback
-The updater prints a precise command of the form:
-
-```fish
-fish /opt/dopamine-backups/ACTUAL-TIMESTAMP/rollback.fish
-```
-
-Use the actual printed path, not the placeholder. It checks the saved .env hash and exact retained image, restores source and uses a Compose override for that old image, recreating ONLY web on the same live volume. It does NOT replace the live database with an older snapshot. This avoids erasing new users/purchases/rounds. Old versions cannot display new interactive games or model photos, but their records remain stored and reappear after re-upgrade. Unknown post-update source/.env edits stop rollback rather than being overwritten.
-
-Automatic rollback is ATTEMPTED after a failed source/container switch, not guaranteed against disk failure, Docker failure or concurrent manual changes. A failure before the switch leaves the original app running. Snapshot restoration is a separate deliberate disaster-recovery action; stop writers and retain the newest data first. Private backups contain credentials and user records and are not encrypted; protect them and apply an intentional retention policy. No automated backup deletion is added.
-
-## Remaining production validation
-Actual Docker/Fish/Gunicorn execution, full real photograph downloads and visual/copyright review, production browser TLS/cookie flows, current dependency/image CVE scans, load testing and independent penetration testing were not completed in the authoring environment. The patch gates deployment on its actual build/test/photo checks but cannot substitute for those additional production reviews.
+Backups são privados (diretório 0700; arquivos sensíveis 0600), mas NÃO criptografados.
+Não os exponha na web nem os cole na conversa. Retenção não é automatizada por
+este patch; não remova os backups antes de validar o serviço.

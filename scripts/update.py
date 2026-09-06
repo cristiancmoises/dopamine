@@ -21,7 +21,7 @@ import subprocess
 import sys
 import tempfile
 
-VERSION='1.2.0'
+VERSION='1.2.1'
 IMAGE='dopamine-local:'+VERSION
 PROJECT='dopamine'
 ALIAS='dopamine-web'
@@ -390,6 +390,8 @@ def main():
     return 0
 
 if __name__=='__main__':
+    print('This module is a shared updater helper. Use apply.fish or scripts/update_early11.py for this bridge.',file=sys.stderr)
+    sys.exit(2)
     try:sys.exit(main())
     except (UpgradeError,OSError,ValueError,KeyError,sqlite3.Error) as exc:
         print('ERROR: '+str(exc),file=sys.stderr);sys.exit(1)

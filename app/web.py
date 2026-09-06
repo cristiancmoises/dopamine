@@ -246,7 +246,10 @@ class App:
                             database.cleanup(r.db,sec.now(),self.config.idle_seconds)
                             self._next_cleanup=sec.now()+600
                     finally:self._cleanup_lock.release()
-                if method=='POST':r.read_form()
+                if method=='POST':
+                    r.read_form()
+                    if (self.config.database.parent/'.dopamine-upgrading').exists():
+                        raise Fault(503,'maintenance')
                 response=self.dispatch(r)
         except Fault as exc:
             if r and r.db and hasattr(r,'ip'):
@@ -266,6 +269,7 @@ class App:
                 response=Response(f'<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Dopamine</title><p>{exc.status} — Solicitação não concluída.</p><a href="/shop">Dopamine</a></html>'.encode(),exc.status)
             if exc.status==405:response.headers.append(('Allow','GET, HEAD, POST'))
             if exc.status==429:response.headers.append(('Retry-After','900'))
+            if exc.status==503 and exc.key=='maintenance':response.headers.extend([('Retry-After','60'),('X-Dopamine-Maintenance','active')])
         except Exception:
             error_id=secrets.token_hex(6)
             # Never log request payloads, cookies, passwords or URLs with recovery material.

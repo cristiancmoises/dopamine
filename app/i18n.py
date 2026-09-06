@@ -194,3 +194,10 @@ for key,values in S.items():
 
 def text(key, lang='pt-br'):
     return S[key][LANGS.index(lang)]
+
+# Compatibility strings for recorded early-1.1 outcomes; never reroll history.
+S.update({
+    'early11_record': ('Resultado original da demonstração 1.1, preservado sem nova jogada.', 'Original 1.1 demonstration result, preserved without drawing again.', '保留的原始 1.1 演示结果，不重新抽取。', '再抽選せず保存された、旧1.1デモの結果です。'),
+    'maintenance': ('Atualização em andamento. Nenhuma ação foi executada; tente novamente depois.', 'Update in progress. No action was executed; please try again afterwards.', '正在更新，未执行操作。请稍后重试。', '更新中のため操作は実行されませんでした。後でお試しください。'),
+    'roulette': ('Roleta — demonstração antiga', 'Roulette — legacy demonstration', '轮盘 — 旧版演示', 'ルーレット — 旧デモ'),
+})

@@ -1,4 +1,6 @@
-# Guia de uso e operação — Dopamine 1.2.0
+# Guia de uso e operação — Dopamine 1.2.1
+
+Projeto oficial: [dopamine.securityops.co](https://dopamine.securityops.co/). Para atualização da primeira 1.1.0 com esquema 2, consulte a [ponte early11](BRIDGE-1.2.1.md). Este commit não altera a instalação hospedada.
 
 [Índice](README.md) · [README PT-BR](../README.pt-BR.md)
 
@@ -28,7 +30,7 @@ Os dez jogos legados permanecem na seção de demonstrações clássicas. Seus r
 
 ## Catálogo fotográfico
 
-A versão fornece 1.056 candidatos em 18 categorias. Eles precisam passar por verificação de identidade do assunto, licença e unicidade. O build exige ao menos 400 fotografias aprovadas e limita a publicação a 640. As imagens não estão incluídas neste ZIP.
+A versão fornece 1.056 candidatos em 18 categorias. Eles precisam passar por verificação de identidade do assunto, licença e unicidade. O build exige ao menos 513 fotografias aprovadas e limita a publicação a 640. As imagens não estão incluídas no pacote.
 
 O importador registra proveniência e licenças e hospeda arquivos WebP locais, sem depender de hotlinks na navegação. Nome de modelo não basta para provar que uma foto está correta. Validação automática não substitui revisão visual e jurídica da licença.
 

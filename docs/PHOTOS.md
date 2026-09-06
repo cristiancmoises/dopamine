@@ -1,6 +1,6 @@
 # Model-specific photographs — v1.2
 
-The previous 32 reused category illustrations are no longer publication inputs. `data/catalog.json` contains 1,056 DISTINCT CANDIDATES, not a preverified live inventory. Build-time `app/real_photos.py` creates `data/catalog-live.json` only after >=400 and <=640 candidates pass source, identity, licensing, image decode and duplicate checks. Categories are interleaved to avoid starving smaller categories. Candidates without a suitable source are excluded rather than mislabeled.
+The previous 32 reused category illustrations are no longer publication inputs. `data/catalog.json` contains 1,056 DISTINCT CANDIDATES, not a preverified live inventory. Build-time `app/real_photos.py` creates `data/catalog-live.json` only after >=513 and <=640 candidates pass source, identity, licensing, image decode and duplicate checks. Categories are interleaved to avoid starving smaller categories. Candidates without a suitable source are excluded rather than mislabeled.
 
 Evidence includes exact article title and revision, Wikidata subject ID, Commons lead-image filename, model tokens in the file description/name, per-file license/author, source checksum, optimized-byte/pixel SHA-256 and dHash. Exact model IDs, source files/hashes and optimized hashes may not repeat. dHash distance <=5 is rejected; this conservative heuristic can produce false positives and does not prove all conceivable near-duplicates are impossible. No automated metadata system guarantees correct visual identity. Review accepted photos through their source links; nothing in this release is a human visual certification.
 
@@ -17,3 +17,6 @@ Wikimedia Commons explicitly states that per-file requirements differ and copyri
 Example identity metadata inspected externally: Wikipedia's free lead-image API identifies Nikon D850 (article 54656273, Q37933342, file 20171009_D850_front.jpg) and Porsche 911 (article 48345830, Q219357). This is metadata evidence only; it is NOT evidence that these photographs were downloaded or visually reviewed in the authoring runtime.
 
 The source archive contains ZERO production photo binaries. Network/DNS prevented fetching them here. The VPS build must retrieve and verify a complete publication before the updater touches the running application. If it cannot, keep the old deployment; never use generated or category placeholders to obtain a false pass.
+
+## Early-1.1 bridge publication floor
+The configured floor for 1.2.1 is 513, exceeding the old 512 fictional listings. No import was executed in this session.

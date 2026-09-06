@@ -1,52 +1,102 @@
-# Dopamine 1.2.0 — engineering review and validation
+# Validação — Dopamine 1.2.1 / early11-schema2-v1
 
-Date: 2026-09-06. Scope: supplied source, new catalog importer, interactive tables, additive database changes and conservative updater. This is an implementation review with automated regression evidence, not an independent security certification or a guarantee that all bugs are eliminated. The source basis is the final 384-item/10-game 1.1 bundle; original 1.0 is an additional supported upgrade/rollback baseline.
+## Escopo e materiais
+Análise e implementação feitas a partir dos arquivos montados nesta conversa:
+- dopamine-1.1.0.tar.gz: PRIMEIRA variante 1.1.0, SHA-256
+  c52967c53247d3556daad5684d75714cdd790199b41a9a659896212ff0b5a073.
+- dopamine-update-1.2.0.tar.gz: pacote original incompatível, SHA-256
+  8b0f9e32224d4972d859ee767c3ccf4ce7bfe55f182ab91f311a605f60d94a9d.
+- Diagnóstico apresentado pelo usuário: seis âncoras locais e cinco de runtime
+  correspondem à primeira variante; user_version=2; rounds contém result_json.
 
-## Changes reviewed
-- Replaced the active fictional/category-photo catalog with a candidate-to-live publication pipeline. Current source contains 1,056 candidates across 18 categories. Minimum publication 400, cap 640, category-interleaved processing. Every published subject needs stable identity and unique source/optimized image. Archived fictional identities are used only for history, not renamed into branded goods.
-- Added seven server-authoritative tables. Roulette and cards calculate outcomes, not scripted wins. Blackjack actions are persisted, with a private deck, hidden dealer hole card, first-decision double and optimistic revision checks. Baccarat implements the documented third-card variant. Custom slot/dice/Keno/Plinko paytables are displayed explicitly.
-- Kept unlimited demo balance using a separately labeled simulated stake refund and 100-unit grant. Actual table wins, losses and pushes remain distinct. No autoplay, real money, cashouts, payment credentials or promotional casino links were added.
-- Added one local unminified MIT/Expat enhancement file (8,631 bytes at review), GNU-style license labels, SRI and CSP script/connect scope only on /play/ paths. Forms also work without JavaScript. No eval, inline event handlers, third-party scripts or client-trusted payout values.
-- Preserved CSRF, same-origin referrer policy, exact trusted proxy addresses, secure cookies, parameterized SQL, account-bound access, pause enforcement and rate limits. Requests use nonce uniqueness/transactions; blackjack uses revision checks. In-flight network failure is not auto-retried. The UI marks a replaced table busy until its animation completes.
-- Preserved .env, secret, named data volume, working npm-bridge and NPM upstream. Build/photo failure prevents source/container switching. Migrations are additive, tested twice on a snapshot copy before production switch. Source/image rollback does not overwrite the current database with an old snapshot.
+Nenhum banco, senha, cookie ou dado de usuário da VPS foi transferido para este
+ambiente. Nenhuma conexão SSH/deploy na VPS foi executada pelo assistente.
 
-## Executed evidence
-**123 unittest methods passed** in the final run (19.374 seconds). Evidence: `docs/test-results.txt`. The suite includes the earlier regression cases plus 35 new table/photo cases. Product-page tests include **4,224 candidate/language response checks** (1,056 × four languages); those checks do NOT establish real photograph availability or visual correctness.
+## Correção
+1. Os manifests agora reconhecem a primeira 1.1.0 especificamente e verificam
+   o conjunto de arquivos, não apenas a string ambígua de versão.
+2. Copiar documentação para passar um hash não era uma migração válida. A ponte
+   aceita as cópias exatas já indicadas anteriormente, conservando os backups,
+   mas rejeita código desconhecido e apresenta todas as divergências juntas.
+3. Para schema 2, a migração valida o DDL efetivo contra a origem conhecida,
+   índices e recursos permitidos. Adiciona tabelas, view e índices em transação.
+   rounds e demais tabelas antigas não são reconstruídas. user_version continua 2.
+   Marcador: schema_features('early11_bridge',1).
+4. O catálogo histórico é o de 512 itens da origem correta. Resultados antigos
+   do tipo {'schema':1,'tiles':...} têm renderização explícita e escapada, sem
+   reexecução. A roleta antiga aparece como demonstração histórica.
+5. Snapshot antes do build e snapshot final com web parado; ensaio em cópias
+   isoladas; mesma .env, SECRET_KEY, rede npm-bridge e volume. Marcador próprio
+   de manutenção bloqueia POSTs até os testes de runtime/upstream concluírem.
+6. Falha de build não para o app; falha antes de trocar source reinicia o antigo;
+   falha após a troca tenta rollback da imagem/source. Nenhum caminho restaura
+   automaticamente snapshot antigo sobre a base atual.
 
-Engine cases include all 37 roulette pockets, 216 reel combinations, 36 two-dice outcomes per choice, all 256 Plinko paths, 80 banker third-card cases, natural blackjack, soft-ace totals, doubling, illegal moves, hidden-deck redaction, Keno uniqueness and disclosed payouts. The slot enumeration produces total expected return 205/216 before grants for this exact custom paytable, not a claim about commercial machines.
+## Testes realmente executados
+`python manage.py test` passou com **156 métodos de teste**, em execução completa
+seguida de repetição. O teste final está em docs/evidence-1.2.1/regression.txt.
+São 123 testes herdados de regressão, 17 testes de migração/compatibilidade e
+16 testes específicos do atualizador da ponte. Não confundir métodos de teste
+com a contagem de todas as páginas/opções percorridas dentro deles.
 
-Web cases cover account creation/security regression, foreign/null origins, CSRF, ownership, replayed starts, stale/concurrent blackjack actions, pause enforcement, saved rounds, private export, deletion cascade, current versus historical product identity, all table languages and scoped free-script licensing. The existing Python HTTP integration test passed; this is not a production Gunicorn/NPM test.
+Os testes específicos de compatibilidade executaram:
+- Extração do source histórico com SHA-256 verificado e execução real dessa
+  primeira 1.1.0 em subprocesso Python.
+- Cadastro, compras e rodadas dos nove jogos na implementação antiga, em banco
+  descartável. Em seguida, migração e repetição da inicialização.
+- Comparação de TODOS os valores nas tabelas existentes e dos seus DDLs antes/
+  depois do ensaio, preservando senhas/recuperação como valores sem imprimi-los.
+- Renderização dos recibos e resultados nos quatro idiomas, incluindo roleta;
+  preservação das 512 identidades/preços históricos; login/sessão antigos;
+  exportação sem credenciais; exclusão com cascata; escape de tiles.
+- Rejeição de esquema 2 arbitrário/incompleto, recurso de revisão desconhecida,
+  chaves estrangeiras quebradas; rollback transacional em SQL inválido.
+- Três inicializações concorrentes sem reaplicar dados ou duplicar recursos.
+- Execução do source 1.1.0 ORIGINAL após a adição das tabelas: leitura e gravação
+  de nova rodada; reatualização sem perda de registros extras.
 
-Photo cases use synthetic TEST fixtures only: strict source/redirect allowlist, identity mismatch, unknown/missing attribution, bounded raster decoding, exact/perceptual duplicate detection, insufficient inventory, network failure without placeholders, normalized Commons filenames and cached rights updates. A test log line such as `PHOTO 001: Nikon D850` is a mocked metadata/PNG fixture, NOT a real imported image. Likewise the inherited `PHOTOS VERIFIED: 2` output comes from legacy unit fixtures.
+Os testes do atualizador usam **Docker simulado**, com operações reais de
+arquivos e SQLite. Cobrem pré-voo, hashes corrompidos, todos os conflitos,
+edição de .env durante build, build interrompido, snapshot/ensaio final falhando,
+startup/probe novo falhando, retomada e retirada do marcador próprio,
+rollback manual que preserva registros gravados após o upgrade, e restauração
+correta dos arquivos antigos removidos deliberadamente.
 
-**56 offline Chromium interaction flows passed**, across seven tables, four languages and desktop/mobile widths, with 72 real WSGI handler POSTs backed by disposable SQLite and no JavaScript errors. The harness executes production HTML/CSS/JS with ONLY a test-injected transport/location/history bridge. **Seven additional flows at 320 px with animations enabled passed**, including nine WSGI POSTs. Evidence: `browser-interactions.json`, `browser-motion-320.json`. These are NOT native browser HTTP, cookie-transport, CSP enforcement, TLS or NPM validation.
+Os helpers de snapshot e marcador também foram executados realmente em
+subprocessos Python, com caminhos temporários em vez de /data:
+- A cópia incluiu registro confirmado existente em WAL não checkpointado.
+- Nonce incorreto não apagou o marcador; symlink não apagou/alterou seu alvo.
 
-**372 offline JavaScript-disabled layout checks passed**, across three viewport sizes and four languages, covering shop/authentication/profile/collection/classic game pages. No horizontal overflow; body background black. Native language details and motion checkbox passed. No product photo binaries were present. Evidence: `browser-layout-report.json`.
+A saída `PHOTOS VERIFIED: 2 local slots; 1 distinct downloaded images` nos testes
+é de um fixture que exercita o importador ANTIGO e seu caso de fallback. Não é
+um download da coleção real e não é aceito pelo importador real da nova versão.
 
-**Source-level backward compatibility passed separately for untouched 1.0.0 and final 1.1.0.** Earlier source could initialize/access an upgraded disposable database, authenticate, view purchase history/receipt and make an old-catalog purchase. Re-upgrade preserved account, both purchases, original fictional receipt identity and interactive round; SQLite integrity and foreign keys passed. Old versions do not display new practice routes while their data stays stored. Evidence: `compatibility-100.json`, `compatibility-110.json`. This is NOT an old-image Docker rollback test.
+## Limites claros
+- Docker e Fish não estão instalados neste ambiente. Nenhum Docker build,
+  Docker daemon/Compose ou script Fish foi executado aqui. O wrapper entregue
+  não usa heredoc de Bash; chama o Python de atualização com argumentos separados.
+- Gunicorn de produção, NPM, DNS, TLS público e sessão real do navegador do
+  usuário não foram executados/verificados aqui.
+- A suíte inclui integração HTTP local com a biblioteca padrão, mas isso não é
+  uma validação ponta a ponta do Docker/NPM da VPS.
+- O pacote herdou as funcionalidades visuais 1.2.0; não foram executados novos
+  testes visuais completos ou a extensão LibreJS nesta correção.
+- Não houve nova importação de fotos reais, revisão visual/licenciamento humano
+  do catálogo final, auditoria independente, teste de carga ou varredura CVE atual.
+- O piso é 513 itens/fotos qualificados (teto 640), pois a origem tinha 512 itens.
+  A importação pode falhar; nesse caso o build não chega ao cutover. Metadados e
+  fingerprints não garantem detecção de toda foto mal rotulada ou quase duplicada.
+- Hardware, espaço do Docker, conectividade externa e permissões reais só serão
+  validados na VPS. O fluxo recusa banco maior que 128 MiB e exige 2 GiB livres
+  nos filesystems do projeto e do Docker.
 
-Node syntax check for tables.js and Python compileall passed. Updater unit tests use mocked Docker; they do not constitute an actual container deployment. Release manifest baseline/hash checks are recorded separately in `manifest-verification.json` when the final bundle is packaged.
+## Referências técnicas usadas no desenho
+A migração é aditiva e transacional; não edita sqlite_schema/writable_schema.
+Snapshots utilizam a API de backup SQLite, não uma cópia isolada do arquivo
+.sqlite3 enquanto existe WAL ativo. Documentação primária:
+https://www.sqlite.org/backup.html
+https://www.sqlite.org/c3ref/backup_finish.html
+https://www.sqlite.org/lang_altertable.html
 
-## Photo publication limitations — important
-There are **zero production photo binaries in this archive**. Runtime network/DNS failures prevented a complete Commons import here. External browsing inspected API documentation and example identity records, not hundreds of downloaded pictures. The build on the VPS must import 400–640 qualifying subjects/photos and recheck every local file before switching the app. It may fail safely if sources cannot meet that floor. Candidate count and category count are not promises of the eventual published count or coverage.
-
-Automated filename/description/model matching cannot guarantee visual identity. SHA-256/pixel hashes and dHash reject identified exact/near duplicates but do not prove no possible visual alias exists. License/creator metadata can be wrong; Commons explicitly does not warrant it. Per-photo source/author/license/change links are preserved so operators can review the publication. Non-copyright rights may still apply. No generated image or category fallback is used to obtain a passing count.
-
-## Not executed / not claimed
-Docker, Fish and Gunicorn were unavailable here. The required commands run during the VPS update, but no success is claimed in advance. A native Chromium localhost request failed with ERR_BLOCKED_BY_ADMINISTRATOR; no attempt was made to bypass that policy. The bridge tests must not be described as browser-native end-to-end HTTP. The LibreJS extension was not run; license declarations/source labels are provided, not an extension certification. There was no independent penetration test, production load test, current dependency/image CVE scan, complete photo visual/rights audit or live deployment.
-
-The base image remains python:3.13-slim rather than a pinned digest, and source metadata can change between imports. This release is not byte-reproducible across all build dates. Dependency pins are retained from the baseline, adding Pillow 12.3.0; pin existence is not a security audit. Revalidate dependencies and the final container on the VPS.
-
-## Operational risks and mitigations
-Photo/network failure: refuse publication, keep current app, retain public BuildKit cache/report for diagnosis. Incorrect photo attribution/identity: retain source evidence and require operator review; do not silently substitute. Unknown local changes/conflicting early 1.1 archive: stop preflight rather than overwrite. Failed deployment after switch: attempt exact source/image rollback on the same volume; do not erase newer transactions. Private backups contain secrets/user records without encryption; owner must protect and retain them deliberately. No automatic pruning or irreversible cleanup is introduced.
-
-## Primary references used
-- Wikimedia reuse and limitations: https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia
-- MediaWiki Imageinfo: https://www.mediawiki.org/wiki/API:Imageinfo
-- MediaWiki PageImages: https://www.mediawiki.org/wiki/Extension:PageImages
-- GNU JavaScript labels: https://www.gnu.org/licenses/javascript-labels.html
-- Free JavaScript guidance: https://www.gnu.org/software/librejs/free-your-javascript.html
-- Pillow upstream: https://github.com/python-pillow/Pillow/releases
-- Baccarat rules reference: https://www.theoceanac.com/casino/table-games/how-to-play-mini-baccarat
-
-The project's own rule implementations/tests are the source of claims about this simulator's outcomes. These references do not certify Dopamine or imply endorsement.
+Este relatório descreve revisão de código e testes reproduzíveis, não uma
+certificação de segurança nem garantia de ausência de todos os bugs.

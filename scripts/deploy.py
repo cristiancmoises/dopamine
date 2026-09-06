@@ -138,7 +138,7 @@ def main():
         print('Construindo imagem, executando testes e importando fotos locais. O NPM ainda não será alterado.',flush=True)
         run(compose+['build','--pull','web'])
     else:
-        if not inspect('image','dopamine-local:1.2.0'):raise RuntimeError('Imagem local ausente; execute sem --skip-build.')
+        if not inspect('image','dopamine-local:1.2.1'):raise RuntimeError('Imagem local ausente; execute sem --skip-build.')
     npm=inspect('container',name)
     npm=inspect('container',name)
     endpoint=npm['NetworkSettings']['Networks'][network]
