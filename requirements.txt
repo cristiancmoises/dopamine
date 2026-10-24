@@ -9,4 +9,4 @@ cffi==2.1.1
 pycparser==3.0
 gunicorn==26.2.0
 
-Pillow==12.3.0
+Pillow==13.0.0
